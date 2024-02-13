@@ -9,7 +9,7 @@ export const index = () => {
       <Navbar />
 
       <div className="contactbg">
-        <div className="text-center pt-4">
+        {/* <div className="text-center pt-4">
           <p
             className="mt-5 pt-4"
             style={{
@@ -37,7 +37,7 @@ export const index = () => {
             <img src="/bi_chat-dots-fill.svg" alt="" />
             <img src="/mdi_contact.svg" alt="" />
           </div>
-        </div>
+        </div> */}
       </div>
 
       <Container>

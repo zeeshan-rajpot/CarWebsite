@@ -7,30 +7,22 @@
   height: 100vh;
 }
 
-.bgexample {
+/* .bgexample {
   background-image: url("../src/assets/imge.png");
   background-size: auto !important;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-}
+} */
 
-.bgexample1 {
+/* .bgexample1 {
   background-image: url("../src/assets/Group 17317.png");
   background-size: auto !important;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
   height: auto;
-}
-
-/* .promisebg{
-  background-image: url("/—Pngtree—simple road map vector_9123765 1.png");
-  background-size: auto !important;
-  background-repeat: no-repeat;
-  background-position:bottom  left ;
-  background-size: cover;
 } */
 
 .promisebg {
@@ -66,5 +58,63 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+  padding-bottom: 5px;
+}
+
+.example2 {
+  background-image: url("/Frame 1261153450.svg");
+  background-size: auto !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5px;
+}
+
+.example3 {
+  background-image: url("/Frame 1261153451.svg");
+  background-size: auto !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5px;
+}
+.example4 {
+  background-image: url("/Frame 1261153452.svg");
+  background-size: auto !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5px;
+}
+.example5 {
+  background-image: url("/Frame 1261153453.svg");
+  background-size: auto !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5px;
+}
+.example6 {
+  background-image: url("/Frame 1261153454.svg");
+  background-size: auto !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5px;
+}
+.example7 {
+  background-image: url("/Frame 1261153455.svg");
+  background-size: auto !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5px;
+}
+.example8 {
+  background-image: url("/Frame 1261153456.svg");
+  background-size: auto !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 5px;
 }
