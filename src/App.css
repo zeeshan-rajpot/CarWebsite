@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Glory:wght@400;500;700&display=swap");
+
+.pgreen {
+  color: #1985d2 !important;
+}
+
+.porange {
+  color: #1985d2 !important;
+}
+
+body {
+  font-weight: 400;
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.modal-content {
+  background-color: transparent !important;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #55b5fa;
+}
+
+.inputotp {
+  padding: 12px 1px 12px 1px !important;
+  border-radius: 1rem;
+}
+
+/* chat input */
+
+#header {
+  position: relative;
+  min-height: 150px;
+}
+
+#header-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.msgsendinput {
+}
+
+.msgsendinput {
+  /* border: 1px solid #ddd; */
+  border-right: none;
+  background: #ebebeb !important;
+
+  padding-right: 25px;
+  /* Adjust the padding to accommodate the image */
+}
+
+.msgsendinput:focus {
+  outline: none;
+}
+
+.sendimg {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  /* Adjust the right position as needed */
+  transform: translateY(-50%);
+  height: 18px;
+  width: 19px;
+  border: 1px solid #ddd;
+  border-left: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-img {
+    width: 370px !important;
+  }
+
+  .input-container {
+    width: 95% !important;
+    margin-left: 0% !important;
+  }
+
+  .bg-formm {
+    background-image: none !important;
+    background: none;
+  }
+
+  .mobr0 {
+    /* border-radius: 2rem !important; */
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+  }
+
+  .Signin-btn {
+    background-color: #f3b755;
+    border-radius: 38px;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    border: none;
+    padding: 6px 100px;
+    text-decoration: none;
+    text-decoration: none;
+    margin-left: 0%;
+  }
+
+  .wmob100 {
+    width: auto !important;
+  }
+
+  .mob100 {
+    height: 100vh !important;
+  }
+  .mobw100 {
+    width: 100% !important;
+  }
+}

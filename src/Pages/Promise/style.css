@@ -1,0 +1,70 @@
+.bgheroPromise {
+  background-image: url("/promisepage.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.bgexample {
+  background-image: url("../src/assets/imge.png");
+  background-size: auto !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.bgexample1 {
+  background-image: url("../src/assets/Group 17317.png");
+  background-size: auto !important;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: auto;
+}
+
+/* .promisebg{
+  background-image: url("/—Pngtree—simple road map vector_9123765 1.png");
+  background-size: auto !important;
+  background-repeat: no-repeat;
+  background-position:bottom  left ;
+  background-size: cover;
+} */
+
+.promisebg {
+  background-image: url("/—Pngtree—simple road map vector_9123765 1.png"),
+    url("/handshake_4841081 1.png");
+  background-size: 340px, auto !important  ;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom left, top right;
+  background-size: cover, cover, cover;
+  padding-bottom: 150px !important;
+}
+
+.lefttext {
+  width: 70% !important;
+  margin-right: auto;
+  margin-left: 5% !important;
+}
+
+.example {
+  background-image: url("/Frame 1261153448.svg");
+  background-size: auto !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding-bottom: 5px;
+}
+
+.example1 {
+  background-image: url("/Frame 1261153449.svg");
+  background-size: auto !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,8 @@
+.counterbg {
+  background: url("../../../../../public//halfcar.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Use background-size instead of object-fit */
+}

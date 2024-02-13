@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", system-ui, Helvetica, Arial, sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none !important;
+}
+
+.pgreen {
+  color: #1985D2 !important;
+}
+
+.porange {
+  color: #1985D2 !important;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #55B5FA;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .mobw100 {
+    width: 100% !important;
+  }
+  .mobw90 {
+    width: 90% !important;
+  }
+
+  .bgexample {
+    background-image: none !important;
+  }
+  .mobborder {
+    border-right: none !important;
+    border-bottom: 2px dashed #1985d2 !important;
+  }
+
+  .mobwteam {
+    /* padding: 0 !important; */
+    width: 100% !important;
+  }
+
+  .mobwnav {
+    display: none !important;
+  }
+
+  .mobwstory {
+    width: 100% !important;
+  }
+}

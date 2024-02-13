@@ -1,0 +1,26 @@
+.headingMain {
+  background-color: #1985d2;
+  color: white;
+  width: 25%;
+  padding: 16px;
+  padding-right: 30px;
+  font-weight: 800;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0%, 81% 100%, 0% 100%);
+  position: absolute;
+}
+
+.headerInfo {
+  display: flex;
+  background-color: #101010;
+  color: white;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding-right: 5rem;
+  align-items: center;
+}

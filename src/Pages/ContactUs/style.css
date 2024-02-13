@@ -1,0 +1,6 @@
+.contactbg {
+  background-image: url("/contactbg.png");
+  height: 63vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

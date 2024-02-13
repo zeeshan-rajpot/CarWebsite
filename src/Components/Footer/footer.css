@@ -1,0 +1,13 @@
+.link {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.bgFooter {
+  background-image: url("/public/footerBg.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-position: bottom right;
+}

@@ -1,0 +1,8 @@
+.herobg {
+  background-image: url('/bgHero.png');
+  width: auto;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Use background-size instead of object-fit */
+}

@@ -1,0 +1,10 @@
+svg {
+  width: 80%;
+}
+
+.teamcard {
+  position: relative;
+  /* width: 250px; */
+  height: 400px;
+  z-index: +5;
+}
