@@ -14,7 +14,10 @@ const index = () => {
         heading1="we help you chase the buyers while you continue with your daily activities."
         heading3="Car Chaser"
       />
+      <div className="bgprocessimg">
+
       <ProcessSection />
+      </div>
       <Footer />
     </>
   );

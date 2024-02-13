@@ -5,7 +5,7 @@ import "./card.css";
 const ProcessSection = () => {
   return (
     <>
-      <div style={{ marginTop: "12em" }}>
+      <div style={{ marginTop: "12em" }} >
         <div className="d-flex flex-column align-items-center my-5">
           <img className="cardLogo" src="/Group 17283.svg" alt="logo" />
           <Card
@@ -22,7 +22,7 @@ const ProcessSection = () => {
             </p>
             <p
               className="mb-5 mb-md-5 px-2"
-              style={{ fontSize: "24px", fontWeight: "400" }}
+              style={{ fontSize: "20px", fontWeight: "400" }}
             >
               We'll collect accurate information about your car to create a
               profile that we'll then present to potential buyers.
@@ -47,7 +47,7 @@ const ProcessSection = () => {
             </h5>
             <p
               className="mb-5 mb-md-5 px-3"
-              style={{ fontSize: "24px", fontWeight: "400" }}
+              style={{ fontSize: "20px", fontWeight: "400" }}
             >
               Our network of dealers is prepared to purchase cars and competes
               for yours through our online bidding process. We prioritize
@@ -75,7 +75,7 @@ const ProcessSection = () => {
             </h5>
             <p
               className="mb-5 mb-md-5 px-2"
-              style={{ fontSize: "24px", fontWeight: "400" }}
+              style={{ fontSize: "20px", fontWeight: "400" }}
             >
               It's as simple as choosing a drop-off time or pick-up time. We
               handle all the paperwork, including paying off your auto loan or
@@ -94,9 +94,9 @@ const ProcessSection = () => {
           </button>
         </div>
 
-        <div className="ms-5">
+        {/* <div className="ms-5">
           <img src="/theprocesscarbg.png" alt="" />
-        </div>
+        </div> */}
       </div>
     </>
   );

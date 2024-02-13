@@ -35,6 +35,7 @@ const index = () => {
             style={{
               marginRight: "5px",
             }}
+          className="mb-2"
           >
             @carchaser.ca
           </p>
@@ -44,7 +45,7 @@ const index = () => {
             style={{ width: "20px" }}
             className="mb-2 mx-2"
           />
-          <p>58478</p>
+          <p      className="mb-2">58478</p>
         </div>
       </div>
       <Navbar expand="lg">
@@ -62,7 +63,9 @@ const index = () => {
             >
            {tokenExists ? (
   <>
-    <Link to="/Dashbord" className="nav-link">
+
+  <div className="d-flex  align-items-center">
+  <Link to="/Dashbord" className="nav-link">
      Home
     </Link>
     <Link to="/Add" className="nav-link">
@@ -80,6 +83,9 @@ const index = () => {
     <Link to=''>
     <img src="/Group 10249.svg" alt="" />
     </Link>
+
+  </div>
+  
   </>
 ) : (
   <>
@@ -140,6 +146,31 @@ const index = () => {
     </Link>
     </>
 )}
+
+<div>
+<Link
+      to="/Login"
+      style={{
+        backgroundColor: "#1985D2",
+        color: "#FFFFFF",
+        clipPath: "polygon(0 0, 100% 0%, 83% 100%, 0% 100%)",
+      }}
+      className="px-4 nav-link"
+    >
+      Sign-in
+    </Link>
+    <Link
+      to="/Logout"
+      style={{
+        border: "1px solid #1985D2",
+        color: "#1985D2",
+        clipPath: "polygon(24% 0, 100% 0%, 100% 100%, 0% 100%)",
+      }}
+      className="px-3 nav-link"
+    >
+      Sign-Up
+    </Link>
+</div>
             </Nav>
           </Navbar.Collapse>
         </Container>
