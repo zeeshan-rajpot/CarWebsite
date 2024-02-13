@@ -6,9 +6,10 @@ import "./footer.css";
 const index = () => {
   return (
     <div
-      className="py-5 mt-1 position-relative bgFooter"
+      className="pt-5 mt-1 position-relative bgFooter"
       style={{
         backgroundColor: "#1985D2",
+        paddingBottom:'80px'
       }}
     >
       <div className="container">
@@ -19,19 +20,22 @@ const index = () => {
         >
           <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
             <h4
-              className="border-bottom py-2 "
+              // className="border-bottom py-2 "
               style={{ fontSize: "20px", fontWeight: "700" }}
             >
-              Location
+            <span className="border-bottom py-2">Location</span>
             </h4>
             <p className="pt-2 ">Ontario</p>
           </Col>
           <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
             <h4
-              className="border-bottom py-2 "
+              // className="border-bottom py-2 "
               style={{ fontSize: "20px", fontWeight: "700" }}
             >
-              Company
+               <span   className="border-bottom py-2 ">
+               Company
+              </span>
+              
             </h4>
             <Link to="/story" className="link">
               <p className="pt-2 ">Our story</p>
@@ -45,10 +49,12 @@ const index = () => {
           </Col>
           <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
             <h4
-              className="border-bottom py-2 "
+             
               style={{ fontSize: "20px", fontWeight: "700" }}
             >
+             <span   className="border-bottom py-2 ">
               Car chaser
+              </span>
             </h4>
             <p className="py-2 ">The process</p>
             <p>Trade in</p>
@@ -56,10 +62,14 @@ const index = () => {
           </Col>
           <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
             <h4
-              className="border-bottom py-2 "
+              // className="border-bottom py-2 "
               style={{ fontSize: "20px", fontWeight: "700" }}
             >
-              Help center
+                 <span   className="border-bottom py-2 ">
+                 Help center
+              </span>
+            
+            
             </h4>
             <Link to="/ContactUs" className="link">
               <p className="py-2 ">Contact us</p>
