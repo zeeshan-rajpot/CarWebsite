@@ -14,7 +14,7 @@ const Promise = () => {
       </div>
 
       <Container>
-        <Row className="example mb-5 ">
+        <Row className="example mb-5">
           <Col>
             {" "}
             <h3 className="fw-bold ">Online bidding platform</h3>
@@ -52,20 +52,22 @@ const Promise = () => {
             </p>
           </Col>
         </Row>
-        <Row className="example mb-5">
+        <Row className="example2 mb-5">
           <Col>
             {" "}
             <h3 className="fw-bold ">Sell Stress-Free!</h3>
             <p
               style={{
-                width: "45%",
+                width: "46%",
               }}
             >
-            At Car Chaser, we handle everything while you carry on with your daily activities and continue driving your car until it sells. It's that simple.
+              At Car Chaser, we handle everything while you carry on with your
+              daily activities and continue driving your car until it sells.
+              It's that simple.
             </p>
           </Col>
         </Row>
-        <Row className="example1 mb-5">
+        <Row className="example3 mb-5 pt-1">
           <Col>
             {" "}
             <h3
@@ -82,24 +84,26 @@ const Promise = () => {
                 width: "44%",
               }}
             >
-             List your car on Car Chaser and expose it to over 300 dealers within our network.
+              List your car on Car Chaser and expose it to over 300 dealers
+              within our network.
             </p>
           </Col>
         </Row>
-        <Row className="example mb-5">
+        <Row className="example4 mb-5">
           <Col>
             {" "}
             <h3 className="fw-bold ">Sell with Speed and Security!</h3>
             <p
               style={{
-                width: "45%",
+                width: "46%",
               }}
             >
-             Sell your car in as little as 72 hours with over 300 dealers in our network, ensuring quick payment.
+              Sell your car in as little as 72 hours with over 300 dealers in
+              our network, ensuring quick payment.
             </p>
           </Col>
         </Row>
-        <Row className="example1 mb-5">
+        <Row className="example5 mb-5 ">
           <Col>
             {" "}
             <h3
@@ -108,7 +112,7 @@ const Promise = () => {
                 width: "44%",
               }}
             >
-            Your Safety Matters!
+              Your Safety Matters!
             </h3>
             <p
               className=" ms-auto"
@@ -116,27 +120,27 @@ const Promise = () => {
                 width: "44%",
               }}
             >
-            Remain anonymous while we handle all communication with potential buyers, safeguarding your privacy throughout the selling process.
+              Remain anonymous while we handle all communication with potential
+              buyers, safeguarding your privacy throughout the selling process.
             </p>
           </Col>
         </Row>
-        <Row className="example mb-5">
+        <Row className="example6 mb-5 pt-5">
           <Col>
             {" "}
-            <h3 className="fw-bold ">Online bidding platform</h3>
+            <h3 className="fw-bold ">Say Goodbye to Paperwork Hassles!</h3>
             <p
               style={{
                 width: "45%",
               }}
             >
               {" "}
-              Experience the ease of selling your car through our cutting-edge
-              online bidding platform. With over 300 competing dealers, you're
-              guaranteed a win while you enjoy your favorite TV show.
+              We take care of all the paperwork, leaving you with just one thing
+              – CASH
             </p>
           </Col>
         </Row>
-        <Row className="example1">
+        <Row className="example7 mb-5">
           <Col>
             {" "}
             <h3
@@ -145,7 +149,7 @@ const Promise = () => {
                 width: "44%",
               }}
             >
-              Get the Best Value for Your Car!
+              Transparent and Guided Selling Experience!
             </h3>
             <p
               className=" ms-auto"
@@ -153,24 +157,30 @@ const Promise = () => {
                 width: "44%",
               }}
             >
-              Rest assured, with over 300 dealers waiting for your car, you'll
-              receive top dollar without any lowball offers.
+              Experience complete transparency and receive all the information
+              you need to make informed decisions about your car.
             </p>
           </Col>
         </Row>
-        <Row className="example mb-5">
+        <Row className="example8 mb-5">
           <Col>
             {" "}
-            <h3 className="fw-bold ">Online bidding platform</h3>
+            <h3
+              className="fw-bold "
+              style={{
+                width: "45%",
+              }}
+            >
+              Effortless Selling, Right from Your Couch!
+            </h3>
             <p
               style={{
                 width: "45%",
               }}
             >
               {" "}
-              Experience the ease of selling your car through our cutting-edge
-              online bidding platform. With over 300 competing dealers, you're
-              guaranteed a win while you enjoy your favorite TV show.
+              List your car on Car Chaser and let our team handle everything,
+              making the selling process easy for you.
             </p>
           </Col>
         </Row>
