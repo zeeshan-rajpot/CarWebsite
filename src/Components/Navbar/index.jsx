@@ -87,7 +87,7 @@ const index = () => {
                     >
                       Chat
                     </Link>
-                    <Link to="">
+                    <Link to="/Notification">
                       <img src="/Group 10249.svg" alt="" />
                     </Link>
                   </div>
