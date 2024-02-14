@@ -11,10 +11,9 @@ export const index = () => {
       <Navbar />
       <OtherHero img="/image 138.png" heading="Our Promise" />
       <div className="promisebg pb-5">
-
-      <Promise />
+        <Promise />
       </div>
-     
+
       <Footer />
     </div>
   );
