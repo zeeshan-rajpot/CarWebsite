@@ -59,9 +59,6 @@ html {
 }
 
 .msgsendinput {
-}
-
-.msgsendinput {
   /* border: 1px solid #ddd; */
   border-right: none;
   background: #ebebeb !important;
@@ -132,5 +129,19 @@ html {
   }
   .mobw100 {
     width: 100% !important;
+  }
+
+  .mobhl {
+    font-size: 30px !important;
+  }
+
+  .mobhm {
+    font-size: 20px !important;
+  }
+  .mobhs {
+    font-size: 18px !important;
+  }
+  .mobht{
+    margin-top: 40px !important;
   }
 }

@@ -31,7 +31,7 @@ const Promise = () => {
             </p>
           </Col>
         </Row>
-        <Row className="example1  mb-5  bgimgpromise mobw100">
+        <Row className="example1  mb-5 bgimgpromise mobw100">
           <Col>
             {" "}
             <h3
@@ -53,7 +53,7 @@ const Promise = () => {
             </p>
           </Col>
         </Row>
-        <Row className="example2 mb-5  bgimgpromise ">
+        <Row className="example2 mb-5 bgimgpromise ">
           <Col>
             {" "}
             <h3 className="fw-bold mobw100 ">Sell Stress-Free!</h3>
@@ -106,7 +106,7 @@ const Promise = () => {
             </p>
           </Col>
         </Row>
-        <Row className="example5 mb-5  bgimgpromise">
+        <Row className="example5 mb-4  bgimgpromise">
           <Col>
             {" "}
             <h3

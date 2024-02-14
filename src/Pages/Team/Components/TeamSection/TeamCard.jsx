@@ -9,7 +9,6 @@ const TeamCard = ({ title, subtitle, image }) => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="269.383"
-            height=""
             viewBox="0 0 269.383 292.888"
           >
             <defs>
@@ -31,8 +30,8 @@ const TeamCard = ({ title, subtitle, image }) => {
           </svg>
         </div>
         <div className="text-center">
-          <h3 style={{ color: "#101010" }}>{title}</h3>
-          <p style={{ color: "#3D3D3D" }}>{subtitle}</p>
+          <h4 style={{ color: "#101010", fontWeight: "bold" }}>{title}</h4>
+          <p style={{ color: "#3D3D3D", fontSize: "18px" }}>{subtitle}</p>
         </div>
         <div className="d-flex justify-content-center">
           <img src="./LinkdIn.svg" alt="LinkdIn_icon" />

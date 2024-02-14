@@ -2,7 +2,7 @@ import React from "react";
 import "./counter.css";
 const DetailCounter = () => {
   return (
-    <div className="counterbg my-5">
+    <div className="counterbg  my-5">
       <p
         className="text-center fw-bold "
         style={{ color: "#1985D2", fontSize: "30px", fontWeight: "700" }}
@@ -39,9 +39,9 @@ const DetailCounter = () => {
               >
                 300s
               </p>
-              <h3 className="mt-5">
+              <h4 className="mt-5">
                 Over 300 dealers are competing to buy your car.
-              </h3>
+              </h4>
             </div>
           </div>
           <div
@@ -50,7 +50,7 @@ const DetailCounter = () => {
               borderRight: "2px dashed #1985D2",
             }}
           >
-            <div className="p-3 text-center" style={{}}>
+            <div className="p-3 text-center" >
               <h2
                 className="fw-bold"
                 style={{
@@ -61,13 +61,13 @@ const DetailCounter = () => {
               >
                 2,500+
               </h2>
-              <h3
+              <h4
                 style={{
-                  marginTop: "3em",
+                  marginTop: "2.5em",
                 }}
               >
                 Happy customers
-              </h3>
+              </h4>
             </div>
           </div>
           <div className="col-sm mb-4 ">
@@ -82,13 +82,13 @@ const DetailCounter = () => {
               >
                 72hrs
               </h2>
-              <h3
+              <h4
                 style={{
-                  marginTop: "3em",
+                  marginTop: "2.5em",
                 }}
               >
                 72hrs and its sold
-              </h3>
+              </h4>
             </div>
           </div>
         </div>

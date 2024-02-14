@@ -32,12 +32,12 @@ const TradeHero = () => {
               fontSize: "40px",
               color: "#fff",
             }}
-            className="lh-1"
+            className="lh-1 mobhl"
           >
             Looking to sell or upgrade your car?
           </p>
           <span
-            className="text-light   p-2 pe-5 mobwteam"
+            className="text-light p-2 pe-5 mobwteam mobhl"
             style={{
               borderRadius: "0px 22px 22px 0px",
               fontWeight: "900",
@@ -50,11 +50,10 @@ const TradeHero = () => {
             At Car Chaser,
           </span>
           <p
-            className="text-light w-50 mobwteam pt-2"
+            className="text-light w-50 mobwteam pt-2 mobhs"
             style={{
               fontSize: "20px",
-              // paddingLeft: "70px",
-              // paddingRight: "70px",
+
             }}
           >
             We've got you covered. Share your needs, and let us assist in

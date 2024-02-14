@@ -24,7 +24,7 @@ export const index = () => {
           >
             <div className="p-3">
               <p
-                className="my-0"
+                className="my-0 mobhl"
                 style={{
                   fontSize: "40px",
                   color: "#FFFFFF",
@@ -34,7 +34,7 @@ export const index = () => {
                 Introducing the Car Chaser Dealer Network
               </p>
               <p
-                className="my-0 mt-2"
+                className="my-0 mt-2 mobhm"
                 style={{
                   color: "#FFFFFF",
                   fontSize: "21px",
@@ -76,15 +76,16 @@ export const index = () => {
           }}
         >
           <p
-            className="text-white"
+            className="text-white mobhl"
             style={{ fontSize: "40px", fontWeight: "700" }}
+
           >
             {" "}
             Why Choose Car Chaser?
           </p>
         </div>
 
-        <Row className="ms-0 ms-md-4">
+        <Row>
           <Col lg={3} md={3} xs={3} sm={1}>
             <div className="d-flex flex-column  justify-content-start justify-content-md-end  align-items-start align-items-md-end ">
               {numbers.map((number, index) => (
@@ -138,33 +139,34 @@ export const index = () => {
           <Col lg={9} md={9} xs={9} sm={10}>
             <div className="text-start">
               <div>
-                <p className="para" style={{ marginTop: "50px" }}>
+                <p className="para mobhm mobht" style={{ marginTop: "28px" }} >
                   Access to over 100 vehicles ready for bidding
                 </p>
               </div>
               <div>
-                <p className="para" style={{ marginTop: "50px" }}>
+                <p className="para mobhm" style={{ marginTop: "53px" }}>
                   High-quality, handpicked vehicles available
                 </p>
               </div>
               <div>
-                <p className="para" style={{ marginTop: "50px" }}>
-                  Detailed car reports outlining the condition of each vehicle
+                <p className="para mobhm" style={{ marginTop: "40px" }}>
+                  Detailed car reports outlining the condition of <br /> each
+                  vehicle
                 </p>
               </div>
               <div>
-                <p className="para" style={{ marginTop: "50px" }}>
-                  We handle the sourcing and selection of vehicles, saving you
-                  time
+                <p className="para mobhm">
+                  We handle the sourcing and selection of vehicles, <br />{" "}
+                  saving you time
                 </p>
               </div>
               <div>
-                <p className="para" style={{ marginTop: "50px" }}>
-                  Streamlined paperwork, payment, and delivery processes
+                <p className="para mobhm">
+                  Streamlined paperwork, payment, and delivery <br /> processes
                 </p>
               </div>
               <div>
-                <p className="para" style={{ marginTop: "50px" }}>
+                <p className="para mobhm">
                   Committed to the success of your dealership
                 </p>
               </div>
@@ -181,26 +183,26 @@ export const index = () => {
         className="pt-5"
       >
         <p
-          className="text-center "
+          className="text-center mobhl"
           style={{ color: "#1985D2", fontSize: "28px", fontWeight: "700" }}
         >
           Our Partners Trust Us
         </p>
         <p
-          className="text-center "
+          className="text-center mobhm"
           style={{ color: "#030303", fontSize: "28px", fontWeight: "600" }}
         >
           "Car Chaser facilitated the purchase of 40 cars for our dealership
           last month."
         </p>
         <p
-          className="text-start  w-75 m-auto"
+          className="text-start para2 m-auto mobhm"
           style={{ color: "#1985D2", fontSize: "28px", fontWeight: "600" }}
         >
           Trusted dealer
         </p>
         <p
-          className="text-start  w-75 m-auto pb-5"
+          className="text-start para2 m-auto pb-5 mobhm"
           style={{ color: "#030303", fontSize: "28px", fontWeight: "600" }}
         >
           Mississauga, Toronto

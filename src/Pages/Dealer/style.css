@@ -17,6 +17,11 @@
   color: #ffffff;
   font-weight: 500;
 }
+
+.para2 {
+  width: 79%;
+}
+
 @media screen and (max-width: 600px) {
   .para {
     margin-top: 0px !important;
