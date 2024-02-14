@@ -15,3 +15,6 @@
 .cardWidth {
   width: 85% !important;
 }
+.modal-content{
+  border: 0 !important;
+}

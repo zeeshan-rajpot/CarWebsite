@@ -92,7 +92,7 @@ const TradeHero = () => {
           <div className="m-auto " style={{ width: "40%" }}>
             <div className="text-end">
               <img
-                src="./usersideimage1.png"
+                src="/usersideimage1.png"
                 alt=""
                 style={{ width: "100%" }}
               />
@@ -102,7 +102,7 @@ const TradeHero = () => {
         <div className="d-flex justify-content-center align-items-center my-5">
           <div className="m-auto " style={{ width: "40%" }}>
             <div className="text-end">
-              <img src="./image 114.png" alt="" style={{ width: "100%" }} />
+              <img src="/image 114.png" alt="" style={{ width: "100%" }} />
             </div>
           </div>
           <div className="m-auto " style={{ width: "60%" }}>
@@ -283,9 +283,9 @@ const TradeHero = () => {
         />
       </div>
 
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Body>
-          <ModalCom />
+      <Modal  size="lg" centered show={show} onHide={handleClose}>
+        <Modal.Body className="p-0 border-0">
+          <ModalCom  onHide={handleClose}/>
         </Modal.Body>
       </Modal>
     </>

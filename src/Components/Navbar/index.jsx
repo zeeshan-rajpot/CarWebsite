@@ -55,6 +55,7 @@ const index = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav
               className="ms-auto"
+              className="ms-auto"
               style={{
                 fontFamily: "Mulish",
                 fontSize: "18px",
