@@ -50,10 +50,9 @@ const TradeHero = () => {
             At Car Chaser,
           </span>
           <p
-            className="text-light w-50 mobwteam pt-2 mobhs"
+            className="text-light w-75 mobwteam pt-2 mobhs"
             style={{
               fontSize: "20px",
-
             }}
           >
             We've got you covered. Share your needs, and let us assist in
@@ -91,11 +90,7 @@ const TradeHero = () => {
           </div>
           <div className="m-auto " style={{ width: "40%" }}>
             <div className="text-end">
-              <img
-                src="/usersideimage1.png"
-                alt=""
-                style={{ width: "100%" }}
-              />
+              <img src="/usersideimage1.png" alt="" style={{ width: "100%" }} />
             </div>
           </div>
         </div>
@@ -237,12 +232,10 @@ const TradeHero = () => {
         </Row>
       </Container>
       <div>
-        <div style={{ border: "1px solid #1985D2" }} />
+        <div style={{ border: "0.5px solid #1985D2", opacity: "0.5" }} />
 
         <p
-          className="m-auto my-0 p-3 mobw100"
-          // className=''
-
+          className="m-auto my-0 p-3 pt-4 mobw100"
           style={{
             fontWeight: "700",
             fontSize: "30px",
@@ -254,7 +247,7 @@ const TradeHero = () => {
         </p>
 
         <div
-          className=" pt-0 p-3  d-block d-md-flex justify-content-start align-items-center mb-4 m-auto mobw100"
+          className=" pt-0 p-3 d-block d-md-flex justify-content-start align-items-center mb-4 m-auto mobw100"
           style={{ width: "86%" }}
         >
           <p
@@ -279,13 +272,13 @@ const TradeHero = () => {
 
         <div
           className="mb-5"
-          style={{ width: "100%", border: "1px solid #1985D2" }}
+          style={{ width: "100%", border: "1px solid #1985D2", opacity: "0.5" }}
         />
       </div>
 
-      <Modal  size="lg" centered show={show} onHide={handleClose}>
+      <Modal size="lg" centered show={show} onHide={handleClose}>
         <Modal.Body className="p-0 border-0">
-          <ModalCom  onHide={handleClose}/>
+          <ModalCom onHide={handleClose} />
         </Modal.Body>
       </Modal>
     </>
