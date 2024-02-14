@@ -3,16 +3,17 @@
   margin-top: -120px;
   z-index: 1;
 }
-.bgprocessimg{
-  background-image: url("/car vector.svg"),
-  url("/123.svg") ,
-  url("/keys.svg")   ;
-background-size: 340px, auto !important  ;
-background-repeat: no-repeat, no-repeat, no-repeat;
-background-position: bottom left, center left ,top right;
-background-size: cover, cover, cover;
-padding-bottom: 150px !important;
+.bgprocessimg {
+  background-image: url("/car vector.svg"), url("/123.svg"), url("/keys.svg");
+  background-size: 340px, auto !important  ;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom left, center left, top right;
+  background-size: cover, cover, cover;
+  padding-bottom: 150px !important;
+}
 
+.cardWidth {
+  width: 85% !important;
 }
 .modal-content{
   border: 0 !important;

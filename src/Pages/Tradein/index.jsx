@@ -7,8 +7,6 @@ const Trade = () => {
     <>
       <Navbar />
       <TradeHero />
-
-
       <Footer />
     </>
   );

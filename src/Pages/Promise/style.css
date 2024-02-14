@@ -7,24 +7,6 @@
   height: 100vh;
 }
 
-/* .bgexample {
-  background-image: url("../src/assets/imge.png");
-  background-size: auto !important;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-} */
-
-/* .bgexample1 {
-  background-image: url("../src/assets/Group 17317.png");
-  background-size: auto !important;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  height: auto;
-} */
-
 .promisebg {
   background-image: url("/—Pngtree—simple road map vector_9123765 1.png"),
     url("/handshake_4841081 1.png");
@@ -117,4 +99,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .promisebg {
+    background-image: none;
+  }
+
+  .bgimgpromise {
+    background-image: none;
+  }
 }

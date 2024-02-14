@@ -57,14 +57,18 @@ const Teamsection = () => {
     <>
       <div>
         <div className="text-center mt-5">
-          <h5 style={{ color: "#1985D2" }}> Our Team </h5>
+          <h4 style={{ color: "#1985D2", fontWeight: "600" }}> Our Team </h4>
           <h1>
             {" "}
             <b>Our Amazing People</b>
           </h1>
-          <p>
+          <p
+            style={{
+              fontSize: "18px",
+            }}
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore Ut enim ad minim.
+            eiusmod <br /> tempor incididunt ut labore Ut enim ad minim.
           </p>
         </div>
         <div className="container my-5 text-center">

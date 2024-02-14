@@ -9,19 +9,22 @@ const ProcessSection = () => {
         <div className="d-flex flex-column align-items-center my-5">
           <img className="cardLogo" src="/Group 17283.svg" alt="logo" />
           <Card
-            className="shadow text-center rounded-5 w-75 px-2 mobw90"
+            className="shadow text-center rounded-5 px-2 mobw90 cardWidth"
             style={{ paddingTop: "6em", border: "none" }}
           >
             <p
               style={{ color: "#1985D2", fontSize: "32px", fontWeight: "700" }}
+              className="mobhl"
             >
               Step 1
             </p>
-            <p style={{ fontSize: "28px", fontWeight: "700" }}>
+            <p style={{ fontSize: "28px", fontWeight: "700" }}
+            className="mobhm"
+            >
               CREATE AN AUTHENTIC VEHICLE PROFILE
             </p>
             <p
-              className="mb-5 mb-md-5 px-2"
+              className="mb-5 mb-md-5 px-2 mobhs"
               style={{ fontSize: "20px", fontWeight: "400" }}
             >
               We'll collect accurate information about your car to create a
@@ -34,19 +37,22 @@ const ProcessSection = () => {
         <div className="d-flex flex-column align-items-center my-5">
           <img className="cardLogo" src="/Group 17287.svg" alt="logo" />
           <Card
-            className="shadow text-center rounded-5 w-75 px-2 mobw90"
+            className="shadow text-center rounded-5  px-2 mobw90 cardWidth"
             style={{ paddingTop: "6em", border: "none" }}
           >
             <h3
               style={{ color: "#1985D2", fontSize: "32px", fontWeight: "700" }}
+              className="mobhl"
             >
               Step 2
             </h3>
-            <h5 style={{ fontSize: "28px", fontWeight: "700" }}>
+            <h5 style={{ fontSize: "28px", fontWeight: "700" }}
+            className="mobhm"
+            >
               DEALERS COMPETE TO BUY YOUR CAR
             </h5>
             <p
-              className="mb-5 mb-md-5 px-3"
+              className="mb-5 mb-md-5 px-3 mobhs"
               style={{ fontSize: "20px", fontWeight: "400" }}
             >
               Our network of dealers is prepared to purchase cars and competes
@@ -62,19 +68,22 @@ const ProcessSection = () => {
         <div className="d-flex flex-column align-items-center my-5">
           <img className="cardLogo" src="/Group 17286.svg" alt="logo" />
           <Card
-            className="shadow text-center rounded-5 w-75 px-2 mobw90"
+            className="shadow text-center rounded-5  px-2 mobw90 cardWidth"
             style={{ paddingTop: "6em", border: "none" }}
           >
             <h3
               style={{ color: "#1985D2", fontSize: "32px", fontWeight: "700" }}
+              className="mobhl"
             >
               Step 3
             </h3>
-            <h5 style={{ fontSize: "28px", fontWeight: "700" }}>
+            <h5 style={{ fontSize: "28px", fontWeight: "700" }}
+            className="mobhm"
+            >
               GETTING PAID
             </h5>
             <p
-              className="mb-5 mb-md-5 px-2"
+              className="mb-5 mb-md-5 px-2 mobhs"
               style={{ fontSize: "20px", fontWeight: "400" }}
             >
               It's as simple as choosing a drop-off time or pick-up time. We
@@ -94,9 +103,7 @@ const ProcessSection = () => {
           </button>
         </div>
 
-        {/* <div className="ms-5">
-          <img src="/theprocesscarbg.png" alt="" />
-        </div> */}
+     
       </div>
     </>
   );

@@ -6,10 +6,10 @@ import "./footer.css";
 const index = () => {
   return (
     <div
-      className="pt-5 mt-1 position-relative bgFooter"
+      className="pt-5 mt-1 position-relative bgFooter  "
       style={{
         backgroundColor: "#1985D2",
-        paddingBottom:'80px'
+        paddingBottom: "80px",
       }}
     >
       <div className="container">
@@ -17,13 +17,14 @@ const index = () => {
           style={{
             paddingTop: "2em",
           }}
+          className=" m-auto "
         >
           <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
             <h4
               // className="border-bottom py-2 "
               style={{ fontSize: "20px", fontWeight: "700" }}
             >
-            <span className="border-bottom py-2">Location</span>
+              <span className="border-bottom py-2">Location</span>
             </h4>
             <p className="pt-2 ">Ontario</p>
           </Col>
@@ -32,10 +33,7 @@ const index = () => {
               // className="border-bottom py-2 "
               style={{ fontSize: "20px", fontWeight: "700" }}
             >
-               <span   className="border-bottom py-2 ">
-               Company
-              </span>
-              
+              <span className="border-bottom py-2 ">Company</span>
             </h4>
             <Link to="/story" className="link">
               <p className="pt-2 ">Our story</p>
@@ -48,35 +46,31 @@ const index = () => {
             </Link>
           </Col>
           <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
-            <h4
-             
-              style={{ fontSize: "20px", fontWeight: "700" }}
-            >
-             <span   className="border-bottom py-2 ">
-              Car chaser
-              </span>
+            <h4 style={{ fontSize: "20px", fontWeight: "700" }}>
+              <span className="border-bottom py-2 ">Car chaser</span>
             </h4>
-            <p className="py-2 ">The process</p>
-            <p>Trade in</p>
-            <p>Our process</p>
+            <Link to="/process" className="link">
+              <p className="pt-2 ">The process</p>
+            </Link>
+            <Link to="/Trade" className="link">
+              <p>Trade in</p>
+            </Link>
+            <Link to="/promise" className="link">
+              <p>Our promise </p>
+            </Link>
           </Col>
           <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
             <h4
               // className="border-bottom py-2 "
               style={{ fontSize: "20px", fontWeight: "700" }}
             >
-                 <span   className="border-bottom py-2 ">
-                 Help center
-              </span>
-            
-            
+              <span className="border-bottom py-2 ">Help center</span>
             </h4>
             <Link to="/ContactUs" className="link">
               <p className="py-2 ">Contact us</p>
             </Link>
           </Col>
         </Row>
-        
       </div>
     </div>
   );

@@ -6,10 +6,10 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
 const index = () => {
-  const tokenExists = localStorage.getItem('token');
+  const tokenExists = localStorage.getItem("token");
   const handleLogout = () => {
     // Remove the token from local storage
-    localStorage.removeItem('token');
+    localStorage.removeItem("token");
     // Additional logic if needed
   };
   return (
@@ -21,7 +21,8 @@ const index = () => {
       >
         <div className="headingMain z-1 mobwnav">
           <Link to="/">
-            <img src="/download.png" alt="" srcset="" height='80px'  /> Car Chaser 
+            <img src="/download.png" alt="" srcset="" height="80px" /> Car
+            Chaser
           </Link>
         </div>
         <div className="headerInfo mobwnav">
@@ -35,7 +36,7 @@ const index = () => {
             style={{
               marginRight: "5px",
             }}
-          className="mb-2"
+            className="mb-2"
           >
             @carchaser.ca
           </p>
@@ -45,7 +46,7 @@ const index = () => {
             style={{ width: "20px" }}
             className="mb-2 mx-2"
           />
-          <p      className="mb-2">58478</p>
+          <p className="mb-2">58478</p>
         </div>
       </div>
       <Navbar expand="lg">
@@ -54,6 +55,7 @@ const index = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav
               className="ms-auto"
+              className="ms-auto"
               style={{
                 fontFamily: "Mulish",
                 fontSize: "18px",
@@ -61,93 +63,103 @@ const index = () => {
                 color: "#101010",
               }}
             >
-           {tokenExists ? (
-  <>
+              {tokenExists ? (
+                <>
+                  <div className="d-flex  align-items-center">
+                    <Link to="/Dashbord" className="nav-link">
+                      Home
+                    </Link>
+                    <Link to="/Add" className="nav-link">
+                      Add
+                    </Link>
+                    <Link to="/Recent" className="nav-link">
+                      Recent
+                    </Link>
+                    <Link to="/Previous" className="nav-link">
+                      Previous
+                    </Link>
+                    <Link
+                      to="/Chat"
+                      className="nav-link"
+                      style={{
+                        marginRight: "120px",
+                      }}
+                    >
+                      Chat
+                    </Link>
+                    <Link to="">
+                      <img src="/Group 10249.svg" alt="" />
+                    </Link>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <Link to="/process" className="nav-link">
+                    The process
+                  </Link>
+                  <Link to="/Trade" className="nav-link">
+                    Trade-in
+                  </Link>
+                  <Link to="/promise" className="nav-link">
+                    Our promise
+                  </Link>
+                  <Link
+                    to="/DealerPage"
+                    className="nav-link"
+                    style={{
+                      marginRight: "120px",
+                    }}
+                  >
+                    Dealer network
+                  </Link>
+                </>
+              )}
 
-  <div className="d-flex  align-items-center ">
-  <Link to="/Dashbord" className="nav-link">
-     Home
-    </Link>
-    <Link to="/Add" className="nav-link">
-      Add
-    </Link>
-    <Link to="/Recent" className="nav-link">
-     Recent
-    </Link>
-    <Link to="/Previous" className="nav-link">
-    Previous
-    </Link>
-    <Link to="/Chat" className="nav-link">
-    Chat
-    </Link>
-    <Link to=''>
-    <img src="/Group 10249.svg" alt="" />
-    </Link>
-
-  </div>
-  
-  </>
-) : (
-  <>
-    <Link to="/process" className="nav-link">
-      The process
-    </Link>
-    <Link to="/Trade" className="nav-link">
-      Trade-in
-    </Link>
-    <Link to="/promise" className="nav-link">
-      Our promise
-    </Link>
-    <Link to="/DealerPage" className="nav-link " style={{marginRight:'120px'}}>
-      Dealer network
-    </Link>
-  </>
-)}
-
-{tokenExists ? (
-  <>
-<Link
-      to="/"
-      onClick={handleLogout}
-      style={{
-        backgroundColor: "#1985D2",
-        color: "#FFFFFF",
-        // clipPath: "polygon(0 0, 100% 0%, 83% 100%, 0% 100%)",
-      }}
-      className="px-4 nav-link"
-    >
-      Logout
-    </Link>
-  </>
-) : (
-  <>
-
-  <Link
-      to="/Login"
-      style={{
-        backgroundColor: "#1985D2",
-        color: "#FFFFFF",
-        clipPath: "polygon(0 0, 100% 0%, 83% 100%, 0% 100%)",
-      }}
-      className="px-4 nav-link"
-    >
-      Sign-in
-    </Link>
-    <Link
-      to="/Logout"
-      style={{
-        border: "1px solid #1985D2",
-        color: "#1985D2",
-        clipPath: "polygon(24% 0, 100% 0%, 100% 100%, 0% 100%)",
-      }}
-      className="px-3 nav-link"
-    >
-      Sign-Up
-    </Link>
-    </>
-)}
-
-
+              {tokenExists ? (
+                <>
+                  <Link
+                    to="/"
+                    onClick={handleLogout}
+                    style={{
+                      backgroundColor: "#1985D2",
+                      color: "#FFFFFF",
+                      // clipPath: "polygon(0 0, 100% 0%, 83% 100%, 0% 100%)",
+                    }}
+                    className="px-4 nav-link"
+                  >
+                    Logout
+                  </Link>
+                </>
+              ) : (
+                <>
+                  <div className="d-flex justify-content-end">
+                    {" "}
+                    {/* Added justify-content-end class */}
+                    <Link
+                      to="/Login"
+                      style={{
+                        backgroundColor: "#1985D2",
+                        color: "#FFFFFF",
+                        clipPath: "polygon(0 0, 100% 0%, 83% 100%, 0% 100%)",
+                      }}
+                      className="px-4 nav-link"
+                    >
+                      Sign-in
+                    </Link>
+                    <Link
+                      to="/Logout"
+                      style={{
+                        border: "1px solid #1985D2",
+                        color: "#1985D2",
+                        clipPath: "polygon(24% 0, 100% 0%, 100% 100%, 0% 100%)",
+                      }}
+                      className="px-3 nav-link"
+                    >
+                      Sign-Up
+                    </Link>
+                  </div>
+                </>
+              )}
             </Nav>
           </Navbar.Collapse>
         </Container>

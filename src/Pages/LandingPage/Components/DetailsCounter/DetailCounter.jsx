@@ -50,7 +50,7 @@ const DetailCounter = () => {
               borderRight: "2px dashed #1985D2",
             }}
           >
-            <div className="p-3 text-center" style={{}}>
+            <div className="p-3 text-center" >
               <h2
                 className="fw-bold"
                 style={{
@@ -63,7 +63,7 @@ const DetailCounter = () => {
               </h2>
               <h4
                 style={{
-                  marginTop: "3em",
+                  marginTop: "2.5em",
                 }}
               >
                 Happy customers
@@ -84,7 +84,7 @@ const DetailCounter = () => {
               </h2>
               <h4
                 style={{
-                  marginTop: "3em",
+                  marginTop: "2.5em",
                 }}
               >
                 72hrs and its sold
