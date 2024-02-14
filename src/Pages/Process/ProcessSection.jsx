@@ -5,7 +5,7 @@ import "./card.css";
 const ProcessSection = () => {
   return (
     <>
-      <div style={{ marginTop: "12em" }} >
+      <div style={{ marginTop: "12em" }}>
         <div className="d-flex flex-column align-items-center my-5">
           <img className="cardLogo" src="/Group 17283.svg" alt="logo" />
           <Card
@@ -18,13 +18,14 @@ const ProcessSection = () => {
             >
               Step 1
             </p>
-            <p style={{ fontSize: "28px", fontWeight: "700" }}
-            className="mobhm"
+            <p
+              style={{ fontSize: "28px", fontWeight: "700" }}
+              className="mobhm"
             >
               CREATE AN AUTHENTIC VEHICLE PROFILE
             </p>
             <p
-              className="mb-5 mb-md-5 px-2 mobhs"
+              className="mb-5 mb-md-5 px-5 mobhs"
               style={{ fontSize: "20px", fontWeight: "400" }}
             >
               We'll collect accurate information about your car to create a
@@ -40,19 +41,20 @@ const ProcessSection = () => {
             className="shadow text-center rounded-5  px-2 mobw90 cardWidth"
             style={{ paddingTop: "6em", border: "none" }}
           >
-            <h3
+            <p
               style={{ color: "#1985D2", fontSize: "32px", fontWeight: "700" }}
               className="mobhl"
             >
               Step 2
-            </h3>
-            <h5 style={{ fontSize: "28px", fontWeight: "700" }}
-            className="mobhm"
+            </p>
+            <p
+              style={{ fontSize: "28px", fontWeight: "700" }}
+              className="mobhm"
             >
               DEALERS COMPETE TO BUY YOUR CAR
-            </h5>
+            </p>
             <p
-              className="mb-5 mb-md-5 px-3 mobhs"
+              className="mb-5 mb-md-5 px-5 mobhs"
               style={{ fontSize: "20px", fontWeight: "400" }}
             >
               Our network of dealers is prepared to purchase cars and competes
@@ -71,19 +73,20 @@ const ProcessSection = () => {
             className="shadow text-center rounded-5  px-2 mobw90 cardWidth"
             style={{ paddingTop: "6em", border: "none" }}
           >
-            <h3
+            <p
               style={{ color: "#1985D2", fontSize: "32px", fontWeight: "700" }}
               className="mobhl"
             >
               Step 3
-            </h3>
-            <h5 style={{ fontSize: "28px", fontWeight: "700" }}
-            className="mobhm"
+            </p>
+            <p
+              style={{ fontSize: "28px", fontWeight: "700" }}
+              className="mobhm"
             >
               GETTING PAID
-            </h5>
+            </p>
             <p
-              className="mb-5 mb-md-5 px-2 mobhs"
+              className="mb-5 mb-md-5 px-5 mobhs"
               style={{ fontSize: "20px", fontWeight: "400" }}
             >
               It's as simple as choosing a drop-off time or pick-up time. We
@@ -96,14 +99,16 @@ const ProcessSection = () => {
         </div>
         <div style={{ margin: "5em 0" }} className="w-100 text-center ">
           <button
-            style={{ background: "#1985D2", padding: "16px 80px" }}
+            style={{
+              background: "#1985D2",
+              padding: "16px 80px",
+              fontSize: "24px",
+            }}
             className="border rounded-5 text-light "
           >
             Let's Go
           </button>
         </div>
-
-     
       </div>
     </>
   );

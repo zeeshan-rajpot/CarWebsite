@@ -77,8 +77,11 @@ export const index = () => {
         >
           <p
             className="text-white mobhl"
-            style={{ fontSize: "40px", fontWeight: "700" }}
-
+            style={{
+              fontSize: "40px",
+              fontWeight: "700",
+              marginBottom: "50px",
+            }}
           >
             {" "}
             Why Choose Car Chaser?
@@ -86,7 +89,13 @@ export const index = () => {
         </div>
 
         <Row>
-          <Col lg={3} md={3} xs={3} sm={1}>
+          <Col
+            md={2}
+            sm={1}
+            style={{
+              marginLeft: "22px",
+            }}
+          >
             <div className="d-flex flex-column  justify-content-start justify-content-md-end  align-items-start align-items-md-end ">
               {numbers.map((number, index) => (
                 <div
@@ -139,7 +148,7 @@ export const index = () => {
           <Col lg={9} md={9} xs={9} sm={10}>
             <div className="text-start">
               <div>
-                <p className="para mobhm mobht" style={{ marginTop: "28px" }} >
+                <p className="para mobhm mobht" style={{ marginTop: "28px" }}>
                   Access to over 100 vehicles ready for bidding
                 </p>
               </div>
@@ -149,24 +158,23 @@ export const index = () => {
                 </p>
               </div>
               <div>
-                <p className="para mobhm" style={{ marginTop: "40px" }}>
-                  Detailed car reports outlining the condition of <br /> each
-                  vehicle
+                <p className="para mobhm" style={{ marginTop: "55px" }}>
+                  Detailed car reports outlining the condition of each vehicle
                 </p>
               </div>
               <div>
-                <p className="para mobhm">
-                  We handle the sourcing and selection of vehicles, <br />{" "}
-                  saving you time
+                <p className="para mobhm" style={{ marginTop: "55px" }}>
+                  We handle the sourcing and selection of vehicles, saving you
+                  time
                 </p>
               </div>
               <div>
-                <p className="para mobhm">
-                  Streamlined paperwork, payment, and delivery <br /> processes
+                <p className="para mobhm" style={{ marginTop: "55px" }}>
+                  Streamlined paperwork, payment, and delivery processes
                 </p>
               </div>
               <div>
-                <p className="para mobhm">
+                <p className="para mobhm" style={{ marginTop: "55px" }}>
                   Committed to the success of your dealership
                 </p>
               </div>

@@ -141,7 +141,14 @@ html {
   .mobhs {
     font-size: 18px !important;
   }
-  .mobht{
+  .mobht {
     margin-top: 40px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-lg,
+  .modal-xl {
+    --bs-modal-width: 930px;
   }
 }
