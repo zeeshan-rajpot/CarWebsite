@@ -53,7 +53,7 @@ const index = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav
-              className="m-auto"
+              className="ms-auto"
               style={{
                 fontFamily: "Mulish",
                 fontSize: "18px",
@@ -64,7 +64,7 @@ const index = () => {
            {tokenExists ? (
   <>
 
-  <div className="d-flex  align-items-center">
+  <div className="d-flex  align-items-center ">
   <Link to="/Dashbord" className="nav-link">
      Home
     </Link>
@@ -98,7 +98,7 @@ const index = () => {
     <Link to="/promise" className="nav-link">
       Our promise
     </Link>
-    <Link to="/DealerPage" className="nav-link">
+    <Link to="/DealerPage" className="nav-link " style={{marginRight:'120px'}}>
       Dealer network
     </Link>
   </>
@@ -147,30 +147,7 @@ const index = () => {
     </>
 )}
 
-<div>
-<Link
-      to="/Login"
-      style={{
-        backgroundColor: "#1985D2",
-        color: "#FFFFFF",
-        clipPath: "polygon(0 0, 100% 0%, 83% 100%, 0% 100%)",
-      }}
-      className="px-4 nav-link"
-    >
-      Sign-in
-    </Link>
-    <Link
-      to="/Logout"
-      style={{
-        border: "1px solid #1985D2",
-        color: "#1985D2",
-        clipPath: "polygon(24% 0, 100% 0%, 100% 100%, 0% 100%)",
-      }}
-      className="px-3 nav-link"
-    >
-      Sign-Up
-    </Link>
-</div>
+
             </Nav>
           </Navbar.Collapse>
         </Container>

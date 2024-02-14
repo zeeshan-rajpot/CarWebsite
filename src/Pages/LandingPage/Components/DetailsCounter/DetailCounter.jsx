@@ -2,7 +2,7 @@ import React from "react";
 import "./counter.css";
 const DetailCounter = () => {
   return (
-    <div className="counterbg bgprocessimg my-5">
+    <div className="counterbg  my-5">
       <p
         className="text-center fw-bold "
         style={{ color: "#1985D2", fontSize: "30px", fontWeight: "700" }}

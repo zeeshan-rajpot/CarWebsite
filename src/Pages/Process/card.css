@@ -14,3 +14,6 @@ background-size: cover, cover, cover;
 padding-bottom: 150px !important;
 
 }
+.modal-content{
+  border: 0 !important;
+}
