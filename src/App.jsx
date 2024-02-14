@@ -23,6 +23,7 @@ import NewPages from "./Pages/NewPages/VerifyPage.jsx";
 import ConfirmPost from "./Pages/NewPages/ConfirmPost.jsx";
 import Estimateoffer from "./Pages/NewPages/Estimateoffer.jsx";
 import BookAppointment from "./Pages/NewPages/BookAppointment.jsx";
+import Notification from "./Pages/Notification/index.jsx";
 
 function App() {
   return (
@@ -53,6 +54,8 @@ function App() {
           <Route exact path="/BookAppointment" element={<BookAppointment />} />
           <Route exact path="/ConfirmPost" element={<ConfirmPost />} />
           <Route exact path="/Estimateoffer" element={<Estimateoffer />} />
+          <Route exact path="/Notification" element={<Notification />} />
+          
         </Routes>
       </BrowserRouter>
     </>

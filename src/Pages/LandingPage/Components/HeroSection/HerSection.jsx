@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "./herosection.css";
+import { Link } from "react-router-dom";
 export const HerSection = () => {
   const generateRandomOptions = (label, count) => {
     const options = Array.from(
@@ -70,12 +71,12 @@ export const HerSection = () => {
               className="d-flex justify-content-center pb-2  mx-auto"
               style={{ width: "74%" }}
             >
-              <button
-                className="border-0  text-white px-5 md-px-5 py-2 mt-4 w-100"
+              <Link to='/Add/Car'
+                className="border-0  text-white px-5 md-px-5 py-2 mt-4 w-100 text-center"
                 style={{ backgroundColor: "#1985D2" }}
               >
                 Signup
-              </button>
+              </Link>
             </div>
           </div>
         </Col>

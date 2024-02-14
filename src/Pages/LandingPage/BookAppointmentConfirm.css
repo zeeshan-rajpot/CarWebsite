@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-mulish: Mulish;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --foundation-black-b0: #fff;
+  --foundation-black-b10: #fafafa;
+  --foundation-black-b700: #1f1f1f;
+  --foundation-black-b800: #101010;
+  --color-cornflowerblue-100: #1985d2;
+
+  /* Gaps */
+  --gap-21xl: 40px;
+  --gap-xs: 12px;
+  --gap-5xs: 8px;
+  --gap-base: 16px;
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-base: 16px;
+  --padding-101xl: 120px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+}
+
+
+.frame-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--foundation-black-b800);
+    width: 1089px;
+    height: 40px;
+  }
+  .frame-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 560px;
+    height: 100px;
+  }
+  .the-process {
+    position: relative;
+    font-weight: 500;
+  }
+  .the-process-parent {
+    position: absolute;
+    top: 60px;
+    left: 560px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 32px;
+    color: var(--foundation-black-b800);
+  }
+  .car-chaser {
+    position: relative;
+    line-height: 120%;
+    font-weight: 800;
+  }
+  .car-chaser-wrapper {
+    position: absolute;
+    top: calc(50% - 19px);
+    left: 137px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: var(--font-size-13xl);
+  }
+  .group-child,
+  .group-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 36px;
+  }
+  .group-item {
+    left: 100px;
+    object-fit: contain;
+  }
+  .sign-in,
+  .sign-out {
+    position: absolute;
+    top: 8px;
+    left: 142px;
+    font-weight: 500;
+  }
+  .sign-in {
+    left: 16px;
+    color: var(--foundation-black-b0);
+  }
+  .vector-parent {
+    position: absolute;
+    top: 52px;
+    left: 1083px;
+    width: 220px;
+    height: 36px;
+    color: #1a85d2;
+  }
+  .icround-phone-icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .div {
+    position: relative;
+  }
+  .icround-phone-parent,
+  .mingcutemail-fill-parent {
+    position: absolute;
+    top: 10px;
+    left: 1231px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .mingcutemail-fill-parent {
+    left: 1083px;
+    justify-content: center;
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 720px);
+    background-color: var(--foundation-black-b0);
+    width: 1440px;
+    height: 100px;
+    overflow: hidden;
+  }
+  .location {
+    position: relative;
+    line-height: 120%;
+  }
+  .frame-inner {
+    width: 161px;
+    position: relative;
+    border-top: 1px solid var(--foundation-black-b0);
+    box-sizing: border-box;
+    height: 1px;
+    opacity: 0.5;
+  }
+  .ontario {
+    position: relative;
+    line-height: 120%;
+    font-weight: 500;
+  }
+  .location-parent,
+  .ontario-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .ontario-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+  .location-parent {
+    gap: var(--gap-base);
+  }
+  .frame-group,
+  .location-parent,
+  .our-story-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .our-story-parent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .frame-group {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 550px);
+    width: 1100px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .vector-icon {
+    position: absolute;
+    right: 0.3px;
+    bottom: -16px;
+    width: 243.7px;
+    height: 100px;
+    opacity: 0.2;
+  }
+  .frame-parent {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 720px);
+    background-color: var(--color-cornflowerblue-100);
+    width: 1440px;
+    height: 344px;
+    overflow: hidden;
+    font-size: var(--font-size-xl);
+  }
+  .please-verify-the {
+    position: absolute;
+    top: 120px;
+    left: 156px;
+    color: var(--foundation-black-b800);
+  }
+  .back {
+    position: relative;
+    font-weight: 600;
+  }
+  .back-wrapper,
+  .confirm-wrapper {
+    border-radius: var(--br-base);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-base) var(--padding-101xl);
+  }
+  .back-wrapper {
+    border: 2px solid var(--color-cornflowerblue-100);
+  }
+  .confirm-wrapper {
+    background-color: var(--color-cornflowerblue-100);
+    color: var(--foundation-black-b0);
+  }
+  .frame-container {
+    position: absolute;
+    top: 904px;
+    left: calc(50% - 357px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+  }
+  .book-appointment {
+    align-self: stretch;
+    position: relative;
+  }
+  .uiwdate-icon {
+    width: 32px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .uiwdate-parent {
+    border-radius: var(--br-base);
+    background-color: var(--foundation-black-b10);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xs) var(--padding-base);
+    gap: var(--gap-5xs);
+  }
+  .frame-parent1,
+  .frame-wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .frame-parent1 {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+  }
+  .mdilocation-icon {
+    width: 28px;
+    position: relative;
+    height: 28px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-wrapper4,
+  .frame-wrapper5,
+  .mdilocation-parent {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .mdilocation-parent {
+    border-radius: var(--br-base);
+    background-color: var(--foundation-black-b10);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 24px;
+    gap: var(--gap-5xs);
+  }
+  .frame-wrapper4,
+  .frame-wrapper5 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .frame-wrapper4 {
+    color: var(--foundation-black-b800);
+  }
+  .frame-child3 {
+    align-self: stretch;
+    border-radius: var(--br-base);
+    background-color: var(--foundation-black-b10);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    height: 160px;
+  }
+  .additional-information-parent,
+  .book-appointment-parent,
+  .frame-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .additional-information-parent {
+    align-self: stretch;
+    gap: var(--gap-xs);
+    color: var(--foundation-black-b800);
+  }
+  .book-appointment-parent,
+  .frame-div {
+    gap: var(--gap-21xl);
+  }
+  .frame-div {
+    align-self: stretch;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--foundation-black-b700);
+  }
+  .book-appointment-parent {
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 564px);
+    border-radius: 24px;
+    background-color: var(--foundation-black-b0);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    width: 1128px;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .book-appointment-confirm,
+  .desktop-1 {
+    background-color: var(--foundation-black-b0);
+    overflow: hidden;
+  }
+  .desktop-1 {
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 720px);
+    width: 1440px;
+    height: 1056px;
+    font-size: var(--font-size-13xl);
+    color: var(--color-cornflowerblue-100);
+  }
+  .book-appointment-confirm {
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 120px rgba(0, 0, 0, 0.25);
+    height: 1500px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--foundation-black-b0);
+    font-family: var(--font-mulish);
+  }
