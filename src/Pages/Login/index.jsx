@@ -49,7 +49,7 @@ const Login = () => {
               style={{ height: '80vh' }}
             >
               {/* logo */}
-              <img src='/ion_car-sport-outline.svg' alt='' />
+              <img src='/download.png' alt='' className='w-25'/>
               {/* heading */}
               <h1 className='  text-center fw-bold ' width='80%'>
                 <span className='porange'>Car</span>{' '}
