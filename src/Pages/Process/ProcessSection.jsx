@@ -25,7 +25,7 @@ const ProcessSection = () => {
               CREATE AN AUTHENTIC VEHICLE PROFILE
             </p>
             <p
-              className="mb-5 mb-md-5 px-5 mobhs"
+              className="mb-5 mb-md-5 px-0 px-md-3 mobhs"
               style={{ fontSize: "20px", fontWeight: "400" }}
             >
               We'll collect accurate information about your car to create a
@@ -54,7 +54,7 @@ const ProcessSection = () => {
               DEALERS COMPETE TO BUY YOUR CAR
             </p>
             <p
-              className="mb-5 mb-md-5 px-5 mobhs"
+              className="mb-5 mb-md-5 px-0 px-md-3 mobhs"
               style={{ fontSize: "20px", fontWeight: "400" }}
             >
               Our network of dealers is prepared to purchase cars and competes
@@ -86,7 +86,7 @@ const ProcessSection = () => {
               GETTING PAID
             </p>
             <p
-              className="mb-5 mb-md-5 px-5 mobhs"
+              className="mb-5 mb-md-5 px-0 px-md-3 mobhs"
               style={{ fontSize: "20px", fontWeight: "400" }}
             >
               It's as simple as choosing a drop-off time or pick-up time. We

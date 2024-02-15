@@ -5,8 +5,8 @@ export const index = () => {
     <div className="bgtestmolial">
       <div className="mt-5 text-center pt-3">
         <p
-          className="my-0 mt-5 fw-bold"
-          style={{ color: "#fff", fontWeight: "400", fontSize: "48px" }}
+          className="my-0 mt-5 fw-bold mobhl"
+          style={{ color: "#030303", fontWeight: "400", fontSize: "48px" }}
         >
           Over Customers trust us
         </p>

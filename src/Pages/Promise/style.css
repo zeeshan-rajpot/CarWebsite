@@ -110,3 +110,14 @@
     background-image: none;
   }
 }
+
+
+@media screen and (min-width: 1600px) {
+  .promiselgp{
+    padding-top: 0.8rem !important;
+  }
+
+  .delerpagelg{
+    margin-left: 28rem !important;
+  }
+}

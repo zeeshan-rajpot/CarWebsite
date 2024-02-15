@@ -2,7 +2,7 @@
   background-color: #1985d2;
   color: white;
   width: 33%;
-  padding: 16px;
+  padding: 14px;
   padding-right: 30px;
   font-weight: 800;
   font-size: 2rem;
@@ -23,4 +23,9 @@
   justify-content: end;
   padding-right: 5rem;
   align-items: center;
+}
+
+.active {
+  color: #1985d2 !important;
+  font-weight: bold !important;
 }

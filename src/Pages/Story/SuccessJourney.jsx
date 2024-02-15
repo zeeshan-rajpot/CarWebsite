@@ -2,7 +2,7 @@ import React from "react";
 
 const SuccessJourney = () => {
   return (
-    <div className="container w-100 my-5 ">
+    <div className="container w-100 mt-5 ">
       <div className="row">
         <div className="col-sm col-12 mt-5">
           <h2 style={{ color: "#1985D2", fontWeight: "bolder" }}>
@@ -41,7 +41,7 @@ const SuccessJourney = () => {
             alt="mobile"
             style={{
               width: "100%",
-              height: "auto",
+              height: "90%",
             }}
           />
         </div>
