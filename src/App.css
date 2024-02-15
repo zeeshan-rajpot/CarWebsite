@@ -93,6 +93,12 @@ html {
     width: 95% !important;
     margin-left: 0% !important;
   }
+  .slick-prev{
+    display:  none !important;
+   }
+   .slick-next{
+    display: none !important;
+   }
 
   .bg-formm {
     background-image: none !important;
@@ -151,6 +157,7 @@ html {
   .modal-xl {
     --bs-modal-width: 930px;
   }
+  
 }
 
 
@@ -170,4 +177,8 @@ html {
     font-size: 24px !important;
     text-align: justify !important;
    }
+   .sliderw{
+    width: 60% !important;
+   }
+
 }

@@ -6,7 +6,7 @@ import "./footer.css";
 const index = () => {
   return (
     <div
-      className="pt-5 mt-1 position-relative bgFooter  "
+      className="pt-5  position-relative bgFooter  "
       style={{
         backgroundColor: "#1985D2",
         paddingBottom: "80px",
