@@ -36,13 +36,13 @@ const index = () => {
               <span className="border-bottom py-2 ">Company</span>
             </h4>
             <Link to="/story" className="link">
-              <p className="pt-2 ">Our story</p>
+              <p className="pt-2 ">Our Story</p>
             </Link>
             <Link to="/vision" className="link">
               <p>Our Vision</p>
             </Link>
             <Link to="/team" className="link">
-              <p>Our team </p>
+              <p>Our Team </p>
             </Link>
           </Col>
           <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
@@ -50,13 +50,13 @@ const index = () => {
               <span className="border-bottom py-2 ">Car chaser</span>
             </h4>
             <Link to="/process" className="link">
-              <p className="pt-2 ">The process</p>
+              <p className="pt-2 ">The Process</p>
             </Link>
             <Link to="/Trade" className="link">
-              <p>Trade in</p>
+              <p>Trade-In</p>
             </Link>
             <Link to="/promise" className="link">
-              <p>Our promise </p>
+              <p>Our Promise </p>
             </Link>
           </Col>
           <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
@@ -67,7 +67,7 @@ const index = () => {
               <span className="border-bottom py-2 ">Help center</span>
             </h4>
             <Link to="/ContactUs" className="link">
-              <p className="py-2 ">Contact us</p>
+              <p className="py-2 ">Contact Us</p>
             </Link>
           </Col>
         </Row>
