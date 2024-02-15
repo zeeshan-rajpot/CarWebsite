@@ -9,7 +9,7 @@ const VisionMission = () => {
           <h2 style={{ color: "#1985D2" }} className="fw-bold">
             Our Vision
           </h2>
-          <p style={{ color: "#303030", fontSize: "18px", fontWeight: "600" }}>
+          <p  className="visionbigp" style={{ color: "#303030", fontSize: "18px", fontWeight: "600" }}>
             Our vision is to establish ourselves as the foremost vehicle
             sourcing company in Ontario and beyond, by leveraging innovation and
             industry expertise to redefine the vehicle acquisition experience.

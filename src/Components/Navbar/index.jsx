@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import { Col } from "react-bootstrap";
 
 const index = () => {
   const tokenExists = localStorage.getItem("token");
@@ -25,6 +26,7 @@ const index = () => {
             Chaser
           </Link>
         </div>
+  
         <div className="headerInfo mobwnav">
           <img
             src="/mailIcon.svg"
@@ -55,7 +57,7 @@ const index = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav
               className="ms-auto"
-              className="ms-auto"
+         
               style={{
                 fontFamily: "Mulish",
                 fontSize: "18px",
@@ -95,13 +97,13 @@ const index = () => {
               ) : (
                 <>
                   <Link to="/process" className="nav-link">
-                    The process
+                    The Process
                   </Link>
                   <Link to="/Trade" className="nav-link">
-                    Trade-in
+                    Trade-In
                   </Link>
                   <Link to="/promise" className="nav-link">
-                    Our promise
+                    Our Promise
                   </Link>
                   <Link
                     to="/DealerPage"
@@ -110,7 +112,7 @@ const index = () => {
                       marginRight: "120px",
                     }}
                   >
-                    Dealer network
+                    Dealer Network
                   </Link>
                 </>
               )}
