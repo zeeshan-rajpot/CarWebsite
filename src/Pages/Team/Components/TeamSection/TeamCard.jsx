@@ -33,11 +33,6 @@ const TeamCard = ({ title, subtitle, image }) => {
           <h4 style={{ color: "#101010", fontWeight: "bold" }}>{title}</h4>
           <p style={{ color: "#3D3D3D", fontSize: "18px" }}>{subtitle}</p>
         </div>
-        <div className="d-flex justify-content-center">
-          <img src="./LinkdIn.svg" alt="LinkdIn_icon" />
-          <img src="./xIcon.svg" alt="X_icon" />
-          <img src="./fbIcon.svg" alt="facebook_icon" />
-        </div>
       </div>
     </>
   );

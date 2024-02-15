@@ -27,7 +27,7 @@ export const HerSection = () => {
       <Row className="herobg">
         <Col lg={5}>
           <div
-            className="mx-auto mobw100 pb-5"
+            className="mx-auto mobw100 pb-3 lwidth"
             style={{
               background: "rgb(60 60 60 / 40%)",
               width: "70%",
@@ -67,13 +67,10 @@ export const HerSection = () => {
                 </select>
               </div>
             ))}
-            <div
-              className="d-flex justify-content-center pb-2  mx-auto"
-              style={{ width: "74%" }}
-            >
+            <div className="d-flex justify-content-center px-5 mt-3">
               <Link
                 to="/Add/Car"
-                className="border-0  text-white px-5 md-px-5 py-2 mt-4 w-100 text-center"
+                className="border-0  text-white py-2  w-100 text-center"
                 style={{ backgroundColor: "#1985D2" }}
               >
                 Signup

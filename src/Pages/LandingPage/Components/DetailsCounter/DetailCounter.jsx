@@ -2,7 +2,7 @@ import React from "react";
 import "./counter.css";
 const DetailCounter = () => {
   return (
-    <div className="counterbg  my-5">
+    <div className="counterbg  mt-5">
       <p
         className="text-center fw-bold "
         style={{ color: "#1985D2", fontSize: "30px", fontWeight: "700" }}
@@ -50,7 +50,7 @@ const DetailCounter = () => {
               borderRight: "2px dashed #1985D2",
             }}
           >
-            <div className="p-3 text-center" >
+            <div className="p-3 text-center">
               <h2
                 className="fw-bold"
                 style={{
@@ -63,7 +63,7 @@ const DetailCounter = () => {
               </h2>
               <h4
                 style={{
-                  marginTop: "2.5em",
+                  marginTop: "2em",
                 }}
               >
                 Happy customers
@@ -84,7 +84,7 @@ const DetailCounter = () => {
               </h2>
               <h4
                 style={{
-                  marginTop: "2.5em",
+                  marginTop: "2em",
                 }}
               >
                 72hrs and its sold

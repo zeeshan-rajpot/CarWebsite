@@ -12,14 +12,14 @@ const TradeHero = () => {
   return (
     <>
       <div
-        className="bgheroSection mb-5 "
+        className="bgheroSection mb-5 bigscreen"
         style={{
           height: "600px",
           backgroundImage: `url("/blue-car-speed-motion-stretch-style 1.png")`,
           backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
+          backgroundSize: "cover !important" ,
           backgroundClip: "padding-box",
-          backgroundPosition: "center",
+          backgroundPosition: "bottom center",
         }}
       >
         <div
@@ -50,9 +50,9 @@ const TradeHero = () => {
             At Car Chaser,
           </span>
           <p
-            className="text-light w-75 mobwteam pt-2 mobhs"
+            className="text-light w-75 mobwteam pt-2 mobhs "
             style={{
-              fontSize: "20px",
+              fontSize: "22px",
             }}
           >
             We've got you covered. Share your needs, and let us assist in
@@ -63,7 +63,7 @@ const TradeHero = () => {
       </div>
 
       <div className="d-none d-md-block">
-        <div className="d-flex justify-content-center align-items-center my-5">
+        <div className="d-flex justify-content-center align-items-center  ">
           <div className="m-auto " style={{ width: "60%" }}>
             <div className="text-start m-auto w-75">
               <p
@@ -75,16 +75,14 @@ const TradeHero = () => {
               >
                 Discover the dealership difference
               </p>
-              <p
+              <p className="tradebigp"
                 style={{
                   color: "#101010",
                   fontSize: "20px",
                   fontWeight: "400",
                 }}
               >
-                We ensure you receive top dollar for your trade-in and a
-                valuable tax credit for your next purchase. Isn't that
-                wonderful?
+                At our dealership, expect top trade-in value and valuable tax credits. Our dedicated team ensures transparent, exceptional service. Visit us today and experience automotive excellence firsthand.
               </p>
             </div>
           </div>
@@ -94,7 +92,7 @@ const TradeHero = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-center align-items-center my-5">
+        <div className="d-flex justify-content-center align-items-center  ">
           <div className="m-auto " style={{ width: "40%" }}>
             <div className="text-end">
               <img src="/image 114.png" alt="" style={{ width: "100%" }} />
@@ -112,6 +110,7 @@ const TradeHero = () => {
                 Convenience at your fingertips
               </p>
               <p
+              className="tradebigp"
                 style={{
                   color: "#101010",
                   fontSize: "20px",
@@ -125,7 +124,7 @@ const TradeHero = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-center align-items-center my-5">
+        <div className="d-flex justify-content-center align-items-center  ">
           <div className="m-auto " style={{ width: "60%" }}>
             <div className="text-start m-auto w-75">
               <p
@@ -138,14 +137,14 @@ const TradeHero = () => {
                 Your satisfaction is our priority
               </p>
               <p
+              className="tradebigp"
                 style={{
                   color: "#101010",
                   fontSize: "20px",
                   fontWeight: "400",
                 }}
               >
-                We are dedicated to providing only quality cars and top-notch
-                service. Connect with your vehicle acquisition specialist today.
+                We're dedicated to quality cars and top-notch service. Connect with your vehicle acquisition specialist today for an exceptional experience in finding your perfect match.
               </p>
             </div>
           </div>

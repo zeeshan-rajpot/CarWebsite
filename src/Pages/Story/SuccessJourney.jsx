@@ -2,7 +2,7 @@ import React from "react";
 
 const SuccessJourney = () => {
   return (
-    <div className="container w-100 my-5 ">
+    <div className="container w-100 mt-5 ">
       <div className="row">
         <div className="col-sm col-12 mt-5">
           <h2 style={{ color: "#1985D2", fontWeight: "bolder" }}>
@@ -13,7 +13,7 @@ const SuccessJourney = () => {
             style={{ color: "#303030", fontSize: "19px" }}
             className="fw-normal mobwstory"
           >
-            <p>
+            <p className="storybigp">
               With a decade of industry experience, comprehends the challenges
               associated with privately selling your car. From the
               time-consuming task of arranging multiple viewings to concerns
@@ -21,7 +21,7 @@ const SuccessJourney = () => {
               sales process itself, we recognize the stress and apprehension
               involved.
             </p>
-            <p>
+            <p className="storybigp">
               In response, we've developed a platform that enables you to sell
               your car securely from the comfort of your home, alleviating
               worries about personal safety, fair pricing, and the time
@@ -29,7 +29,7 @@ const SuccessJourney = () => {
               competing for your vehicle, our platform ensures a swift sale,
               allowing you to carry on with your daily routine.
             </p>
-            <p>
+            <p className="storybigp">
               At Car Chaser, we take on the task of chasing the buyer, so
               you don't have to.
             </p>
@@ -41,7 +41,7 @@ const SuccessJourney = () => {
             alt="mobile"
             style={{
               width: "100%",
-              height: "auto",
+              height: "90%",
             }}
           />
         </div>

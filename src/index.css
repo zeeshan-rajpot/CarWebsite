@@ -11,11 +11,11 @@ a {
 }
 
 .pgreen {
-  color: #1985D2 !important;
+  color: #1985d2 !important;
 }
 
 .porange {
-  color: #1985D2 !important;
+  color: #1985d2 !important;
 }
 /* Track */
 ::-webkit-scrollbar-track {
@@ -25,12 +25,10 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #55B5FA;
-
+  background: #55b5fa;
 }
 
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .mobw100 {
     width: 100% !important;
   }
@@ -51,11 +49,35 @@ a {
     width: 100% !important;
   }
 
+  .mobwstory {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
   .mobwnav {
     display: none !important;
   }
 
-  .mobwstory {
+  .navbar {
+    background-color: #1985d2 !important;
+  }
+
+  .navmcolor {
+    color: #f1f1f1 !important;
+  }
+
+  .navbar-toggler {
+    background: #f1f1f1;
+  }
+
+  .dotsmob {
+    display: none !important;
+  }
+
+  .mobpromisetext {
     width: 100% !important;
+    text-align: center !important;
+    margin-left: 1rem !important;
   }
 }

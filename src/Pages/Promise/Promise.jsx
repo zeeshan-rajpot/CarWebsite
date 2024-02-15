@@ -14,7 +14,7 @@ const Promise = () => {
       </div>
 
       <Container>
-        <Row className="example mb-5 mobwpromise bgimgpromise mobw100">
+        <Row className="example mb-3 mobwpromise bgimgpromise mobw100">
           <Col>
             {" "}
             <h3 className="fw-bold ">Online bidding platform</h3>
@@ -31,11 +31,11 @@ const Promise = () => {
             </p>
           </Col>
         </Row>
-        <Row className="example1  mb-5 bgimgpromise mobw100">
+        <Row className="example1  mb-3 bgimgpromise mobw100">
           <Col>
             {" "}
             <h3
-              className="fw-bold ms-auto  mobw100"
+              className="fw-bold ms-auto  mobw100 pt-3"
               style={{
                 width: "44%",
               }}
@@ -53,7 +53,7 @@ const Promise = () => {
             </p>
           </Col>
         </Row>
-        <Row className="example2 mb-5 bgimgpromise ">
+        <Row className="example2 mb-3 bgimgpromise promiselgp">
           <Col>
             {" "}
             <h3 className="fw-bold mobw100 ">Sell Stress-Free!</h3>
@@ -69,11 +69,11 @@ const Promise = () => {
             </p>
           </Col>
         </Row>
-        <Row className="example3 mb-5 pt-1  bgimgpromise">
+        <Row className="example3 mb-3 pt-1  bgimgpromise">
           <Col>
             {" "}
             <h3
-              className="fw-bold ms-auto mobw100"
+              className="fw-bold ms-auto mobw100 pt-3"
               style={{
                 width: "44%",
               }}
@@ -91,7 +91,7 @@ const Promise = () => {
             </p>
           </Col>
         </Row>
-        <Row className="example4 mb-5  bgimgpromise">
+        <Row className="example4 mb-3  bgimgpromise">
           <Col>
             {" "}
             <h3 className="fw-bold mobw100">Sell with Speed and Security!</h3>
@@ -99,14 +99,14 @@ const Promise = () => {
               style={{
                 width: "46%",
               }}
-              className="mobw100"
+              className="mobw100 pt-3"
             >
               Sell your car in as little as 72 hours with over 300 dealers in
               our network, ensuring quick payment.
             </p>
           </Col>
         </Row>
-        <Row className="example5 mb-4  bgimgpromise">
+        <Row className="example5 mb-3  bgimgpromise promiselgp">
           <Col>
             {" "}
             <h3
@@ -128,10 +128,10 @@ const Promise = () => {
             </p>
           </Col>
         </Row>
-        <Row className="example6 mb-5 pt-5  bgimgpromise">
+        <Row className="example6 mb-3  bgimgpromise promiselgp">
           <Col>
             {" "}
-            <h3 className="fw-bold mobw100">
+            <h3 className="fw-bold mobw100 pt-3">
               Say Goodbye to Paperwork Hassles!
             </h3>
             <p
@@ -146,7 +146,7 @@ const Promise = () => {
             </p>
           </Col>
         </Row>
-        <Row className="example7 mb-5  bgimgpromise">
+        <Row className="example7 mb-3  bgimgpromise">
           <Col>
             {" "}
             <h3
@@ -168,7 +168,7 @@ const Promise = () => {
             </p>
           </Col>
         </Row>
-        <Row className="example8 mb-5  bgimgpromise">
+        <Row className="example8 mb-3  bgimgpromise promiselgp">
           <Col>
             {" "}
             <h3

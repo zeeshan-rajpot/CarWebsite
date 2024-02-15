@@ -6,7 +6,7 @@ import Footer from "../../Components/Footer/index";
 import "./landingPage.css";
 import HerSection from "./Components/HeroSection/HerSection";
 import CrouselSection from "./Components/CrouselSection/index.jsx";
-// import BookAppointmentConfirm from "./demo.jsx";
+import BookAppointmentConfirm from "./demo.jsx";
 const index = () => {
   return (
     <>
@@ -15,12 +15,12 @@ const index = () => {
       <DetailCounter />
       <MobileDownload />
       <div
-        className="carBg my-5"
-        style={
-          {
-            // height: "100vh",
-          }
-        }
+        className="carBg mb-5"
+        style={{
+          marginTop: "-5rem",
+          zIndex: "+5",
+          position: "relative",
+        }}
       >
         <p
           style={{
@@ -53,7 +53,7 @@ const index = () => {
       <CrouselSection />
       <Footer />
 
-      {/* <BookAppointmentConfirm/> */}
+      {/* <BookAppointmentConfirm /> */}
     </>
   );
 };

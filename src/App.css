@@ -152,3 +152,22 @@ html {
     --bs-modal-width: 930px;
   }
 }
+
+
+.storybigp{
+  /* font-size: 24px !important; */
+  text-align: justify !important;
+ }
+ .visionbigp{
+  text-align: justify !important;
+ }
+/* large screen  */
+@media (min-width: 1700px)  {
+  .tradebigp{
+    font-size: 29px !important;
+   }
+   .storybigp{
+    font-size: 24px !important;
+    text-align: justify !important;
+   }
+}

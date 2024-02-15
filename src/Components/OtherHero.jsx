@@ -9,7 +9,7 @@ const OtherHero = (props) => {
         className="bgimg d-flex align-items-center justify-content-center flex-column text-center"
         style={{
           backgroundImage: `url("${props.img}")`,
-          backgroundPosition: "center ",
+          backgroundPosition: "top center ",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundClip: "padding-box",
