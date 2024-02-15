@@ -29,7 +29,7 @@ export const HerSection = () => {
           <div
             className="mx-auto mobw100 pb-5"
             style={{
-              background: "rgba(0, 0, 0, 0.40)",
+              background: "rgb(60 60 60 / 40%)",
               width: "70%",
             }}
           >
@@ -71,7 +71,8 @@ export const HerSection = () => {
               className="d-flex justify-content-center pb-2  mx-auto"
               style={{ width: "74%" }}
             >
-              <Link to='/Add/Car'
+              <Link
+                to="/Add/Car"
                 className="border-0  text-white px-5 md-px-5 py-2 mt-4 w-100 text-center"
                 style={{ backgroundColor: "#1985D2" }}
               >

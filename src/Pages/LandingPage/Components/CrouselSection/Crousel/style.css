@@ -1,21 +1,4 @@
-/* CustomCarousel.css */
-.carousel-indicators {
-  display: none;
-}
-
-.arrow {
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.left-arrow {
-  transform: rotate(90deg);
-}
-
-.right-arrow {
-  transform: rotate(-90deg);
-}
-
-.small-image {
-  max-height: 300px;
+.slick-arrow::before,
+.slick-arrow::before {
+  color: black;
 }

@@ -50,7 +50,7 @@ const index = () => {
         </p>
       </div>
 
-      {/* <CrouselSection /> */}
+      <CrouselSection />
       <Footer />
 
       {/* <BookAppointmentConfirm/> */}
