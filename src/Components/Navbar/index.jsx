@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
-import { Col } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 const index = () => {
   const tokenExists = localStorage.getItem("token");
@@ -20,13 +20,24 @@ const index = () => {
           display: "flex",
         }}
       >
-        <div className="headingMain z-1 mobwnav">
-          <Link to="/">
-            <img src="/download.png" alt="" srcset="" height="80px" /> Car
-            Chaser
-          </Link>
+        <div className="headingMain z-1 mobwnav mobvlogo">
+          {tokenExists ? (
+            <>
+              <Link to="/Dashbord">
+                <img src="/download.png" alt="" srcset="" height="80px" /> Car
+                Chaser
+              </Link>
+            </>
+          ) : (
+            <>
+              <Link to="/">
+                <img src="/download.png" alt="" srcset="" height="80px" /> Car
+                Chaser
+              </Link>
+            </>
+          )}
         </div>
-  
+
         <div className="headerInfo mobwnav">
           <img
             src="/mailIcon.svg"
@@ -52,7 +63,13 @@ const index = () => {
         </div>
       </div>
       <Navbar expand="lg">
-        <Container>
+        <Container className="mobv">
+          <div className="d-flex  align-items-center navmcolor fw-bolder">
+            <Link to="/">
+              <img src="/download.png" height="40px" className="me-2" />
+              Car Chaser
+            </Link>
+          </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav
@@ -67,53 +84,53 @@ const index = () => {
             >
               {tokenExists ? (
                 <>
-                  <div className="d-flex  align-items-center">
-                    <Link to="/Dashbord" className="nav-link">
+                  <div className="d-flex  align-items-center ">
+                    <NavLink to="/Dashbord" className="nav-link navmcolor">
                       Home
-                    </Link>
-                    <Link to="/Add" className="nav-link">
+                    </NavLink>
+                    <NavLink to="/Add" className="nav-link navmcolor">
                       Add
-                    </Link>
-                    <Link to="/Recent" className="nav-link">
+                    </NavLink>
+                    <NavLink to="/Recent" className="nav-link navmcolor">
                       Recent
-                    </Link>
-                    <Link to="/Previous" className="nav-link">
+                    </NavLink>
+                    <NavLink to="/Previous" className="nav-link navmcolor">
                       Previous
-                    </Link>
-                    <Link
+                    </NavLink>
+                    <NavLink
                       to="/Chat"
-                      className="nav-link"
+                      className="nav-link navmcolor"
                       style={{
                         marginRight: "120px",
                       }}
                     >
                       Chat
-                    </Link>
-                    <Link to="/Notification">
+                    </NavLink>
+                    <NavLink to="/Notification">
                       <img src="/Group 10249.svg" alt="" />
-                    </Link>
+                    </NavLink>
                   </div>
                 </>
               ) : (
                 <>
-                  <Link to="/process" className="nav-link">
+                  <NavLink to="/process" className="nav-link navmcolor">
                     The Process
-                  </Link>
-                  <Link to="/Trade" className="nav-link">
+                  </NavLink>
+                  <NavLink to="/Trade" className="nav-link navmcolor">
                     Trade-In
-                  </Link>
-                  <Link to="/promise" className="nav-link">
+                  </NavLink>
+                  <NavLink to="/promise" className="nav-link navmcolor">
                     Our Promise
-                  </Link>
-                  <Link
+                  </NavLink>
+                  <NavLink
                     to="/DealerPage"
-                    className="nav-link"
+                    className="nav-link navmcolor"
                     style={{
                       marginRight: "120px",
                     }}
                   >
                     Dealer Network
-                  </Link>
+                  </NavLink>
                 </>
               )}
 
@@ -155,7 +172,7 @@ const index = () => {
                         color: "#1985D2",
                         clipPath: "polygon(24% 0, 100% 0%, 100% 100%, 0% 100%)",
                       }}
-                      className="px-3 nav-link"
+                      className="px-3 nav-link navmcolor"
                     >
                       Sign-Up
                     </Link>

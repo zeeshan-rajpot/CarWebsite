@@ -5,7 +5,7 @@ export const index = () => {
     <div>
       <div className="mt-5 text-center">
         <p
-          className="my-0 mt-5 fw-bold"
+          className="my-0 mt-5 fw-bold mobhl"
           style={{ color: "#030303", fontWeight: "400", fontSize: "48px" }}
         >
           Over Customers trust us

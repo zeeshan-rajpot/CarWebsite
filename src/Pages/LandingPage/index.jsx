@@ -15,12 +15,12 @@ const index = () => {
       <DetailCounter />
       <MobileDownload />
       <div
-        className="carBg my-5"
-        style={
-          {
-            // height: "100vh",
-          }
-        }
+        className="carBg mb-5"
+        style={{
+          marginTop: "-5rem",
+          zIndex: "+5",
+          position: "relative",
+        }}
       >
         <p
           style={{
@@ -53,7 +53,7 @@ const index = () => {
       <CrouselSection />
       <Footer />
 
-      <BookAppointmentConfirm/>
+      {/* <BookAppointmentConfirm /> */}
     </>
   );
 };

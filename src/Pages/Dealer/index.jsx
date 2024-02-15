@@ -92,9 +92,11 @@ export const index = () => {
           <Col
             md={2}
             sm={1}
+            xs={1}
             style={{
               marginLeft: "22px",
             }}
+            className="dotsmob"
           >
             <div className="d-flex flex-column  justify-content-start justify-content-md-end  align-items-start align-items-md-end ">
               {numbers.map((number, index) => (
@@ -145,36 +147,36 @@ export const index = () => {
               ))}
             </div>
           </Col>
-          <Col lg={9} md={9} xs={9} sm={10}>
-            <div className="text-start">
+          <Col lg={9} md={9} xs={11} sm={10}>
+            <div className="text-start mobpromisetext">
               <div>
-                <p className="para mobhm mobht" style={{ marginTop: "28px" }}>
+                <p className="para mobhm mobht " style={{ marginTop: "32px" }}>
                   Access to over 100 vehicles ready for bidding
                 </p>
               </div>
               <div>
-                <p className="para mobhm" style={{ marginTop: "53px" }}>
+                <p className="para mobhm" style={{ marginTop: "63px" }}>
                   High-quality, handpicked vehicles available
                 </p>
               </div>
               <div>
-                <p className="para mobhm" style={{ marginTop: "55px" }}>
+                <p className="para mobhm" style={{ marginTop: "64px" }}>
                   Detailed car reports outlining the condition of each vehicle
                 </p>
               </div>
               <div>
-                <p className="para mobhm" style={{ marginTop: "55px" }}>
+                <p className="para mobhm" style={{ marginTop: "60px" }}>
                   We handle the sourcing and selection of vehicles, saving you
                   time
                 </p>
               </div>
               <div>
-                <p className="para mobhm" style={{ marginTop: "55px" }}>
+                <p className="para mobhm" style={{ marginTop: "64px" }}>
                   Streamlined paperwork, payment, and delivery processes
                 </p>
               </div>
               <div>
-                <p className="para mobhm" style={{ marginTop: "55px" }}>
+                <p className="para mobhm" style={{ marginTop: "60px" }}>
                   Committed to the success of your dealership
                 </p>
               </div>
@@ -204,13 +206,13 @@ export const index = () => {
           last month."
         </p>
         <p
-          className="text-start para2 m-auto mobhm"
+          className="text-start para2 m-auto mobhm delerpagelg"
           style={{ color: "#1985D2", fontSize: "28px", fontWeight: "600" }}
         >
           Trusted dealer
         </p>
         <p
-          className="text-start para2 m-auto pb-5 mobhm"
+          className="text-start para2 m-auto pb-5 mobhm delerpagelg"
           style={{ color: "#030303", fontSize: "28px", fontWeight: "600" }}
         >
           Mississauga, Toronto

@@ -2,17 +2,20 @@ import React from "react";
 
 const MobileDownload = () => {
   return (
-    <div className="container w-100 my-5 ">
+    <div className="container">
       <div className="row">
-        <div className="col-sm col-12 mt-5 d-flex align-items-start justify-content-center flex-column">
+        <div
+          className="col-md-6 col-12  mobm mobh"
+          style={{
+            marginLeft: "5rem",
+            paddingTop: "6rem",
+          }}
+        >
           <p
             className="fw-bold"
-            style={{
-              fontSize: "36px",
-              fontWeight: "400",
-            }}
+            style={{ fontSize: "36px", fontWeight: "400" }}
           >
-            You can also download car chaser mobile app
+            You can also download the Car Chaser mobile app
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -21,24 +24,16 @@ const MobileDownload = () => {
             con
           </p>
           <h5 style={{ color: "#1985D2" }}>Install Now</h5>
-          <div
-            className="d-flex"
-            style={{
-              marginLeft: "-10px",
-            }}
-          >
-            <img src="./appstoreicon.svg" alt="appstoreButton" />
-            <img src="./playstoreicon.svg" alt="playstorebutton" />
+          <div className="d-flex" style={{ marginLeft: "-10px" }}>
+            <img src="./appstoreicon.svg" alt="App Store Button" />
+            <img src="./playstoreicon.svg" alt="Play Store Button" />
           </div>
         </div>
-        <div className="col-md col-12 text-center ">
+        <div className="col-md-5 col-12 ">
           <img
             src="./mobile.png"
-            alt="mobile"
-            style={{
-              width: "120%",
-              height: "auto",
-            }}
+            alt="Mobile"
+            style={{ width: "130%", height: "auto" }}
           />
         </div>
       </div>

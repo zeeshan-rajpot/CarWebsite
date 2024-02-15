@@ -4,7 +4,7 @@
 }
 
 .bgFooter {
-  background-image: url("/public/footerBg.svg");
+  background-image: url("/footerBg.svg");
   background-repeat: no-repeat;
   position: absolute;
   bottom: 0;

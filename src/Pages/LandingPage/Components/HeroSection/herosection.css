@@ -1,8 +1,25 @@
 .herobg {
-  background-image: url('/bgHero.png');
-  width: auto;
-  height: 100vh;
+  background-image: url("/bgHero.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; /* Use background-size instead of object-fit */
+  background-size: cover;
+  height: 600px;
+}
+
+@media screen and (min-width: 1600px) {
+  /* CSS rules for screens larger than a laptop (1200px wide) */
+  .herobg {
+    height: 800px;
+  }
+
+  .lwidth {
+    width: 50% !important;
+    padding-bottom: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobm {
+    margin: 0 !important;
+  }
 }

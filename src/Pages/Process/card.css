@@ -9,12 +9,13 @@
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom left, center left, top right;
   background-size: cover, cover, cover;
-  padding-bottom: 150px !important;
+  padding-bottom: 80px !important;
 }
 
 .cardWidth {
-  width: 85% !important;
+  width: 75% !important;
 }
 .modal-content{
   border: 0 !important;
 }
+
