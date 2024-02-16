@@ -56,9 +56,10 @@ export const index = () =>
             ) ) }
           </Row>
           <Row className=' mt-3' >
-            <Col lg={ 6 } xs={ 12 }>
+            <Col lg={ 6 } xs={ 12 } className='mobvstep2'>
               <img src='/6042 [Converted].svg ' alt=''
                 style={ ImgforCol }
+               
               />
             </Col>
           </Row>

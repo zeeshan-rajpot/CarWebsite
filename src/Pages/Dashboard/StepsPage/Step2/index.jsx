@@ -92,7 +92,7 @@ export const index = () => {
               <input className='shadow p-2 rounded-5 w-100 ms-0 mt-2' type="text" placeholder='' />
             </div> */}
           </Col>
-          <Col lg={6}>
+          <Col lg={6} className="mobvstep2">
             <img src="/06_20man11 [Converted].svg" alt="" />
           </Col>
         </Row>

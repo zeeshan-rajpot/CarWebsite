@@ -65,16 +65,26 @@ const index = () => {
       <Navbar expand="lg">
         <Container className="mobv">
           <div className="d-flex  align-items-center navmcolor fw-bolder">
-            <Link to="/">
-              <img src="/download.png" height="40px" className="me-2" />
-              Car Chaser
-            </Link>
+            {tokenExists ? (
+              <>
+                <Link to="/Dashbord">
+                  <img src="/download.png" height="40px" className="me-2" />
+                  Car Chaser
+                </Link>
+              </>
+            ) : (
+              <>
+                <Link to="/">
+                  <img src="/download.png" height="40px" className="me-2" />
+                  Car Chaser
+                </Link>
+              </>
+            )}
           </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav
               className="ms-auto"
-
               style={{
                 fontFamily: "Mulish",
                 fontSize: "18px",
@@ -84,7 +94,7 @@ const index = () => {
             >
               {tokenExists ? (
                 <>
-                  <div className="d-flex  align-items-center ">
+                  <div className="d-flex  align-items-center mobnavw">
                     <NavLink to="/Dashbord" className="nav-link navmcolor">
                       Home
                     </NavLink>
@@ -99,7 +109,7 @@ const index = () => {
                     </NavLink>
                     <NavLink
                       to="/Chat"
-                      className="nav-link navmcolor"
+                      className="nav-link navmcolor navmw1"
                       style={{
                         marginRight: "120px",
                       }}
@@ -113,18 +123,27 @@ const index = () => {
                 </>
               ) : (
                 <>
-                  <NavLink to="/process" className="nav-link navmcolor">
+                  <NavLink
+                    to="/process"
+                    className="nav-link navmcolor navmcenter"
+                  >
                     The Process
                   </NavLink>
-                  <NavLink to="/Trade" className="nav-link navmcolor">
+                  <NavLink
+                    to="/Trade"
+                    className="nav-link navmcolor navmcenter"
+                  >
                     Trade-In
                   </NavLink>
-                  <NavLink to="/promise" className="nav-link navmcolor">
+                  <NavLink
+                    to="/promise"
+                    className="nav-link navmcolor navmcenter"
+                  >
                     Our Promise
                   </NavLink>
                   <NavLink
                     to="/DealerPage"
-                    className="nav-link navmcolor"
+                    className="nav-link navmcolor navmcenter"
                     style={{
                       marginRight: "120px",
                     }}
@@ -144,14 +163,14 @@ const index = () => {
                       color: "#FFFFFF",
                       // clipPath: "polygon(0 0, 100% 0%, 83% 100%, 0% 100%)",
                     }}
-                    className="px-4 nav-link"
+                    className="px-4 nav-link text-center"
                   >
                     Logout
                   </Link>
                 </>
               ) : (
                 <>
-                  <div className="d-flex justify-content-end">
+                  <div className="d-flex justify-content-end movnbuttons">
                     {" "}
                     {/* Added justify-content-end class */}
                     <Link
@@ -166,7 +185,7 @@ const index = () => {
                       Sign-in
                     </Link>
                     <Link
-                      to="/Logout"
+                      to="/SignUp"
                       style={{
                         border: "1px solid #1985D2",
                         color: "#1985D2",

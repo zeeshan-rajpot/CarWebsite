@@ -150,12 +150,12 @@ export const index = () => {
           <Col lg={9} md={9} xs={11} sm={10}>
             <div className="text-start mobpromisetext">
               <div>
-                <p className="para mobhm mobht " style={{ marginTop: "32px" }}>
+                <p className="para mobhm mobht " style={{ marginTop: "26px" }}>
                   Access to over 100 vehicles ready for bidding
                 </p>
               </div>
               <div>
-                <p className="para mobhm" style={{ marginTop: "63px" }}>
+                <p className="para mobhm" style={{ marginTop: "50px" }}>
                   High-quality, handpicked vehicles available
                 </p>
               </div>
@@ -171,7 +171,7 @@ export const index = () => {
                 </p>
               </div>
               <div>
-                <p className="para mobhm" style={{ marginTop: "64px" }}>
+                <p className="para mobhm" style={{ marginTop: "44px" }}>
                   Streamlined paperwork, payment, and delivery processes
                 </p>
               </div>

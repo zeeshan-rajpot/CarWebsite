@@ -8,43 +8,11 @@ export const index = () => {
     <div>
       <Navbar />
 
-      <div className="contactbg">
-        {/* <div className="text-center pt-4">
-          <p
-            className="mt-5 pt-4"
-            style={{
-              color: "#FFFFFF",
-              fontWeight: "500",
-              fontSize: "30px",
-            }}
-          >
-            Contact us
-          </p>
-        </div>
-        <div className="d-flex justify-content-center align-items-center">
-          <div
-            className="mt-4"
-            style={{
-              backgroundColor: "rgba(255, 255, 255, 0.20)",
-              display: "inline-flex",
-              padding: "14px 75px",
-              alignItems: "flex-end",
-              gap: "20px",
-            }}
-          >
-            <img src="/ic_round-phone.svg" alt="" />
-            <img src="/ic_round-email.svg" alt="" />
-            <img src="/bi_chat-dots-fill.svg" alt="" />
-            <img src="/mdi_contact.svg" alt="" />
-          </div>
-        </div> */}
-      </div>
-
+      <div className="contactbg"></div>
       <Container>
-        {" "}
         <Row className="my-5 ">
-          <Col lg={7}>
-            <div className="px-5">
+          <Col xs={12} md={6}>
+            <div className="px-2">
               <p
                 className="my-4 "
                 style={{
@@ -134,8 +102,14 @@ export const index = () => {
               </p>
             </div>
           </Col>
-          <Col lg={5}>
-            <img src="./contactusSideimage.png" alt="" />
+          <Col xs={12} md={6}>
+            <img
+              src="/contactusSideimage.png"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </Col>
         </Row>
       </Container>
