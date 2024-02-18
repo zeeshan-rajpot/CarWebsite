@@ -34,6 +34,7 @@ const MobileDownload = () => {
             src="./mobile.png"
             alt="Mobile"
             style={{ width: "130%", height: "auto" }}
+            className="mobvimg"
           />
         </div>
       </div>

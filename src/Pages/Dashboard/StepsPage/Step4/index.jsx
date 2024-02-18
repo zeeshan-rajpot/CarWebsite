@@ -53,14 +53,14 @@ export const index = () =>
             </Row>
             <Row className=' mt-3 d-md-flex justify-content-between align-items-center' >
               { initialSmallContent.map( ( item, index ) => (
-                <Col key={ index } lg={ 4 } xs={ 4 }>
+                <Col key={ index } lg={ 4 } xs={ 6 }>
                   <CheckSmallBox content={ item } />
                 </Col>
               ) ) }
             </Row>
           </div>
           <Row className=' mt-3' >
-            <Col lg={ 6 } xs={ 12 }>
+            <Col lg={ 6 } xs={ 12 } className='mobvstep2'>
               <img src='/k6k9_yzmq_220226 [Converted].svg' alt=''
                 style={ ImgforCol }
               />
