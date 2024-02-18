@@ -54,7 +54,7 @@ a {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 985px) {
   .mobwnav {
     display: none !important;
   }
@@ -77,7 +77,45 @@ a {
 
   .mobpromisetext {
     width: 100% !important;
-    text-align: center !important;
+
     margin-left: 1rem !important;
+  }
+
+  .mobnavw {
+    flex-direction: column;
+  }
+
+  .navmw1 {
+    margin-left: 7.5rem !important;
+  }
+
+  .mobvstep2 {
+    display: none !important;
+  }
+
+  .mobvstep6 {
+    padding-bottom: 2rem !important;
+  }
+
+  .navmcenter {
+    text-align: center;
+    margin: 0 !important;
+  }
+
+  .movnbuttons {
+    justify-content: center !important;
+  }
+
+  .mobvrecent {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .mobvimg {
+    height: 108% !important;
+  }
+
+  .mobvcontactimg {
+    margin-left: -2rem !important;
   }
 }

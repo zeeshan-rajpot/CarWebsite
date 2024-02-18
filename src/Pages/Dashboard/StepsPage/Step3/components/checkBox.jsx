@@ -19,7 +19,7 @@ export const checkBox = ( { content } ) =>
 
   const textStyles = {
     color: isActive ? '#515151' : '#959595',
-    fontSize: isMobile ? '12px' : '16px',
+    fontSize: isMobile ? '10px' : '16px',
     fontWeight: '400',
   };
   const notActiveStyle = {
@@ -45,7 +45,7 @@ export const checkBox = ( { content } ) =>
         </Col>
         <Col xs={ 9 } lg={ 10 } onClick={ toggleCheckBox }>
           <div className='shadow Para ms-0 ms-md-2 ms-7' style={ Para }>
-            <p className=' my-0 text-start p-1 p-md-2 ' style={ textStyles } >
+            <p className=' my-0 text-start p-2 p-md-2 ' style={ textStyles } >
               { content }
             </p>
           </div>

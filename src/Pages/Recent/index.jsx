@@ -45,12 +45,12 @@ const Recent = () => {
               md={12}
               className='mt-3 rounded-5 shadow pe-0 w-75 m-auto '
             >
-              <div className='d-flex'>
+              <div className='d-flex mobvrecent pb-5'>
                 <div>
                   <img
                     src={car.imageSrc}
                     alt=''
-                    style={{ width: '386px', height: '240px' }}
+                    style={{ width: '100%', height: 'auto' }}
                   />
                 </div>
                 <div className='w-100'>

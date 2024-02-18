@@ -70,9 +70,7 @@ function Dashboard() {
                   position: "relative",
                 }}
               >
-                {index < currentStep && (
-                  <img src="/checkboxTick.svg" alt="Checkbox" />
-                )}
+                {index < currentStep && <img src="/Fill4.svg" alt="Checkbox" />}
               </div>
               {index < stepsContent.length - 2 && (
                 <div
@@ -94,8 +92,15 @@ function Dashboard() {
           </Col>
         </Row>
 
-        <Row className="d-flex justify-content-center align-items-center my-5">
-          <Col lg={4}>
+        <Row className="d-flex justify-content-center align-items-center mb-5">
+          <Col
+            lg={4}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginBottom: "10px",
+            }}
+          >
             {currentStep !== 0 && (
               <button
                 className="w-75 p-2 rounded-5"
@@ -110,14 +115,24 @@ function Dashboard() {
               </button>
             )}
           </Col>
-          <Col lg={4}>
+          <Col
+            lg={4}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
             {allStepsCompleted ? (
               <div>
                 {/* <h1>Hello</h1> */}
                 <Link to="/Login">
                   <button
-                    className="w-75 p-2 rounded-5 border-0"
-                    style={{ backgroundColor: "#1985D2", color: "#FFFFFF" }}
+                    className="w-100  rounded-5 border-0"
+                    style={{
+                      backgroundColor: "#1985D2",
+                      color: "#FFFFFF",
+                      padding: "0.6rem 6.8rem",
+                    }}
                   >
                     Confirm
                   </button>
