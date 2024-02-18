@@ -1,16 +1,18 @@
 import React from "react";
-import Navbar from "../../Components/Navbar/index";
+
 import DetailCounter from "./Components/DetailsCounter/DetailCounter";
 import MobileDownload from "./Components/MobileDownload/MobileDownload";
 import Footer from "../../Components/Footer/index";
 import "./landingPage.css";
 import HerSection from "./Components/HeroSection/HerSection";
 import CrouselSection from "./Components/CrouselSection/index.jsx";
+import Navbar from "../../Components/NewNavbar.jsx";
 // import BookAppointmentConfirm from "./demo.jsx";
 const index = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Navbar/>
       <HerSection />
       <DetailCounter />
       <MobileDownload />

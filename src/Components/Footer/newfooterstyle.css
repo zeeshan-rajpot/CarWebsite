@@ -1,0 +1,40 @@
+.footerbgdiv{
+    background-image: url('/liquid_coloured_gradient_background_in_shades_of_blue_vector_illustration.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+    padding: 100px 20px;
+
+}
+.footerlink{
+    margin: 0 !important;
+}
+.footerheading{
+    font-size: 16px !important;
+}
+.border-bottom-footer{
+    border-bottom: 2px solid white !important ;
+}
+
+@media (min-width: 600px) {
+    .footerlink{
+    font-size: 13px !important;
+    }
+  
+    
+  }
+
+  @media (max-width: 600px) {
+    .footerlink{
+    font-size: 13px !important;
+    }
+    .footerheading{
+        font-size: 19px !important;
+    }
+    .border-bottom-footer{
+        border-bottom: none !important;
+    }
+    
+  }
