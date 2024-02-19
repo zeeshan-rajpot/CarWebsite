@@ -1,13 +1,21 @@
 import React from 'react';
-import Navbar from '../../Components/Navbar/index';
+
 import Footer from '../../Components/Footer/index';
-import TradeHero from './TradeHero';
+// import TradeHero from './TradeHero';
+import Navbar from '../../Components/NewNavbar';
+import HeroSection from './NewHero';
+import NewFooter from '../../Components/Footer/NewFooter';
 const Trade = () => {
   return (
     <>
       <Navbar />
-      <TradeHero />
-      <Footer />
+
+      {/* <TradeHero /> */}
+      <HeroSection/>
+      <NewFooter/>
+
+
+      {/* <Footer /> */}
     </>
   );
 };
