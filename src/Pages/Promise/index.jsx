@@ -1,6 +1,8 @@
 import React from "react";
-import Navbar from "../../Components/Navbar/index";
-import Footer from "../../Components/Footer/index";
+import Navbar from "../../Components/NewNavbar";
+// import Footer from "../../Components/Footer/index";
+import NewFooter from "../../Components/Footer/NewFooter";
+
 import OtherHero from "../../Components/OtherHero";
 import Promise from "./Promise";
 
@@ -14,7 +16,8 @@ export const index = () => {
         <Promise />
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
+      <NewFooter />
     </div>
   );
 };

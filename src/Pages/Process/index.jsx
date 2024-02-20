@@ -1,8 +1,10 @@
 import React from "react";
-import Navbar from "../../Components/Navbar/index";
-import Footer from "../../Components/Footer/index";
+// import Footer from "../../Components/Footer/index";
+import NewFooter from "../../Components/Footer/NewFooter";
 import OtherHero from "../../Components/OtherHero";
 import ProcessSection from "./ProcessSection";
+import Navbar from '../../Components/NewNavbar';
+
 
 const index = () => {
   return (
@@ -18,7 +20,8 @@ const index = () => {
 
       <ProcessSection />
       </div>
-      <Footer />
+      {/* <Footer /> */}
+      <NewFooter/>
     </>
   );
 };
