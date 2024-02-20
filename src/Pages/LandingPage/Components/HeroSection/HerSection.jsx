@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "./herosection.css";
 import { Link } from "react-router-dom";
+
 export const HerSection = () => {
   const generateRandomOptions = (label, count) => {
     const options = Array.from(
@@ -13,18 +14,111 @@ export const HerSection = () => {
   const dummyCarData = [
     {
       label: "Location",
-      options: ["Sidney", "New York", "Los Angeles", "London"],
+      options: [
+        "California",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "London",
+        "Los Angeles",
+        "Massachusetts",
+        "Michigan",
+        "New Jersey",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Pennsylvania",
+        "Sidney",
+        "Tennessee",
+        "Texas",
+        "Virginia",
+        "Washington",
+      ],
     },
-    { label: "Vin number", options: ["ABC123", "DEF456", "GHI789"] },
-    { label: "Year", options: ["2010", "2015", "2020"] },
-    { label: "Make", options: ["Toyota", "Honda", "Ford", "Chevrolet"] },
-    { label: "Model", options: generateRandomOptions("Model", 5) },
-    { label: "Trim", options: generateRandomOptions("Trim", 3) },
-    { label: "Mileage(KM)", options: generateRandomOptions("Mileage", 10) },
+    { label: "Vin number" },
+    {
+      label: "Year",
+      options: [
+        "2000",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2022",
+      ],
+    },
+    {
+      label: "Make",
+      options: [
+        "Audi",
+        "BMW",
+        "Buick",
+        "Chevrolet",
+        "Ford",
+        "Honda",
+        "Hyundai",
+        "Jeep",
+        "Kia",
+        "Lexus",
+        "Mazda",
+        "Mercedes-Benz",
+        "Nissan",
+        "Subaru",
+        "Tesla",
+        "Toyota",
+        "Volkswagen",
+        "Volvo",
+      ],
+    },
+    {
+      label: "Model",
+      options: [
+        "Toyota Camry",
+        "Honda Civic",
+        "Ford Mustang",
+        "Chevrolet Silverado",
+        "BMW 3 Series",
+        "Mercedes-Benz E-Class",
+        "Audi A4",
+        "Nissan Altima",
+        "Hyundai Sonata",
+        "Kia Optima",
+        "Volkswagen Jetta",
+        "Volvo XC90",
+        "Subaru Outback",
+        "Jeep Wrangler",
+        "Tesla Model S",
+        "Lexus RX",
+        "Mazda CX-5",
+        "Buick Encore",
+      ],
+    },
+    { label: "Trim", options: ["4WD", "AWD", "FWD", "RWD"] },
+    { label: "Mileage(KM)" },
   ];
   return (
     <>
-      <Row className="herobg">
+      <Row
+        className="herobg heroPadding"
+        style={{
+          paddingBottom: "35rem ",
+        }}
+      >
         <Col lg={5}>
           <div
             className="mx-auto mobw100 pb-3 lwidth"
@@ -57,14 +151,23 @@ export const HerSection = () => {
             </div>
             {dummyCarData.map((data, index) => (
               <div key={index} className="px-5 md-px-5 pt-3">
-                <select className="w-100 p-2" style={{ color: "#777777" }}>
-                  <option value="">{data.label}</option>
-                  {data.options.map((option, optionIndex) => (
-                    <option key={optionIndex} value={option}>
-                      {option}
-                    </option>
-                  ))}
-                </select>
+                {data.label === "Vin number" || data.label === "Mileage(KM)" ? (
+                  <input
+                    type="text"
+                    className="w-100 p-2 cinput"
+                    placeholder={data.label}
+                    style={{ color: "#777777" }}
+                  />
+                ) : (
+                  <select className="w-100 p-2" style={{ color: "#777777" }}>
+                    <option value="">{data.label}</option>
+                    {data.options.map((option, optionIndex) => (
+                      <option key={optionIndex} value={option}>
+                        {option}
+                      </option>
+                    ))}
+                  </select>
+                )}
               </div>
             ))}
             <div className="d-flex justify-content-center px-5 mt-3">

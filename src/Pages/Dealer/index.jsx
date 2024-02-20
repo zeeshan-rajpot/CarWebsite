@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import Footer from "../../Components/Footer/index";
-import Navbar from "../../Components/Navbar/index";
+// import Footer from "../../Components/Footer/index";
+import NewFooter from "../../Components/Footer/NewFooter";
+import Navbar from "../../Components/NewNavbar";
 import "./style.css";
 
 export const index = () => {
@@ -10,7 +11,12 @@ export const index = () => {
     <div>
       <Navbar />
 
-      <div className="herosectionbgg">
+      <div
+        className="herosectionbgg heroPadding"
+        style={{
+          paddingBottom: "3rem",
+        }}
+      >
         <div className="pt-5 pb-5 container">
           <div
             className="ms-0 mobw100  w-50"
@@ -218,7 +224,8 @@ export const index = () => {
           Mississauga, Toronto
         </p>
       </div>
-      <Footer />
+      {/* <Footer /> */}
+      <NewFooter />
     </div>
   );
 };

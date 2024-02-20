@@ -1,6 +1,7 @@
 import React from "react";
-import Navbar from "../../Components/Navbar/index";
-import Footer from "../../Components/Footer/index";
+import Navbar from "../../Components/NewNavbar";
+// import Footer from "../../Components/Footer/index";
+import NewFooter from "../../Components/Footer/NewFooter";
 import { Row, Col, Container } from "react-bootstrap";
 import "./style.css";
 export const index = () => {
@@ -114,7 +115,8 @@ export const index = () => {
         </Row>
       </Container>
 
-      <Footer />
+      {/* <Footer /> */}
+      <NewFooter />
     </div>
   );
 };

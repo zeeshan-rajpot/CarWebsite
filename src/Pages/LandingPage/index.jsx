@@ -2,7 +2,8 @@ import React from "react";
 
 import DetailCounter from "./Components/DetailsCounter/DetailCounter";
 import MobileDownload from "./Components/MobileDownload/MobileDownload";
-import Footer from "../../Components/Footer/index";
+// import Footer from "../../Components/Footer/index";
+import NewFooter from "../../Components/Footer/NewFooter";
 import "./landingPage.css";
 import HerSection from "./Components/HeroSection/HerSection";
 import CrouselSection from "./Components/CrouselSection/index.jsx";
@@ -12,7 +13,7 @@ const index = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <Navbar/>
+      <Navbar />
       <HerSection />
       <DetailCounter />
       <MobileDownload />
@@ -53,8 +54,7 @@ const index = () => {
       </div>
 
       <CrouselSection />
-      <Footer />
-
+      <NewFooter />
       {/* <BookAppointmentConfirm/> */}
     </>
   );

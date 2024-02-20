@@ -6,7 +6,7 @@ const OtherHero = (props) => {
   return (
     <>
       <div
-        className="bgimg d-flex align-items-center justify-content-center flex-column text-center"
+        className="bgimg d-flex align-items-center justify-content-center flex-column text-center heroPadding"
         style={{
           backgroundImage: `url("${props.img}")`,
           backgroundPosition: "top center ",

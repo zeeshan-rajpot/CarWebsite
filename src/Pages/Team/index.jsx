@@ -1,7 +1,6 @@
 import React from "react";
-import Navbar from "../../Components/Navbar/index";
-import Footer from "../../Components/Footer/index";
-import HeroSection from "./Components/HeroSection/HeroSection";
+import Navbar from "../../Components/NewNavbar";
+import NewFooter from "../../Components/Footer/NewFooter";
 import Teamsection from "./Components/TeamSection/Teamsection";
 import OtherHero from "../../Components/OtherHero";
 
@@ -15,7 +14,8 @@ const index = () => {
         heading1="Meet the entire team"
       />
       <Teamsection />
-      <Footer />
+      {/* <Footer /> */}\
+      <NewFooter />
     </>
   );
 };
