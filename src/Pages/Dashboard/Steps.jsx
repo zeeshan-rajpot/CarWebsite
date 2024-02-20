@@ -10,8 +10,7 @@ import Step5 from "./StepsPage/Step5/index.jsx";
 import Step6 from "./StepsPage/Step6/index.jsx";
 import Step7 from "./StepsPage/Step7/index.jsx";
 const stepsContent = [
-  // Display "Hello" at index -1
-  // <Step1 />,
+  <Step1 />,
   <Step2 />,
   <Step3 />,
   <Step4 />,

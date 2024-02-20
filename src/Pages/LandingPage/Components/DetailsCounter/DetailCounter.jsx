@@ -22,55 +22,11 @@ const DetailCounter = () => {
       <div className="container w-75 mt-4">
         <div className="row justify-content-center">
           <div
-            className="col-sm mb-4 mobborder"
-            style={{
-              border: "none",
-              borderRight: "2px dashed #1985D2",
-            }}
-          >
-            <div className="p-3 text-center ">
-              <p
-                className="fw-bold"
-                style={{
-                  color: "#1985D2",
-                  fontSize: "40px",
-                  fontWeight: "700",
-                }}
-              >
-                300s
-              </p>
-              <h4 className="mt-5">
-                Over 300 dealers are competing to buy your car.
-              </h4>
-            </div>
-          </div>
-          <div
-            className="col-sm mb-4 mobborder"
+            className="col-sm mb-4 "
             style={{
               borderRight: "2px dashed #1985D2",
             }}
           >
-            <div className="p-3 text-center">
-              <h2
-                className="fw-bold"
-                style={{
-                  color: "#1985D2",
-                  fontSize: "40px",
-                  fontWeight: "700",
-                }}
-              >
-                2,500+
-              </h2>
-              <h4
-                style={{
-                  marginTop: "2em",
-                }}
-              >
-                Happy customers
-              </h4>
-            </div>
-          </div>
-          <div className="col-sm mb-4 ">
             <div className="p-3 text-center ">
               <h2
                 className="fw-bold"
@@ -88,6 +44,53 @@ const DetailCounter = () => {
                 }}
               >
                 72hrs and its sold
+              </h4>
+            </div>
+          </div>
+          <div
+            className="col-sm mb-4 mobborder"
+            style={{
+              borderRight: "2px dashed #1985D2",
+            }}
+          >
+            <div className="p-3 text-center ">
+              <p
+                className="fw-bold"
+                style={{
+                  color: "#1985D2",
+                  fontSize: "40px",
+                  fontWeight: "700",
+                }}
+              >
+                300s
+              </p>
+              <h4
+                style={{
+                  marginTop: "1.5em",
+                }}
+              >
+                Over 300 dealers are competing to buy your car.
+              </h4>
+            </div>
+          </div>
+          <div className="col-sm mb-4 mobborder">
+            <div className="p-3 text-center">
+              <h2
+                className="fw-bold"
+                style={{
+                  color: "#1985D2",
+                  fontSize: "40px",
+                  fontWeight: "700",
+                }}
+              >
+                2,500+
+              </h2>
+              <h4
+                style={{
+                  marginTop: "2em",
+                }}
+              >
+                Happy customers
               </h4>
             </div>
           </div>

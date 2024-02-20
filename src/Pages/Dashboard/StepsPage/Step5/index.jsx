@@ -34,14 +34,14 @@ export const index = () => {
   return (
     <div>
       <Container
-        className="mt-5 shadow rounded-5 px-2 px-md-4"
-        style={{ height: "619px" }}
+        className="mt-5 shadow rounded-5 px-4 px-md-5 pb-3 "
+        style={{ minHeight: "620px" }}
       >
-        <Row className="px-4 ">
-          <Col lg={12} className="m-auto pt-5" style={{ width: "100%" }}>
+        <div className="pt-5 d-flex justify-content-between">
+          <div className="d-flex flex-column justify-content-center ">
             <p
               className="text-start "
-              style={{ color: "#515151", fontWeight: "600", fontSize: "24px" }}
+              style={{ color: "#515151", fontWeight: "700", fontSize: "24px" }}
             >
               Our top priority is to sell your car.
             </p>
@@ -51,8 +51,11 @@ export const index = () => {
             >
               We are ager to have a conversation with you.
             </p>
-          </Col>
-        </Row>
+          </div>
+          <div>
+            <img src="/Frame 1261153508.svg " />
+          </div>
+        </div>
 
         <Row className=" mt-3">
           <Col lg={6} xs={12}>
@@ -108,10 +111,6 @@ export const index = () => {
                 </div>
               ))}
             </div>
-          </Col>
-
-          <Col lg={6} xs={12} className="mobvstep2">
-            <img src="/ife_style_working_March_03 [Converted].svg" alt="" />
           </Col>
         </Row>
       </Container>
