@@ -38,7 +38,7 @@ export const checkBox = ( { content } ) =>
 
 
       <Row className={ `d-flex justify-content-start align-items-center mt-5 ${ isActive ? 'active' : 'not-active' }` }>
-        <Col xs={ 2 } lg={ 1 } onClick={ toggleCheckBox } className='ps-0'>
+        <Col xs={ 2 } lg={ 2 } onClick={ toggleCheckBox } className='pe-4'>
           <div className={ `shadow d-flex justify-content-center align-items-center` } style={ isActive ? activeStyle : notActiveStyle }>
             <img src="/Fill4.svg" alt="" />
           </div>

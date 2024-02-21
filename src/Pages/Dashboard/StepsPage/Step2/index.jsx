@@ -14,86 +14,127 @@ export const index = () => {
     "navy", // Hyundai Sonata
     "olive", // Nissan Altima
   ];
-  const Keys = ["", "1", "2", "3", "4", "5", "6"];
+  const Keys = ["", "1", "2", "3", "4"];
+  const Trim = ["", "4WD", "AWD", "FWD", "RWD"];
   return (
     <div>
-      <Container className="mt-5 shadow rounded-3 " style={{ height: "619px" }}>
-        <Row>
-          <Col lg={12} className="m-auto pt-5" style={{ width: "90%" }}>
+      <Container
+        className="mt-5 shadow rounded-5 px-4 px-md-5 pb-3"
+        style={{minHeight: "620px"}}
+      >
+        <div className="pt-5 d-flex justify-content-between">
+          <div className="d-flex flex-column justify-content-center">
             <p
-              className="text-start "
-              style={{ color: "#515151", fontWeight: "600", fontSize: "24px" }}
+              className="text-start"
+              style={{ color: "#515151", fontWeight: "700", fontSize: "24px" }}
             >
               Tell us more about your vehicle
             </p>
             <p
-              className="text-start "
+              className="text-start"
               style={{ color: "#515151", fontWeight: "400", fontSize: "18px" }}
             >
-              Share details about your vehicle to receive a solid
-              <br /> offer within minutes
+              Share details about your vehicle to receive a solid offer within
+              minutes
             </p>
+          </div>
+          <div>
+            <img src="/Frame 1261153506.svg" />
+          </div>
+        </div>
+        <Row className="mt-4 gx-5">
+          <Col lg={6}>
+            <div className="d-flex flex-column justify-content-start align-items-start">
+              <label
+                style={{
+                  color: "#515151",
+                  fontSize: "16px",
+                  fontWeight: "500",
+                  marginLeft: "1rem",
+                }}
+              >
+                Mileage
+              </label>
+              <input
+                className="border shadow py-3 px-2 rounded-5 w-100 ms-0 mt-2"
+                type="text"
+                placeholder=""
+              />
+            </div>
+          </Col>
+          <Col lg={6}>
+            <div className="d-flex flex-column justify-content-start align-items-start">
+              <label
+                style={{
+                  color: "#515151",
+                  fontSize: "16px",
+                  fontWeight: "500",
+                  marginLeft: "1rem",
+                }}
+              >
+                Trim
+              </label>
+              <select
+                className="border shadow py-3 px-2 rounded-5 w-100 ms-0 mt-2"
+                style={{ background: "#FFFFFF", width: "200px" }}
+              >
+                {Trim.map((trim, index) => (
+                  <option key={index} value={trim}>
+                    {trim}
+                  </option>
+                ))}
+              </select>
+            </div>
           </Col>
         </Row>
-        <Row className="m-auto pt-5" style={{ width: "90%" }}>
+        <Row className="mt-4 gx-5">
           <Col lg={6}>
-            {/* <div className='d-flex flex-column justify-content-start align-items-start'>
-              <label style={ { color: '#515151', fontSize: '16px', fontWeight: '500' } }>Mileage</label>
-              <input className='shadow p-2 rounded-5 w-100 ms-0 mt-2' type="text" placeholder='' />
-            </div> */}
-
-            <div className="d- justify-content-between align-items-center mt-4">
-              <div className="d-flex flex-column  justify-content-start align-items-start">
-                <label
-                  style={{
-                    color: "#515151",
-                    fontSize: "16px",
-                    fontWeight: "500",
-                  }}
-                >
-                  Color
-                </label>
-                <select
-                  className=" p-2 shadow border-0   rounded-5 w-100 "
-                  style={{ background: "#FFFFFF", width: "200px" }}
-                >
-                  {colors.map((model, index) => (
-                    <option key={index} value={model}>
-                      {model}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div className="d-flex flex-column justify-content-start align-items-start mt-5">
-                <label
-                  style={{
-                    color: "#515151",
-                    fontSize: "16px",
-                    fontWeight: "500",
-                  }}
-                >
-                  Keys
-                </label>
-
-                <select
-                  className="p-2 shadow border-0 rounded-5 w-100 "
-                  style={{ background: "#FFFFFF", width: "200px" }}
-                >
-                  {Keys.map((year, index) => (
-                    <option key={index} value={year}>
-                      {year}
-                    </option>
-                  ))}
-                </select>
-              </div>
+            <div className="d-flex flex-column justify-content-start align-items-start">
+              <label
+                style={{
+                  color: "#515151",
+                  fontSize: "16px",
+                  fontWeight: "500",
+                  marginLeft: "1rem",
+                }}
+              >
+                Color
+              </label>
+              <select
+                className="border shadow py-3 px-2 rounded-5 w-100 ms-0 mt-2"
+                style={{ background: "#FFFFFF", width: "200px" }}
+              >
+                {colors.map((model, index) => (
+                  <option key={index} value={model}>
+                    {model}
+                  </option>
+                ))}
+              </select>
             </div>
-            {/* <div className=' mt-4 d-flex flex-column justify-content-start align-items-start'>
-              <label style={ { color: '#515151', fontSize: '16px', fontWeight: '500' } }>Trim</label>
-              <input className='shadow p-2 rounded-5 w-100 ms-0 mt-2' type="text" placeholder='' />
-            </div> */}
           </Col>
-          <Col lg={6} className="mobvstep2">
-            <img src="/06_20man11 [Converted].svg" alt="" />
+          <Col lg={6}>
+            <div className="d-flex flex-column justify-content-start align-items-start ">
+              <label
+                style={{
+                  color: "#515151",
+                  fontSize: "16px",
+                  fontWeight: "500",
+                  marginLeft: "1rem",
+                }}
+              >
+                Keys
+              </label>
+              <select
+                className="border shadow py-3 px-2 rounded-5 w-100 ms-0 mt-2"
+                style={{ background: "#FFFFFF" }}
+              >
+                {Keys.map((year, index) => (
+                  <option key={index} value={year}>
+                    {year}
+                  </option>
+                ))}
+              </select>
+            </div>
           </Col>
         </Row>
       </Container>
