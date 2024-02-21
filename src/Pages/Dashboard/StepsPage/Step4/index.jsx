@@ -30,7 +30,7 @@ export const index = () => {
             </p>
           </div>
           <div>
-            <img src="/Frame 1261153508.svg" />
+            <img src="/Frame 1261153531.svg" />
           </div>
         </div>
         <div>
