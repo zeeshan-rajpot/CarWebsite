@@ -2,29 +2,55 @@ import { React, useState, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 export const index = () => {
-  const [imagePreview, setImagePreview] = useState("");
-
-  const handleImageUpload = (e) => {
-    const file = e.target.files[0];
-
-    if (file) {
-      const reader = new FileReader();
-      reader.onload = (event) => {
-        setImagePreview([...imagePreview, event.target.result]);
-      };
-      reader.onerror = (error) => {
-        console.error("Error reading the file:", error);
-      };
-
-      reader.readAsDataURL(file);
-    }
-  };
+  const [imagePreviews, setImagePreviews] = useState([]);
 
   const fileInputRef = useRef(null);
 
   const handleIconClick = () => {
     fileInputRef.current.click();
   };
+
+  const handleImageUpload = (e) => {
+    const files = e.target.files;
+
+    if (!files.length) {
+      return;
+    }
+
+    for (const file of files) {
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        setImagePreviews((prevPreviews) => [
+          ...prevPreviews,
+          event.target.result,
+        ]);
+      };
+      reader.onerror = (error) => {
+        console.error("Error reading file:", error);
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  const imagePreviewCards = imagePreviews.map((preview, index) => (
+    <Col key={index} xs={12} md={4}>
+      <div
+        className="d-flex flex-column justify-content-center align-items-center shadow "
+        style={{ width: "340px", height: "220px", borderRadius: "10px" }}
+      >
+        <img
+          src={preview}
+          alt={`Image Preview ${index + 1}`}
+          style={{
+            objectFit: "cover",
+            borderRadius: "10px",
+            width: "100%",
+            height: "100%",
+          }}
+        />
+      </div>
+    </Col>
+  ));
 
   return (
     <div>
@@ -52,45 +78,35 @@ export const index = () => {
             <img src="/Group 17186.svg" />
           </div>
         </div>
-        <Row className="mt-5">
-          <Col xl={6} md={4}>
+        <Row className="mt-5 g-3">
+          {imagePreviewCards}
+          <Col xs={12} md={4}>
             <div
-              className="d-flex flex-column justify-content-center align-items-center w-100 p-4 shadow"
-              style={{
-                height: "auto", // Set the height to auto
-                position: "relative", // Add position relative
-              }}
+              className="d-flex flex-column justify-content-center align-items-center shadow p-2 "
+              style={{ width: "340px", height: "220px", borderRadius: "10px" }}
             >
-              <Col xs="auto">
-                <>
-                  {imagePreview ? (
-                    <img
-                      src={imagePreview}
-                      alt="preview"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                        borderRadius: "8px",
-                      }}
-                    />
-                  ) : (
-                    <img
-                      src="/Frame 68081.svg"
-                      alt="files icon"
-                      onClick={handleIconClick}
-                    />
-
-                  )}
-                  <input
-                    type="file"
-                    accept="image/*"
-                    ref={fileInputRef}
-                    style={{ display: "none" }}
-                    onChange={handleImageUpload}
-                  />
-                </>
-              </Col>
+              <input
+                type="file"
+                accept="image/*"
+                multiple
+                ref={fileInputRef}
+                onChange={handleImageUpload}
+                style={{ display: "none" }}
+              />
+              <img
+                src="/Frame 68081.svg"
+                alt="files icon"
+                onClick={handleIconClick}
+              />
+              <label
+                htmlFor="plusIcon"
+                style={{
+                  fontFamily: "gilory",
+                  color: "rgba(149, 149, 149, 1)",
+                }}
+              >
+                Add images
+              </label>
             </div>
           </Col>
         </Row>
