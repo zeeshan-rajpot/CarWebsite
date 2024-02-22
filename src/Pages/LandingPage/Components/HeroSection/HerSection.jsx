@@ -166,7 +166,7 @@ export const HerSection = () => {
             ))}
             <div className="d-flex justify-content-center px-5 mt-3">
               <Link
-                to="/Add/Car"
+                to="/SignUp"
                 className="border-0  text-white py-1  w-75 rounded-5 text-center"
                 style={{ backgroundColor: "#ff725e" }}
               >
