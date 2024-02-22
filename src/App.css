@@ -86,6 +86,11 @@ html {
   cursor: pointer;
 }
 
+
+.mobhauto{
+  width: 100%;
+  height: auto;
+}
 @media only screen and (max-width: 600px) {
   .login-img {
     width: 370px !important;
@@ -152,6 +157,13 @@ html {
   .mobht {
     margin-top: 40px !important;
   }
+  .mobhauto{
+    height: auto !important;
+    width: 500px !important;
+  }
+  .mobh90{
+    width: 90% !important ;
+  }
 }
 
 @media (min-width: 992px) {
@@ -159,6 +171,7 @@ html {
   .modal-xl {
     --bs-modal-width: 930px;
   }
+
   
 }
 

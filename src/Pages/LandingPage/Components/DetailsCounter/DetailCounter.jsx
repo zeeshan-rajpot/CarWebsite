@@ -18,7 +18,7 @@ const DetailCounter = () => {
         Quick Sale , Swift Payment
       </p>
       <h3
-        className="text-center px-2 w-75 m-auto mb-4"
+        className="text-center px-2 w-75 m-auto mb-4 mobh90"
         style={{
           fontSize: "14px",
           lineHeight:'1.6',
@@ -31,7 +31,7 @@ const DetailCounter = () => {
         you can now sell your car eortlessly from the comfort of your own home. With our online platform, you can list your car with just a few clicks, provide potential
         buyers with virtual tours, and securely complete transactions without ever stepping foot outside.
       </h3>
-      <Row className="shadow w-75 m-auto"> 
+      <Row className="shadow w-75 m-auto mobh90"> 
         {items.map((item, index) => (
           <Col key={index} md={4} className="text-center hover">
             <img className="m-auto py-4" style={{width:'90%'}} src={item.image} alt="" />
