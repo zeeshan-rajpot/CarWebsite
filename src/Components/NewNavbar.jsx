@@ -37,10 +37,10 @@ const Navbar = () => {
               <NavLink to="/DealerPage">Dealer network</NavLink>
             </li>
             <li className="navbar-item loginbtnnew m-0 me-md-2">
-              <NavLink to="/">Sign In</NavLink>
+              <NavLink to="/Login">Sign In</NavLink>
             </li>
             <li className="navbar-item signbtnnew m-0 me-md-5">
-              <NavLink to="/">Sign Up</NavLink>
+              <NavLink to="/SignUp">Sign Up</NavLink>
             </li>
           </ul>
         </nav>
