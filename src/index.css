@@ -17,6 +17,19 @@ body{
 
 
 
+@font-face {
+  font-family: 'lemonMilk';
+  src: local('lemonMilk'), url(/src/fonts/LEMONMILK-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'lemonMilk';
+    font-weight: 700;
+    src: local('lemonMilk'), url(/src/fonts/LEMONMILK-Bold.otf) format('opentype');
+}
+
+
+
 body {
   margin: 0;
   padding: 0;
