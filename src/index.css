@@ -1,4 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+@font-face {
+  font-family: 'lemon';
+  src: url('/fonts/LemonMilk.otff') format('otff'),
+       /* url('/path/to/your/font.woff') format('woff'); */
+  /* Add more src for different font formats if necessary */
+}
+@font-face {
+  font-family: 'gilroy';
+  src: url('/fonts/Gilroy-Medium.ttff') format('ttff'),
+       /* url('/path/to/your/font.woff') format('woff'); */
+  /* Add more src for different font formats if necessary */
+}
+body{
+  /* font-family: ; */
+}
+
+
 
 @font-face {
   font-family: 'lemonMilk';
@@ -16,11 +33,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Mulish", system-ui, Helvetica, Arial, sans-serif;
+  font-family: "gilroy", system-ui, Helvetica, Arial, sans-serif;
 }
 
 .heroPadding {
-  padding-top: 5.5rem !important;
+  padding-top: 3.5rem !important;
 }
 
 a {

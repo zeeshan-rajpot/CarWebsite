@@ -1,5 +1,5 @@
 .herobg {
-  background-image: url("/bgHero.png");
+  background-image: url("/wepik-export-202402191113560KJv 1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
   }
 
   .lwidth {
-    width: 50% !important;
+    /* width: 50% !important; */
     padding-bottom: 50px !important;
   }
 }
@@ -26,4 +26,16 @@
 
 .cinput {
   margin-left: 0px !important;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1500px) {
+  .padingl{
+    padding: 8px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    
+  }
+  select{
+    border: none !important;
+  }
 }

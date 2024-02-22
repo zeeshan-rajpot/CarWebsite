@@ -6,3 +6,7 @@
   background-size: cover;
   /* Use background-size instead of object-fit */
 }
+
+.hover:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
