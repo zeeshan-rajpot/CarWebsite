@@ -1,8 +1,8 @@
-import { React, useState } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { React, useState, useRef } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 export const index = () => {
-  const [images, setImages] = useState([]);
+  const [imagePreview, setImagePreview] = useState("");
 
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
@@ -10,7 +10,7 @@ export const index = () => {
     if (file) {
       const reader = new FileReader();
       reader.onload = (event) => {
-        setImages([...images, event.target.result]);
+        setImagePreview([...imagePreview, event.target.result]);
       };
       reader.onerror = (error) => {
         console.error("Error reading the file:", error);
@@ -18,6 +18,12 @@ export const index = () => {
 
       reader.readAsDataURL(file);
     }
+  };
+
+  const fileInputRef = useRef(null);
+
+  const handleIconClick = () => {
+    fileInputRef.current.click();
   };
 
   return (
@@ -47,88 +53,46 @@ export const index = () => {
           </div>
         </div>
         <Row className="mt-5">
-          {images.length === 0 && (
-            <Col
-              xs={6}
-              md={4}
-              className="d-flex flex-column justify-content-center align-items-center"
+          <Col xl={6} md={4}>
+            <div
+              className="d-flex flex-column justify-content-center align-items-center w-100 p-4 shadow"
+              style={{
+                height: "auto", // Set the height to auto
+                position: "relative", // Add position relative
+              }}
             >
-              <Card
-                className="shadow rounded-5"
-                style={{
-                  width: "340px",
-                  height: "220px",
-                }}
-              >
-                <Card.Body className="d-flex flex-column justify-content-center align-items-center">
-                  <img src="/Frame 68081.svg" alt="add_icon" />
-                  <label
-                    htmlFor={`fileInput-0`}
-                    className="my-0 mt-2"
-                    style={{
-                      color: "#959595",
-                      fontSize: "16px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Select image
-                  </label>
+              <Col xs="auto">
+                <>
+                  {imagePreview ? (
+                    <img
+                      src={imagePreview}
+                      alt="preview"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                        borderRadius: "8px",
+                      }}
+                    />
+                  ) : (
+                    <img
+                      src="/Frame 68081.svg"
+                      alt="files icon"
+                      onClick={handleIconClick}
+                    />
+
+                  )}
                   <input
                     type="file"
-                    id={`fileInput-0`}
-                    onChange={handleImageUpload}
                     accept="image/*"
-                  />
-                </Card.Body>
-              </Card>
-            </Col>
-          )}
-          {images.map((image, index) => (
-            <Col
-              key={index}
-              xs={6}
-              md={4}
-              className="d-flex flex-column justify-content-center align-items-center"
-            >
-              <Card
-                className="shadow rounded-5"
-                style={{
-                  width: "180px",
-                  height: "180px",
-                }}
-              >
-                <Card.Img
-                  variant="top"
-                  src={image}
-                  alt={`Uploaded Image ${index + 1}`}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "cover",
-                  }}
-                />
-                <Card.Body className="d-flex flex-column justify-content-center align-items-center">
-                  <label
-                    htmlFor={`fileInput-${index}`}
-                    className="my-0 mt-2"
-                    style={{
-                      color: "#959595",
-                      fontSize: "16px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Select image
-                  </label>
-                  <input
-                    type="file"
-                    id={`fileInput-${index}`}
+                    ref={fileInputRef}
+                    style={{ display: "none" }}
                     onChange={handleImageUpload}
-                    accept="image/*"
                   />
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
+                </>
+              </Col>
+            </div>
+          </Col>
         </Row>
       </Container>
     </div>
