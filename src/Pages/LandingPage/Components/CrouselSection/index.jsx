@@ -4,9 +4,9 @@ import { Container } from "react-bootstrap";
 export const index = () => {
   return (
     <div className="bgtestmolial mb-5">
-      <div className="mt-5 text-center pt-3">
+      <div className=" text-center pt-3">
         <p
-          className="my-0 mt-5 fw-bold mobhl text-dark"
+          className="my-0  fw-bold mobhl text-dark"
           style={{ color: "#030303", fontWeight: "400", fontSize: "48px" }}
         >
           Over Customers trust us
