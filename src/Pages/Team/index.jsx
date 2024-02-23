@@ -9,7 +9,7 @@ const index = () => {
     <>
       <Navbar />
       <OtherHero
-        img="/Rectangle 3105.png"
+        img="/silhouette-confident-businesspeople (1) 1.png"
         heading=" Our Team"
         heading1="Meet the entire team"
       />

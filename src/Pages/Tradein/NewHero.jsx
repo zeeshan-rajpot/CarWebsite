@@ -24,6 +24,7 @@ const HeroSection = () => {
 
         // Add more items as needed
     ];
+
     return (
         <>
 
@@ -55,7 +56,7 @@ const HeroSection = () => {
             <Container style={{ marginTop: '100px', marginBottom: '100px' }}>
                 <Row className='equal-height-row'>
                     {features.map((feature, index) => (
-                        <Col key={index} className='my-3 text-center'>
+                        <Col xs={12} md={4} key={index} className='my-3 text-center'>
                             <div className="card ">
                                 <div className="image-container">
                                     <img src={feature.image} alt={feature.title} className="card-img-top" />

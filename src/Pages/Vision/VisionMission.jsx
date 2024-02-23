@@ -5,29 +5,18 @@ const VisionMission = () => {
   return (
     <div className="container w-100 my-5 ">
       <div className="row">
-        <Col md={12} className=" mt-5">
-          <h2 style={{ color: "#1985D2" }} className="fw-bold">
-            Our Vision
+        <Col md={6} className=" mt-5">
+          <h2 style={{ color: "" }} className="fw-bold text-center">
+          Vision & mission
           </h2>
-          <p  className="visionbigp" style={{ color: "#303030", fontSize: "18px", fontWeight: "600" }}>
-            Our vision is to establish ourselves as the foremost vehicle
-            sourcing company in Ontario and beyond, by leveraging innovation and
-            industry expertise to redefine the vehicle acquisition experience.
-            Through our dedication to exceptional service, reliability, and
-            continuous improvement, we endeavor to set a new standard for
-            automotive sourcing, positioning ourselves as the benchmark of
-            excellence in Ontario and beyond ices will guide us in building a
-            network of trusted partnerships with dealerships, and private
-            sellers. We aspire to be the go-to resource for individuals looking
-            to sell their vehicle and businesses seeking a diverse range of
-            high-quality vehicles, offering tailored solutions to meet their
-            specific requirements. Through our dedication to exceptional
-            service, reliability, and continuous improvement, we endeavor to set
-            a new standard for automotive sourcing, positioning ourselves as the
-            benchmark of excellence in Ontario and beyond.
+          <p  className="visionbigp" style={{ color: "#303030", fontSize: "14px", fontWeight: "" }}>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,  
+          </p>
+          <p  className="visionbigp" style={{ color: "#303030", fontSize: "14px", fontWeight: "" }}>
+          Consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
           </p>
         </Col>
-        <Col md={12} className=" text-center ">
+        <Col md={6} className=" text-center d-flex align-items-end ">
           <img
             src="./image 104.png"
             alt="mobile"
