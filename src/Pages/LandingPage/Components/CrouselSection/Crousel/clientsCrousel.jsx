@@ -6,7 +6,7 @@ import Card from "../CrouselCard/crouselCard";
 import { Col } from "react-bootstrap";
 import { useMediaQuery } from "react-responsive";
 export const clientsCrousel = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(1);
 
   const handleSlideChange = (index) => {
     setActiveIndex(index);
@@ -69,7 +69,7 @@ export const clientsCrousel = () => {
         }`}
         onClick={handlePrevClick}
       >
-        <img src="/LeftArrow.svg" alt="leftButton" />
+        <img src="/Iconly-Light-Arrow - Down 2.png" alt="leftButton" />
       </div>
       <div
         className={`custom-arrow custom-next shadow ${

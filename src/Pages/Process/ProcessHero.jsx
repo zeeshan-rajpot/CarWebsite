@@ -1,12 +1,12 @@
 import React from "react";
-import "./otherhero.css";
+
 import { Col, Container, Row } from "react-bootstrap";
 
-const OtherHero = (props) => {
+const ProcessHero = (props) => {
   return (
     <>
       <div
-        className="bgimg proceesbig d-flex align-items-center justify-content-center flex-column text-center heroPadding"
+        className="bgimg d-flex align-items-center justify-content-center flex-column text-center heroPadding proceesbig"
         style={{
           backgroundImage: `url("${props.img}")`,
           backgroundPosition: "top center ",
@@ -15,10 +15,11 @@ const OtherHero = (props) => {
           backgroundClip: "padding-box",
         }}
       >
+        <div className="blurbg px-4 rounded-5">
         <h1>
           <b
             className="text-light text-center mobhl"
-            style={{ fontSize: "70px" }}
+            style={{ fontSize: "60px" }}
           >
             {props.heading}
           </b>
@@ -30,18 +31,20 @@ const OtherHero = (props) => {
           {" "}
           {props.heading1}
         </p>
-        <p className=" text-light mobw100 w-50 text-center mobhs">
+        <p className=" text-light mobw100 w-100 text-center mobhs mb-0">
           {props.heading2}
         </p>
         <p
-          className=" text-light mobw100 w-50 text-center fw-bolder  lh-1 mobhs"
+          className=" text-light mobw100 w-100 text-center fw-bolder  lh-1 mobhs"
           style={{ fontSize: "28px" }}
         >
           {props.heading3}
         </p>
+        </div>
+      
       </div>
     </>
   );
 };
 
-export default OtherHero;
+export default ProcessHero;

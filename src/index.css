@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+
 @font-face {
   font-family: 'lemon';
   src: url('/fonts/LemonMilk.otff') format('otff'),
@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: 'gilroy';
-  src: url('/fonts/Gilroy-Medium.ttff') format('ttff'),
+  src: url('/fonts/Gilroy-Thin.ttff') format('ttff'),
        /* url('/path/to/your/font.woff') format('woff'); */
   /* Add more src for different font formats if necessary */
 }
@@ -19,13 +19,13 @@ body{
 
 @font-face {
   font-family: 'lemonMilk';
-  src: local('lemonMilk'), url(/src/fonts/LEMONMILK-Medium.otf) format('opentype');
+  src: local('lemonMilk'), url(/fonts/LEMONMILK-Medium.otf) format('opentype');
 }
 
 @font-face {
     font-family: 'lemonMilk';
     font-weight: 700;
-    src: local('lemonMilk'), url(/src/fonts/LEMONMILK-Bold.otf) format('opentype');
+    src: local('lemonMilk'), url(/fonts/LEMONMILK-Bold.otf) format('opentype');
 }
 
 
@@ -33,7 +33,8 @@ body{
 body {
   margin: 0;
   padding: 0;
-  font-family: "gilroy", system-ui, Helvetica, Arial, sans-serif;
+  /* font-family: "gilroy", system-ui, Helvetica, Arial, sans-serif; */
+  font-family: 'gilroy';
 }
 
 .heroPadding {
