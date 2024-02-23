@@ -5,7 +5,11 @@ const Promise = () => {
   return (
     <>
       <div className="my-5 text-center mobwpromise bgimgpromise">
-        <h1 className="fw-bold">Our Promise</h1>
+        <div className="d-flex align-items-center justify-content-center">
+        <h1 className="fw-bold">Our Promise</h1> <span>
+          <img className="ms-3" width='50px' src="/handshake_4841081 1.svg" alt="" />
+        </span>
+        </div>
         <p className="w-50 m-auto fw-normal mobw100">
           Experience a hassle-free car selling process with Car Chaser. We
           understand the challenges of private car sales, and we're committed to

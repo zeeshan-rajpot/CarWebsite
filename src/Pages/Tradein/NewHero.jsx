@@ -61,7 +61,7 @@ const HeroSection = () => {
                                 <div className="image-container">
                                     <img src={feature.image} alt={feature.title} className="card-img-top" />
                                 </div>
-                                <div className="card-body shadow">
+                                <div className="card-body shadow" style={{ height: '150px' }}>
                                     <h6 className="card-title"><b style={{ color: '#FF725E', fontSize: '18px' }}>{feature.title}</b></h6>
                                     <p className="card-text" style={{ fontSize: '13px' }}>{feature.description}</p>
                                 </div>

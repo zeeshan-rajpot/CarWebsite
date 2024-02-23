@@ -121,12 +121,17 @@ export const HerSection = () => {
       >
         <Col md={5} lg={5} xxl={4}>
           <div
-            className="mx-auto  pb-3 lwidth mt-3"
+            className="mx-auto  pb-3 lwidth blurbg"
             style={{
-              background: "#2a3026",
+           
               width: "70%",
               borderBottomLeftRadius: "35px",
               borderBottomRightRadius: "35px",
+              marginTop:'14px',
+              background: "rgba(0, 0, 0, 0.19)",
+    
+              backdropFilter: "blur(150.2px)",
+            
             }}
           >
             <div className="text-center pt-4">
