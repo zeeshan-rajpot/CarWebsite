@@ -39,7 +39,7 @@ export const crouselCard = ( { isActive } ) =>
                   marginLeft: '10px',
                   marginRight: '10px',
                   marginTop: '10px',
-                  fontSize: '0.6rem',
+                  fontSize: '0.8rem',
                 } }
               >
                 A digital agency is a business you hire to outsource your digital

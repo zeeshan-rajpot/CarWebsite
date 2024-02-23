@@ -192,11 +192,11 @@ export const HerSection = () => {
                 fontFamily: "lemon",
               }}
             >
-              REVOLUTiONiZE YOUR DRiVE
+              REVOLUTIONIZE YOUR DRIVE
             </p>
             <p
               className="my-0 w-75"
-              style={{ color: "#F5F5F5", fontWeight: "500", fontSize: "13px" }}
+              style={{ color: "#F5F5F5", fontWeight: "", fontSize: "14px" }}
             >
               With our dedication to finding your ideal car, we're committed to
               understanding your preferences, budget, and the purpose of your
