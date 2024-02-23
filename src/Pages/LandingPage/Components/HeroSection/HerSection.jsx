@@ -121,12 +121,12 @@ export const HerSection = () => {
       >
         <Col md={5} lg={5} xxl={4}>
           <div
-            className="mx-auto  pb-3 lwidth "
+            className="mx-auto  pb-3 lwidth mt-3"
             style={{
               background: "#2a3026",
               width: "70%",
-              borderBottomLeftRadius:'35px',
-              borderBottomRightRadius:'35px'
+              borderBottomLeftRadius: "35px",
+              borderBottomRightRadius: "35px",
             }}
           >
             <div className="text-center pt-4">
@@ -139,9 +139,7 @@ export const HerSection = () => {
                 }}
               >
                 Sell Your Car
-
               </p>
-           
             </div>
             {dummyCarData.map((data, index) => (
               <div key={index} className="px-4  pt-3 rounded-5">
@@ -150,11 +148,14 @@ export const HerSection = () => {
                     type="text"
                     className="w-100 p-2  cinput rounded-5 padingl"
                     placeholder={data.label}
-                    style={{ color: "#a6a390", background: '#51574d' }}
+                    style={{ color: "#a6a390", background: "#51574d" }}
                   />
                 ) : (
-                  <select className="w-100  p-2 p-md-2 padingl  rounded-5 " style={{ color: "#a6a390", background: '#51574d' }}>
-                    <option value="" >{data.label}</option>
+                  <select
+                    className="w-100  p-2 p-md-2 padingl  rounded-5 "
+                    style={{ color: "#a6a390", background: "#51574d" }}
+                  >
+                    <option value="">{data.label}</option>
                     {data.options.map((option, optionIndex) => (
                       <option key={optionIndex} value={option}>
                         {option}
@@ -175,14 +176,21 @@ export const HerSection = () => {
             </div>
           </div>
         </Col>
-        <Col  md={7} lg={7} xxl={8}
+        <Col
+          md={7}
+          lg={7}
+          xxl={8}
           className="d-none d-md-flex flex-column align-items-start justify-content-start"
         >
           <div className="text-start mt-5">
-         
             <p
               className="my-0 "
-              style={{ color: "#F5F5F5", fontWeight: "800", fontSize: "38px", fontFamily:'lemon' }}
+              style={{
+                color: "#F5F5F5",
+                fontWeight: "800",
+                fontSize: "38px",
+                fontFamily: "lemon",
+              }}
             >
               REVOLUTIONIZE YOUR DRIVE
             </p>
@@ -190,9 +198,11 @@ export const HerSection = () => {
               className="my-0 w-75"
               style={{ color: "#F5F5F5", fontWeight: "", fontSize: "14px" }}
             >
-              With our dedication to finding your ideal car, we're committed to understanding your preferences,
-              budget, and the purpose of your vehicle. Whether you prioritize advanced technology, safety
-              features, environmental impact, or long-term value, we're here to assist every step of the way
+              With our dedication to finding your ideal car, we're committed to
+              understanding your preferences, budget, and the purpose of your
+              vehicle. Whether you prioritize advanced technology, safety
+              features, environmental impact, or long-term value, we're here to
+              assist every step of the way
             </p>
           </div>
         </Col>

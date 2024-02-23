@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 // import Footer from "../../Components/Footer/index";
 import NewFooter from "../../Components/Footer/NewFooter";
 import Navbar from "../../Components/NewNavbar";
@@ -74,15 +74,15 @@ export const index = () => {
         </div>
       </div>
 
-      <div className="sectionbgg">
+      <div>
         <div
           className="text-center"
           style={{
-            paddingTop: "10em",
+            paddingTop: "3em",
           }}
         >
           <p
-            className="text-white mobhl"
+            className=" mobhl"
             style={{
               fontSize: "40px",
               fontWeight: "700",
@@ -93,102 +93,49 @@ export const index = () => {
             Why Choose Car Chaser?
           </p>
         </div>
+        <Container className="pb-4 text-center">
+          <Row>
+            <Col xs={12} md={4}>
+              <img
+                src="dealersvg1.svg"
+                style={{ width: "80%", height: "auto" }}
+              />
+            </Col>
+            <Col xs={12} md={4}>
+              <img
+                src="dealersvg2.svg"
+                style={{ width: "80%", height: "auto" }}
+              />
+            </Col>
+            <Col xs={12} md={4}>
+              <img
+                src="dealersvg3.svg"
+                style={{ width: "80%", height: "auto" }}
+              />
+            </Col>
+          </Row>
 
-        <Row>
-          <Col
-            md={2}
-            sm={1}
-            xs={1}
-            style={{
-              marginLeft: "22px",
-            }}
-            className="dotsmob"
-          >
-            <div className="d-flex flex-column  justify-content-start justify-content-md-end  align-items-start align-items-md-end ">
-              {numbers.map((number, index) => (
-                <div
-                  key={number}
-                  className="d-flex justify-content-center align-items-center "
-                  style={{
-                    position: "relative",
-                    width: "100px",
-                    height: "100px",
-                  }}
-                >
-                  <div
-                    className="m-2 d-flex justify-content-center align-items-center"
-                    style={{
-                      width: "80px",
-                      height: "80px",
-                      borderRadius: "80px",
-                      background:
-                        "linear-gradient(0deg, #ADDCFF 0%, #EAF6FF 50.28%, #EAF6FF 100%)",
-                    }}
-                  >
-                    <p
-                      className="my-0"
-                      style={{
-                        color: "#1985D2",
-                        fontSize: "30px",
-                        fontWeight: "700",
-                      }}
-                    >
-                      {number}
-                    </p>
-                  </div>
-                  {index < numbers.length - 1 && (
-                    <div
-                      style={{
-                        position: "absolute",
-                        left: "50%",
-                        bottom: "0",
-                        transform: "translateX(-10%) translateY(80%) ",
-                        width: "2px",
-                        height: "55px",
-                        background: "#FFFF",
-                      }}
-                    />
-                  )}
-                </div>
-              ))}
-            </div>
-          </Col>
-          <Col lg={9} md={9} xs={11} sm={10}>
-            <div className="text-start mobpromisetext">
-              <div>
-                <p className="para mobhm mobht " style={{ marginTop: "26px" }}>
-                  Access to over 100 vehicles ready for bidding
-                </p>
-              </div>
-              <div>
-                <p className="para mobhm" style={{ marginTop: "50px" }}>
-                  High-quality, handpicked vehicles available
-                </p>
-              </div>
-              <div>
-                <p className="para mobhm" style={{ marginTop: "64px" }}>
-                  Detailed car reports outlining the condition of each vehicle
-                </p>
-              </div>
-              <div>
-                <p className="para mobhm" style={{ marginTop: "60px" }}>
-                  We handle the sourcing and selection of vehicles, saving you
-                  time
-                </p>
-              </div>
-              <div>
-                <p className="para mobhm" style={{ marginTop: "44px" }}>
-                  Streamlined paperwork, payment, and delivery processes
-                </p>
-              </div>
-              <div>
-                <p className="para mobhm" style={{ marginTop: "60px" }}>
-                  Committed to the success of your dealership
-                </p>
-              </div>
-            </div>
-          </Col>
-        </Row>
+          <Row className="mt-4">
+            <Col xs={12} md={4}>
+              <img
+                src="dealersvg4.svg"
+                style={{ width: "80%", height: "auto" }}
+              />
+            </Col>
+            <Col xs={12} md={4}>
+              <img
+                src="dealersvg5.svg"
+                style={{ width: "80%", height: "auto" }}
+              />
+            </Col>
+            <Col xs={12} md={4}>
+              <img
+                src="dealersvg6.svg"
+                style={{ width: "80%", height: "auto" }}
+              />
+            </Col>
+          </Row>
+        </Container>
       </div>
 
       <div

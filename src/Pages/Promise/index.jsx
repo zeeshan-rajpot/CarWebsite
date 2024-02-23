@@ -6,7 +6,6 @@ import NewFooter from "../../Components/Footer/NewFooter";
 import OtherHero from "../../Components/OtherHero";
 import Promise from "./Promise";
 
-import "./style.css";
 export const index = () => {
   return (
     <div>
