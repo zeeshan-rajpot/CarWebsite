@@ -1,5 +1,6 @@
 import React from "react";
-import Crousel from "./Crousel/CrouselCom.jsx";
+import Carousel from "../CrouselSection/Crousel/clientsCrousel";
+import { Container } from "react-bootstrap";
 export const index = () => {
   return (
     <div className="bgtestmolial">
@@ -15,8 +16,9 @@ export const index = () => {
           eiusmod tempor incididunt ut labore{" "}
         </p>
       </div>
-
-      <Crousel />
+      <Container>
+        <Carousel />
+      </Container>
     </div>
   );
 };

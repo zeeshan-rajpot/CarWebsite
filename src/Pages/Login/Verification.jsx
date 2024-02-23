@@ -82,7 +82,7 @@ const Verification = () => {
             <div className="text-end mt-2" style={{ width: "80%" }}>
               {/* <p className="text-secondary me-4">Forget Password</p> */}
             </div>
-            <Link to="/Dashbord">
+            <Link to="/Add/Car">
       <button className="Signin-btn mt-3" onClick={handleButtonClick}>
         <img src="/Arrow - Right.svg" alt="" />
       </button>
