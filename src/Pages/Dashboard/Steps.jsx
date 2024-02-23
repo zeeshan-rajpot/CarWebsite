@@ -124,7 +124,7 @@ function Dashboard() {
             {allStepsCompleted ? (
               <div>
                 {/* <h1>Hello</h1> */}
-                <Link to="/Dashbord">
+                <Link to="/Estimateoffer">
                   <button
                     className="w-100  rounded-5 border-0"
                     style={{

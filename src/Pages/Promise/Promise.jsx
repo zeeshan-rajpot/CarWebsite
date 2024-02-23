@@ -14,181 +14,60 @@ const Promise = () => {
       </div>
 
       <Container>
-        <Row className="example mb-3 mobwpromise bgimgpromise mobw100">
-          <Col>
-            {" "}
-            <h3 className="fw-bold ">Online bidding platform</h3>
-            <p
-              style={{
-                width: "45%",
-              }}
-              className="mobw100"
-            >
-              {" "}
-              Experience the ease of selling your car through our cutting-edge
-              online bidding platform. With over 300 competing dealers, you're
-              guaranteed a win while you enjoy your favorite TV show.
-            </p>
+        <Row className="text-center gy-4">
+          <Col xs={12} md={4}>
+            <img
+              src="promisesvg1.svg"
+              style={{ width: "90%", height: "auto" }}
+            />
           </Col>
-        </Row>
-        <Row className="example1  mb-3 bgimgpromise mobw100">
-          <Col>
-            {" "}
-            <h3
-              className="fw-bold ms-auto  mobw100 pt-3"
-              style={{
-                width: "44%",
-              }}
-            >
-              Get the Best Value for Your Car!
-            </h3>
-            <p
-              className=" ms-auto mobw100"
-              style={{
-                width: "44%",
-              }}
-            >
-              Rest assured, with over 300 dealers waiting for your car, you'll
-              receive top dollar without any lowball offers.
-            </p>
+          <Col xs={12} md={4}>
+            <img
+              src="promisesvg2.svg"
+              style={{ width: "90%", height: "auto" }}
+            />
           </Col>
-        </Row>
-        <Row className="example2 mb-3 bgimgpromise promiselgp">
-          <Col>
-            {" "}
-            <h3 className="fw-bold mobw100 ">Sell Stress-Free!</h3>
-            <p
-              style={{
-                width: "46%",
-              }}
-              className="mobw100"
-            >
-              At Car Chaser, we handle everything while you carry on with your
-              daily activities and continue driving your car until it sells.
-              It's that simple.
-            </p>
+          <Col xs={12} md={4}>
+            <img
+              src="promisesvg3.svg"
+              style={{ width: "90%", height: "auto" }}
+            />
           </Col>
-        </Row>
-        <Row className="example3 mb-3 pt-1  bgimgpromise">
-          <Col>
-            {" "}
-            <h3
-              className="fw-bold ms-auto mobw100 pt-3"
-              style={{
-                width: "44%",
-              }}
-            >
-              Maximum Visibility for Your Car!
-            </h3>
-            <p
-              className=" ms-auto mobw100"
-              style={{
-                width: "44%",
-              }}
-            >
-              List your car on Car Chaser and expose it to over 300 dealers
-              within our network.
-            </p>
+          <Col xs={12} md={4}>
+            <img
+              src="promisesvg4.svg"
+              style={{ width: "90%", height: "auto" }}
+            />
           </Col>
-        </Row>
-        <Row className="example4 mb-3  bgimgpromise">
-          <Col>
-            {" "}
-            <h3 className="fw-bold mobw100">Sell with Speed and Security!</h3>
-            <p
-              style={{
-                width: "46%",
-              }}
-              className="mobw100 pt-3"
-            >
-              Sell your car in as little as 72 hours with over 300 dealers in
-              our network, ensuring quick payment.
-            </p>
+          <Col xs={12} md={4}>
+            <img
+              src="promisesvg5.svg"
+              style={{ width: "90%", height: "auto" }}
+            />
           </Col>
-        </Row>
-        <Row className="example5 mb-3  bgimgpromise promiselgp">
-          <Col>
-            {" "}
-            <h3
-              className="fw-bold ms-auto mobw100"
-              style={{
-                width: "44%",
-              }}
-            >
-              Your Safety Matters!
-            </h3>
-            <p
-              className=" ms-auto mobw100"
-              style={{
-                width: "44%",
-              }}
-            >
-              Remain anonymous while we handle all communication with potential
-              buyers, safeguarding your privacy throughout the selling process.
-            </p>
+          <Col xs={12} md={4}>
+            <img
+              src="promisesvg6.svg"
+              style={{ width: "90%", height: "auto" }}
+            />
           </Col>
-        </Row>
-        <Row className="example6 mb-3  bgimgpromise promiselgp">
-          <Col>
-            {" "}
-            <h3 className="fw-bold mobw100 pt-3">
-              Say Goodbye to Paperwork Hassles!
-            </h3>
-            <p
-              style={{
-                width: "45%",
-              }}
-              className="mobw100"
-            >
-              {" "}
-              We take care of all the paperwork, leaving you with just one thing
-              – CASH
-            </p>
+          <Col xs={12} md={4}>
+            <img
+              src="promisesvg7.svg"
+              style={{ width: "90%", height: "auto" }}
+            />
           </Col>
-        </Row>
-        <Row className="example7 mb-3  bgimgpromise">
-          <Col>
-            {" "}
-            <h3
-              className="fw-bold ms-auto mobw100"
-              style={{
-                width: "44%",
-              }}
-            >
-              Transparent and Guided Selling Experience!
-            </h3>
-            <p
-              className=" ms-auto mobw100"
-              style={{
-                width: "44%",
-              }}
-            >
-              Experience complete transparency and receive all the information
-              you need to make informed decisions about your car.
-            </p>
+          <Col xs={12} md={4}>
+            <img
+              src="promisesvg8.svg"
+              style={{ width: "90%", height: "auto" }}
+            />
           </Col>
-        </Row>
-        <Row className="example8 mb-3  bgimgpromise promiselgp">
-          <Col>
-            {" "}
-            <h3
-              className="fw-bold mobw100"
-              style={{
-                width: "45%",
-              }}
-            >
-              Effortless Selling, Right from Your Couch!
-            </h3>
-            <p
-              style={{
-                width: "45%",
-              }}
-              className="mobw100"
-            >
-              {" "}
-              List your car on Car Chaser and let our team handle everything,
-              making the selling process easy for you.
-            </p>
+          <Col xs={12} md={4}>
+            <img
+              src="promisesvg9.svg"
+              style={{ width: "90%", height: "auto" }}
+            />
           </Col>
         </Row>
       </Container>
