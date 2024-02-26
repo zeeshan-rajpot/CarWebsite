@@ -7,7 +7,7 @@ export const Estimateoffer = () => {
   return (
     <div>
       <Container>
-        <Row className="my-5 ">
+        <Row className="mt-5 ">
           <Col lg={3}>
             <img src="longbar.svg" style={{ height: "76%" }} />
             {/* <div
