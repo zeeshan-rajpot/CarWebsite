@@ -1,12 +1,15 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Navbar from "../../Components/NewNavbar";
+import Footer from "../../Components/Footer/NewFooter";
 export const VerifyPage = () => {
   return (
     <div>
+      <Navbar />
       <Container>
         <Row>
-          <div className="mt-5">
+          <div style={{ paddingTop: "7%" }}>
             <p className="fs-2 fw-bold " style={{ color: "#101010" }}>
               Lets book a time to get your car verify.
             </p>
@@ -162,6 +165,7 @@ export const VerifyPage = () => {
           </div>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 };

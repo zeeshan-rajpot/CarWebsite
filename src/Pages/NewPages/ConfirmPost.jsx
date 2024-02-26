@@ -1,10 +1,17 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Nav, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Navbar from "../../Components/NewNavbar";
+import Footer from "../../Components/Footer/NewFooter";
 export const ConfirmPost = () => {
   return (
     <div>
-      <Container>
+      <Navbar />
+      <Container
+        style={{
+          padding: "3% 0",
+        }}
+      >
         <Row>
           <div className="shadow rounded-5  my-5 w-75 m-auto p-3">
             <div className="my-4 text-start">
@@ -57,6 +64,7 @@ export const ConfirmPost = () => {
           </div>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 };
