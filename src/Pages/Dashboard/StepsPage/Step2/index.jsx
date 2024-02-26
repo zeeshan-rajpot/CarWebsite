@@ -20,9 +20,9 @@ export const index = () => {
     <div>
       <Container
         className="mt-5 shadow rounded-5 px-4 px-md-5 pb-3"
-        style={{minHeight: "620px"}}
+        style={{ minHeight: "620px" }}
       >
-        <div className="pt-5 d-flex justify-content-between">
+        <div className="pt-5 d-block d-md-flex justify-content-between">
           <div className="d-flex flex-column justify-content-center">
             <p
               className="text-start"
@@ -39,7 +39,13 @@ export const index = () => {
             </p>
           </div>
           <div>
-            <img src="/Frame 1261153506.svg" />
+            <img
+              src="/Frame 1261153506.svg"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </div>
         </div>
         <Row className="mt-4 gx-5">
@@ -63,7 +69,7 @@ export const index = () => {
             </div>
           </Col>
           <Col lg={6}>
-            <div className="d-flex flex-column justify-content-start align-items-start">
+            <div className="d-flex flex-column justify-content-start align-items-start mt-3 mt-md-0">
               <label
                 style={{
                   color: "#515151",
@@ -113,7 +119,7 @@ export const index = () => {
             </div>
           </Col>
           <Col lg={6}>
-            <div className="d-flex flex-column justify-content-start align-items-start ">
+            <div className="d-flex flex-column justify-content-start align-items-start mt-3 mt-md-0">
               <label
                 style={{
                   color: "#515151",
