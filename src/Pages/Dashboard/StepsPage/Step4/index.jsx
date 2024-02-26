@@ -20,7 +20,7 @@ export const index = () => {
         className="mt-5 shadow rounded-5 px-4 px-md-5 pb-3 "
         style={{ minHeight: "620px" }}
       >
-        <div className="pt-5 d-flex justify-content-between">
+        <div className="pt-5 d-block d-md-flex justify-content-between">
           <div className="d-flex flex-column justify-content-center ">
             <p
               className="text-start "
@@ -30,7 +30,13 @@ export const index = () => {
             </p>
           </div>
           <div>
-            <img src="/Frame 1261153531.svg" />
+            <img
+              src="/Frame 1261153531.svg"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </div>
         </div>
         <div>

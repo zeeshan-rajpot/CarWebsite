@@ -7,12 +7,14 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 const index = () => {
+
   const tokenExists = localStorage.getItem("token");
   const handleLogout = () => {
     // Remove the token from local storage
     localStorage.removeItem("token");
     // Additional logic if needed
   };
+  
   return (
     <>
       <div
