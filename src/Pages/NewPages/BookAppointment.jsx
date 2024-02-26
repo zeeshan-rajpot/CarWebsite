@@ -7,7 +7,7 @@ import Footer from "../../Components/Footer/NewFooter";
 export const BookAppointment = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Container>
         <Row>
           <div

@@ -6,7 +6,7 @@ import Footer from "../../Components/Footer/NewFooter";
 export const VerifyPage = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Container>
         <Row>
           <div style={{ paddingTop: "7%" }}>
