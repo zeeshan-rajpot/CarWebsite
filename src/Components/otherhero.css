@@ -14,8 +14,8 @@
     /* -webkit-backdrop-filter: blur(1.2px); */
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1400px) {
   .proceesbig{
-    height: 700px;
+    height: 700px !important;
   }
 }

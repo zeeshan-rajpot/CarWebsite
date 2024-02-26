@@ -12,7 +12,7 @@ export const index = () => {
       <Navbar />
 
       <div
-        className="herosectionbgg heroPadding"
+        className="herosectionbgg heroPadding proceesbig"
         style={{
           paddingBottom: "3rem",
         }}

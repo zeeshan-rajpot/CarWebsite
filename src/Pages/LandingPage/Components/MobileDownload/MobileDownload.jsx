@@ -27,8 +27,8 @@ const MobileDownload = () => {
                                     Our comprehensive services extend beyond just finding the right car; we offer financing options, trade-in evaluations, and post-purchase support to ensure a seamless experience. Let's work together to discover your dream car and make it a reality!
                                 </p>
                                 <div className="d-flex align-items-center text-center justify-content-center flex-md-nowrap flex-wrap">
-                                <button  className="px-5 text-light border-0 rounded-5 py-2 me-2 me-md-2" style={{background:'#185F87' ,width:'200px'}}> <img className="" src="/Path 35508.svg" alt="" width='20px'/> Apple</button>
-                                <button  className="px-3 text-light border-0 rounded-5 py-2 mt-2 mt-md-0" style={{background:'#185F87' ,width:'200px'}}> <img className="" src="/Group 23144.svg" alt="" width='20px' />    Play Store</button>
+                                <button  className="px-5 text-light border-0 rounded-5 py-2 me-2 me-md-2" style={{background:'#185F87' ,width:'200px'}}> <img className="" src="/Path 35508.png" alt="" width='20px'/> Apple</button>
+                                <button  className="px-3 text-light border-0 rounded-5 py-2 mt-2 mt-md-0" style={{background:'#185F87' ,width:'200px'}}> <img className="" src="/Group 23144.png" alt="" width='20px' />    Play Store</button>
                                 </div>
                                 
                             </Col>
