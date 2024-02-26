@@ -8,7 +8,7 @@ import Card from "react-bootstrap/Card";
 export const Estimateoffer = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div>
         <Container>
           <Row
