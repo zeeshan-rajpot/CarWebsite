@@ -159,7 +159,7 @@ export const index = () => {
           last month."
         </p>
         <p
-          className="text-start para2 m-auto mobhm delerpagelg"
+          className="text-start para2 m-auto  mobhm delerpagelg"
           style={{ color: "#1985D2", fontSize: "28px", fontWeight: "600" }}
         >
           Trusted dealer
