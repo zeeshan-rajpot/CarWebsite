@@ -14,13 +14,13 @@ const MobileDownload = () => {
                                
                                 <h4 className="mb-3" style={{ fontSize: '28px' }}>Download <span style={{ color: '#FF725E'  }}> Car Chaser </span> Mobile App</h4> 
                                 <p className='mobp' style={{
-                                    fontSize: '16px',
+                                    fontSize: '15px',
                                     color:'#747474'
                                 }}>
                                     With our dedication to finding your ideal car, we're committed to understanding your preferences, budget, and the purpose of your vehicle. Whether you prioritize advanced technology, safety features, environmental impact, or long-term value, we're here to assist every step of the way.
                                 </p>
                                 <p className='mobp' style={{
-                                    fontSize: '16px',
+                                    fontSize: '15px',
                                     color:'#747474'
                                 }}
                                 >
