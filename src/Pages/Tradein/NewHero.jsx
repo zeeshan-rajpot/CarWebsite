@@ -1,21 +1,28 @@
 import React from 'react';
+import { useState } from "react";
+import Modal from "react-bootstrap/Modal";
+import ModalCom from "./ModalCom.jsx";
 import { Container, Row, Col } from 'react-bootstrap';
 import './HeroSectionnew.css'; // Import CSS file for styling
 
 const HeroSection = () => {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     const features = [
         {
-            image: "/7197525.png",
+            image: "/Frame 1261153570.png",
             title: "Discover Dealership Difference",
             description: "We ensure you receive top dollar for your trade-in and a valuable tax credit for your next purchase. Isn't that wonderful?"
         },
         {
-            image: "/auto_show_08 [Converted].svg",
+            image: "/Frame 1261153596.png",
             title: " Convenience at Your Fingertips",
             description: "Choose your next car from the comfort of your home. We're here to assist you in finding a vehicle that suits your lifestyle and needs. Plus, our service is completely free with no hidden fees."
         },
         {
-            image: "/Group 22377.png",
+            image: "/Frame 1261153597.png",
             title: "Your Satisfaction is our Priority",
             description: "We are dedicated to providing only quality cars and top-notch service. Connect with your vehicle acquisition specialist today."
         },
@@ -33,14 +40,14 @@ const HeroSection = () => {
                     <Container fluid>
                         <Row>
                             <Col md={6} className='pt-5 paddingtopxlscreen paddingbottomxlscreen'>
-                                <h3 className='headingmob' style={{ fontSize: '4vw' }}><b>CAR CHASER</b></h3>
+                                <h3 className='headingmob' style={{ fontSize: '3vw' }}><b>CAR CHASER</b></h3>
                                 <p className='mobp' style={{
-                                    fontSize: '1vw'
+                                    fontSize: '0.9vw'
                                 }}>
                                     With our dedication to finding your ideal car, we're committed to understanding your preferences, budget, and the purpose of your vehicle. Whether you prioritize advanced technology, safety features, environmental impact, or long-term value, we're here to assist every step of the way.
                                 </p>
                                 <p className='mobp' style={{
-                                    fontSize: '1vw'
+                                    fontSize: '0.9vw'
                                 }}
                                 >
                                     Our comprehensive services extend beyond just finding the right car; we offer financing options, trade-in evaluations, and post-purchase support to ensure a seamless experience. Let's work together to discover your dream car and make it a reality!
@@ -84,13 +91,22 @@ const HeroSection = () => {
                             <h6 className="card-title"><b style={{  fontSize: '18px' }}> Step into the next era with Car Chaser</b></h6>
                            <p>Car Chaser emerges as the harbinger of the next era in vehicular excellence. With meticulous attention to detail, Car Chaser transcends the boundaries of conventional automotive design and engineering, propelling enthusiasts into a realm of unparalleled innovation and sophistication.</p>
                             </div>
-                            <div className='startbtn m-auto'>
+                            <div className='startbtn m-auto'     onClick={handleShow}>
                                <p className='py-md-5 py-2 ps-3 pe-2 ms-2 text-light' style={{textWrap:'nowrap' ,background:'#185F87', borderBottomLeftRadius:'20px' ,borderTopLeftRadius:'20px'}}>Let's Start</p>
                             </div>
                         </div>
                     </Col>
                 </Row>
             </Container>
+
+
+
+
+            <Modal size="lg" centered show={show} onHide={handleClose}>
+        <Modal.Body className="p-0 border-0">
+          <ModalCom onHide={handleClose} />
+        </Modal.Body>
+      </Modal>
         </>
     );
 };

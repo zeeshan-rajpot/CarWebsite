@@ -28,7 +28,7 @@
 }
 
 .custom-next {
-  margin-right: 50px;
+  margin-right: 50px !important;
   margin-top: -250px !important;
   right: 0;
 }
@@ -52,22 +52,32 @@
 }
 
 .carousel .control-dots .dot.selected {
-  background: #72B63C;
+  background: #FF725E ;
 }
 
 .selected {
   background-color: transparent;
 }
 
-@media screen and (min-width: 1380px) {
+@media screen and (min-width: 1500px) {
   .custom-prev {
-    margin-left: 230px !important;
+    margin-left: 50px !important;
   }
 
   .custom-next {
-    margin-right: 310px !important;
+    margin-right: 50px !important;
   }
 }
+@media screen and (min-width: 1800px) {
+  .custom-prev {
+    margin-left: 300px !important;
+  }
+
+  .custom-next {
+    margin-right: 300px !important;
+  }
+}
+
 
 @media (max-width: 767px) {
   .custom-arrow {

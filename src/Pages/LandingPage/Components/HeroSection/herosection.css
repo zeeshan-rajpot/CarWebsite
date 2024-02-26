@@ -11,6 +11,9 @@
   .herobg {
     height: 800px;
   }
+  .w5obigscreen{
+    width: 50% !important;
+  }
 
   .lwidth {
     /* width: 50% !important; */
@@ -37,5 +40,14 @@
   }
   select{
     border: none !important;
+  }
+}
+
+@media not all and (min-resolution:.001dpcm) { 
+  @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    select {
+      /* Your Safari-specific styles here */
+      padding: 0.5rem; /* Example style */
+    }
   }
 }
