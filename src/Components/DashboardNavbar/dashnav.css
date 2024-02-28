@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  color: #101010 !important;
+  width: 100%;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  width: 80px !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item {
+  margin: 0 1rem;
+}
+ul {
+  margin: 0px;
+}
+
+.navbar-items a {
+  color: #101010 !important;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.active {
+  color: #1985d2;
+}
