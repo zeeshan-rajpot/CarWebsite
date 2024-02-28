@@ -28,7 +28,7 @@ const DetailCounter = () => {
       >
         Conveniently sell your car from the comfort of your own home, so you can relax and enjoy your favorite TV shows. You're lounging on your couch, engrossed in the
         latest episodes of your favorite TV series, when the realization hits – it's time to part ways with your car. But instead of interrupting your binge-watching session,
-        you can now sell your car eortlessly from the comfort of your own home. With our online platform, you can list your car with just a few clicks, provide potential
+        you can now sell your car Effortlessly from the comfort of your own home. With our online platform, you can list your car with just a few clicks, provide potential
         buyers with virtual tours, and securely complete transactions without ever stepping foot outside.
       </h3>
       <Row className="shadow w-75 m-auto mobh90"> 

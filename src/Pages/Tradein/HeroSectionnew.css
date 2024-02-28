@@ -8,6 +8,7 @@
     padding: 100px 20px; /* Adjust padding as needed */
     /* padding-top:300px ; */
   }
+
   
   .hero-section h1 {
     font-size: 3rem;
@@ -104,12 +105,15 @@
 
   @media (max-width: 600px) {
     .mobp {
-      font-size: 3vw !important ;
+      font-size: 3.5vw !important ;
     }
     .headingmob {
         font-size: 8vw !important ;
       }
 
+      .mobjustify{
+        text-align: justify;
+      }
 
       .hero-section {
         background-image: url('/blue-volvo-s60-is-front-dark-background@2xcopy.png');

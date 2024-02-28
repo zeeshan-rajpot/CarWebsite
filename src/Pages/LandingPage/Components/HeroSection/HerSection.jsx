@@ -158,7 +158,7 @@ export const HerSection = () => {
                 ) : (
                   <select
                     className="w-100     rounded-5 "
-                    style={{ color: "#a6a390", background: "#51574d" ,height:'35px' }}
+                    style={{ color: "#a6a390", background: "#51574d" ,height:'38px' }}
                   >
                     <option value="">{data.label}</option>
                     {data.options.map((option, optionIndex) => (
