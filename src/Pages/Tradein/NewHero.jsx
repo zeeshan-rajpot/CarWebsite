@@ -87,9 +87,9 @@ const HeroSection = () => {
                                     <img src="/226520-P1QDOS-221.png" alt="" width='300px' />
                                 </div>
                             </div>
-                            <div>
-                            <h6 className="card-title"><b style={{  fontSize: '18px' }}> Step into the next era with Car Chaser</b></h6>
-                           <p>Car Chaser emerges as the harbinger of the next era in vehicular excellence. With meticulous attention to detail, Car Chaser transcends the boundaries of conventional automotive design and engineering, propelling enthusiasts into a realm of unparalleled innovation and sophistication.</p>
+                            <div className='mobw90 m-auto '>
+                            <h6 className="card-title"><b style={{  fontSize: '18px' ,textAlign:'justify' }}> Step into the next era with Car Chaser</b></h6>
+                           <p className='mobjustify' style={{textAlign:''}}>Car Chaser emerges as the harbinger of the next era in vehicular excellence. With meticulous attention to detail, Car Chaser transcends the boundaries of conventional automotive design and engineering, propelling enthusiasts into a realm of unparalleled innovation and sophistication.</p>
                             </div>
                             <div className='startbtn m-auto'     onClick={handleShow}>
                                <p className='py-md-5 py-2 ps-3 pe-2 ms-2 text-light' style={{textWrap:'nowrap' ,background:'#185F87', borderBottomLeftRadius:'20px' ,borderTopLeftRadius:'20px'}}>Let's Start</p>
