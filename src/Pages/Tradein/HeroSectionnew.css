@@ -37,8 +37,10 @@
   }
 
   .image-container img {
-    width: 200px !important; /* or any desired width */
-    height: 150px; /* or any desired height */
+    /* width: 200px !important;
+
+    height: 150px; */
+     /* or any desired height */
     /* overflow: hidden; */
   }
 

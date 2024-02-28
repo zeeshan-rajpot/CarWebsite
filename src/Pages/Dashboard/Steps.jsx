@@ -52,7 +52,7 @@ function Dashboard() {
                 fontWeight: "500",
                 fontSize: "32px",
                 color: "#4C4C4C",
-                fontFamily: "Glory",
+           
               }}
             >
               Upload Vehicle Details
