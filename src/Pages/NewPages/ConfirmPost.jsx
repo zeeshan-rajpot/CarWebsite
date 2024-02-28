@@ -53,7 +53,7 @@ export const ConfirmPost = () => {
             </div>
           </div>
           <div className="text-center ">
-            <Link to="/ ">
+            <Link to="/Dashbord">
               <button
                 className="border-0 rounded-4 w-25 p-3 text-white ms-4"
                 style={{ backgroundColor: "#1985D2" }}

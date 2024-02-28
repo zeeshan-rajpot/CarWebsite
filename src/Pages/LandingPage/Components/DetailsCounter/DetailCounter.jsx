@@ -3,9 +3,18 @@ import "./counter.css";
 import { Col, Container, Row } from "react-bootstrap";
 
 const items = [
-  { image: "/Frame 1261153566.svg", heading:"300s", text: "Over 300 dealers are competing to buy your car" },
-  { image: "/Frame 1261153567.svg",heading:"2500+", text: "Happy Customers" },
-  { image: "/Frame 1261153568.svg",heading:"72hrs", text: "Til it's gone, paid & sold!" }
+  {
+    image: "/Frame 1261153568.svg",
+    heading: "72hrs",
+    text: "Til it's gone, paid & sold!",
+  },
+
+  {
+    image: "/Frame 1261153566.svg",
+    heading: "300s",
+    text: "Over 300 dealers are competing to buy your car",
+  },
+  { image: "/Frame 1261153567.svg", heading: "2500+", text: "Happy Customers" },
 ];
 const DetailCounter = () => {
   return (
