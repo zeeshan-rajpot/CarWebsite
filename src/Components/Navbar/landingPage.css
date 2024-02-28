@@ -1,16 +1,7 @@
 .headingMain {
-  background-color: #1985d2;
-  color: white;
-  width: 33%;
-  padding: 16px;
-  padding-right: 30px;
-  font-weight: 800;
-  font-size: 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  clip-path: polygon(0 0, 100% 0%, 81% 100%, 0% 100%);
-  position: absolute;
 }
 
 .headerInfo {
@@ -26,6 +17,6 @@
 }
 
 .active {
-  color: #fff !important;
+  color: white;
   font-weight: bold !important;
 }

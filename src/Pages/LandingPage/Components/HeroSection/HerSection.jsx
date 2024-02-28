@@ -123,15 +123,13 @@ export const HerSection = () => {
           <div
             className="mx-auto  pb-3 lwidth blurbg"
             style={{
-           
               width: "70%",
               borderBottomLeftRadius: "35px",
               borderBottomRightRadius: "35px",
-              marginTop:'14px',
+              marginTop: "14px",
               background: "rgba(0, 0, 0, 0.19)",
-    
+
               backdropFilter: "blur(150.2px)",
-            
             }}
           >
             <div className="text-center pt-4">
@@ -154,6 +152,16 @@ export const HerSection = () => {
                     className="w-100 p-2  cinput rounded-5 padingl"
                     placeholder={data.label}
                     style={{ color: "#a6a390", background: "#51574d" }}
+                    onInput={(e) => {
+                      const inputValue = e.target.value.trim();
+                      const maxMileage = 185000;
+                      if (
+                        data.label === "Mileage(KM)" &&
+                        parseInt(inputValue) > maxMileage
+                      ) {
+                        e.target.value = maxMileage;
+                      }
+                    }}
                   />
                 ) : (
                   <select
