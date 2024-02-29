@@ -103,7 +103,7 @@ const Navbar = () => {
                   <p className="mb-0">
                     Mohsin
                   </p>
-                  <Link to='/' className="mb-0" style={{ fontWeight: "100" }} onClick={handleLogout}>
+                  <Link to='/' className="mb-0" style={{color: 'black', fontWeight: "100" }} onClick={handleLogout}>
                     logout
                   </Link>
 
