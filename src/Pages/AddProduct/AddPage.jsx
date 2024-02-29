@@ -8,7 +8,7 @@ const AddPage = () => {
     <>
       {/* <Navbar link='Add' /> */}
       <div className=''>
-        <Row className='text-center mt-5'>
+        <Row className='text-center ' style={{paddingTop:'250px'}}>
           <Col lg={12}>
             <img src='/4860245.svg' alt='' style={{ width: '340px' }} />
           </Col>

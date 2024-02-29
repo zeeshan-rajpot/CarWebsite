@@ -80,6 +80,9 @@ a {
   .mobw90 {
     width: 90% !important;
   }
+  .recentimg{
+    width: 100% !important;
+  }
 
   .bgexample {
     background-image: none !important;

@@ -1,7 +1,6 @@
 import React from "react";
-import "./LandingPage.css";
-import DashboardNavbar from "../DashboardNavbar/index"
 
+import Navbar from "../../Components/NewNavbar.jsx";
 const index = () => {
   const tokenExists = localStorage.getItem("token");
   const handleLogout = () => {
@@ -12,7 +11,7 @@ const index = () => {
 
   return (
     <>
-      <DashboardNavbar/>
+      <Navbar/>
      </>
   );
 };
