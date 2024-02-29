@@ -1,0 +1,26 @@
+.image-gallery-slide .image-gallery-image {
+  width: 50%;
+  height: auto;
+}
+
+.image-gallery-icon {
+  color: #c0c0c0;
+}
+
+.image-gallery-fullscreen-button {
+  display: none;
+}
+
+.image-gallery-play-button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .image-gallery-thumbnails {
+    display: none;
+  }
+
+  .image-gallery-slide .image-gallery-image {
+    width: 75% !important;
+  }
+}

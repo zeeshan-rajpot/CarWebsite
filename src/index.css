@@ -5,9 +5,9 @@
   /* Add more src for different font formats if necessary */
 }
 @font-face {
-  font-family: "gilroy";
-  src: url("/fonts/Gilroy-Thin.ttff") format("ttff");
-  /* url('/path/to/your/font.woff') format('woff'); */
+  font-family: 'gilrooy';
+  src: url('/Gilroy-Black.ttff') format('ttff'),
+       /* url('/path/to/your/font.woff') format('woff'); */
   /* Add more src for different font formats if necessary */
 }
 
@@ -27,6 +27,7 @@ body {
   padding: 0;
   /* font-family: "gilroy", system-ui, Helvetica, Arial, sans-serif; */
   font-family: "gilroy";
+  font-family: 'inter';
 }
 
 .heroPadding {

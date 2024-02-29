@@ -121,7 +121,7 @@ export const HerSection = () => {
       >
         <Col md={5} lg={5} xxl={4}>
           <div
-            className="mx-auto  pb-3 lwidth blurbg"
+            className="mx-auto  pb-3 lwidth blurbg m0lg"
             style={{
               width: "70%",
               borderBottomLeftRadius: "35px",
@@ -165,8 +165,8 @@ export const HerSection = () => {
                   />
                 ) : (
                   <select
-                    className="w-100  p-2 p-md-2 padingl  rounded-5 "
-                    style={{ color: "#a6a390", background: "#51574d" }}
+                    className="w-100     rounded-5 "
+                    style={{ color: "#a6a390", background: "#51574d" ,height:'35px' }}
                   >
                     <option value="">{data.label}</option>
                     {data.options.map((option, optionIndex) => (
@@ -208,7 +208,7 @@ export const HerSection = () => {
               REVOLUTIONIZE YOUR DRIVE
             </p>
             <p
-              className="my-0 w-75"
+              className="my-0 w-75 w5obigscreen"
               style={{ color: "#F5F5F5", fontWeight: "", fontSize: "14px" }}
             >
               With our dedication to finding your ideal car, we're committed to
