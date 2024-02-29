@@ -1,5 +1,6 @@
 import { Col, Container, Row, Card } from "react-bootstrap";
-import Navbar from "../../Components/Navbar";
+import Navbar from "../../Components/NewNavbar.jsx";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   const cardData = [
@@ -49,10 +50,12 @@ const Dashboard = () => {
 
   return (
     <>
-      <Navbar link="Dashbord" />
-      <Container>
-        <Row className="g-4">
-          <div className="pt-5 d-flex align-items-center  justify-content-between">
+      <div>
+    <Navbar/>
+  
+    <Container>
+        <Row className="pt-5">
+          <div className="pt-5 d-block d-md-flex align-items-center  justify-content-between">
             <div>
               <b style={{ color: "#5A5A5A", fontSize: "1.8rem" }}>
                 {" "}
@@ -77,6 +80,8 @@ const Dashboard = () => {
             </div>
           </div>
           {cardData.map((data, index) => (
+            <Link to=''>
+       
             <Col xs={12} md={4} key={index}>
               <Card className="border-0 shadow rounded-5 mt-3">
                 <img
@@ -110,9 +115,12 @@ const Dashboard = () => {
                 </Card.Body>
               </Card>
             </Col>
+            </Link>
           ))}
         </Row>
       </Container>
+    </div>
+    
     </>
   );
 };

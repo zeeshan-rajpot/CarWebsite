@@ -1,15 +1,15 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Navbar from "../../Components/NewNavbar";
+import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer/NewFooter";
 export const VerifyPage = () => {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <Container>
         <Row>
-          <div style={{ paddingTop: "7%" }}>
+          <div style={{ paddingTop: "100px" }}>
             <p className="fs-2 fw-bold " style={{ color: "#101010" }}>
               Lets book a time to get your car verify.
             </p>
@@ -46,7 +46,7 @@ export const VerifyPage = () => {
                     </div>
                     <div>
                       <div
-                        className="rounded-5 px-4 py-2 "
+                        className="d-flex rounded-5 px-4 py-2 "
                         style={{ backgroundColor: "#F5F5F5" }}
                       >
                         <img src="/Calander.svg" alt="" />
@@ -74,7 +74,7 @@ export const VerifyPage = () => {
                     </div>
                     <div>
                       <div
-                        className="rounded-5 px-4 py-2 "
+                        className=" d-flex rounded-5 px-4 py-2 "
                         style={{ backgroundColor: "#F5F5F5" }}
                       >
                         <img src="/clarity_alarm-clock-line.svg" alt="" />
@@ -156,7 +156,7 @@ export const VerifyPage = () => {
           <div className="text-center my-5">
             <Link to="/BookAppointment ">
               <button
-                className="border-0 rounded-5 w-25 p-3 text-white"
+                className="border-0 rounded-5 px-5 p-2 text-white"
                 style={{ backgroundColor: "#1985D2" }}
               >
                 Continue

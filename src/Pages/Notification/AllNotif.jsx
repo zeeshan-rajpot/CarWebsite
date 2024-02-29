@@ -10,7 +10,7 @@ const AllNotif = () => {
       ];
   return (
     <>
-      <div style={{ background: "#f5f5f5", height: "100vh" }}>
+      <div style={{ background: "#f5f5f5", height: "100vh"  ,paddingTop:'50px'}}>
         <Container className="">
           <Row>
             <Col md={12}>

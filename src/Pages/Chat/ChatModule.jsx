@@ -49,7 +49,7 @@ const ChatModule = () => {
   return (
     <>
       <Navbar />
-      <div className=" " style={{ background: 'rgb(235, 235, 235)', height: '100vh' }}>
+      <div className=" " style={{ background: 'rgb(235, 235, 235)', height: '100vh' ,paddingTop:'50px' }}>
         <h1 className="w-75 m-auto pt-5">
           <b className="">Chat Support</b>
         </h1>
