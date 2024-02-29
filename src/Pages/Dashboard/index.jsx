@@ -80,9 +80,11 @@ const Dashboard = () => {
             </div>
           </div>
           {cardData.map((data, index) => (
-            <Link to=''>
+        
        
             <Col xs={12} md={4} key={index}>
+              <Link>
+           
               <Card className="border-0 shadow rounded-5 mt-3">
                 <img
                   variant="top"
@@ -114,8 +116,9 @@ const Dashboard = () => {
                   </div>
                 </Card.Body>
               </Card>
+              </Link>
             </Col>
-            </Link>
+     
           ))}
         </Row>
       </Container>
