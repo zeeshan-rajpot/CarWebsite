@@ -1,18 +1,18 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Navbar from "../../Components/NewNavbar";
+import Navbar from '../../Components/Navbar';
 import Footer from "../../Components/Footer/NewFooter";
 
 export const BookAppointment = () => {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <Container>
         <Row>
           <div
             style={{
-              paddingTop: "7%",
+              paddingTop: "100px",
             }}
           >
             <p className="fs-2 fw-bold " style={{ color: "#101010" }}>
@@ -31,7 +31,7 @@ export const BookAppointment = () => {
                   <div className="d-flex flex-column justify-content-start align-items-start">
                     <div>
                       <div
-                        className="rounded-5 px-4 py-2 "
+                        className="d-flex rounded-5 px-4 py-2 "
                         style={{ backgroundColor: "#F5F5F5" }}
                       >
                         <img src="/Calander.svg" alt="" />
@@ -47,7 +47,7 @@ export const BookAppointment = () => {
                   <div className="d-flex flex-column justify-content-start align-items-start">
                     <div>
                       <div
-                        className="rounded-5 px-4 py-2 "
+                        className="mt-4 mt-md-0 d-flex rounded-5 px-4 py-2 "
                         style={{ backgroundColor: "#F5F5F5" }}
                       >
                         <img src="/clarity_alarm-clock-line.svg" alt="" />
@@ -61,7 +61,7 @@ export const BookAppointment = () => {
                 </Col>
               </Row>
 
-              <div className="w-25 my-4">
+              <div className=" my-4"style={{width:'200px'}}>
                 <div
                   className="rounded-5 px-4 py-2 d-flex justify-content-between align-items-center"
                   style={{ backgroundColor: "#F5F5F5" }}

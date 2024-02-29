@@ -1,23 +1,24 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Navbar from "../../Components/NewNavbar";
+import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer/NewFooter";
 
 import Card from "react-bootstrap/Card";
 export const Estimateoffer = () => {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div>
         <Container>
           <Row
             style={{
-              paddingTop: "7%",
+              paddingTop: "100px",
             }}
           >
             <Col lg={3}>
-              <img src="longbar.svg" style={{ height: "76%" }} />
+              <img  className='d-none d-md-flex ' src="/longbar.svg" style={{ height: "76%" }} />
+              <img src="/Frame 1261153600.svg" alt="" width='350px' />
             </Col>
             <Col lg={9}>
               <Card className="border-0 shadow rounded-4">
@@ -110,7 +111,7 @@ export const Estimateoffer = () => {
                   <div className="text-center mt-4">
                     <Link to="/NewPages">
                       <button
-                        className="border-0 text-white p-2 w-25 rounded-4 "
+                        className="border-0 text-white p-2 px-4 rounded-4 "
                         style={{
                           backgroundColor: "#1985D2",
                         }}

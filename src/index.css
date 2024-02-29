@@ -5,10 +5,10 @@
   /* Add more src for different font formats if necessary */
 }
 @font-face {
+
   font-family: 'gilrooy';
   src: url('/Gilroy-Black.ttff') format('ttff'),
-       /* url('/path/to/your/font.woff') format('woff'); */
-  /* Add more src for different font formats if necessary */
+
 }
 
 @font-face {
@@ -26,8 +26,8 @@ body {
   margin: 0;
   padding: 0;
   /* font-family: "gilroy", system-ui, Helvetica, Arial, sans-serif; */
-  font-family: "gilroy";
   font-family: 'inter';
+
 }
 
 .heroPadding {
@@ -79,6 +79,9 @@ a {
   }
   .mobw90 {
     width: 90% !important;
+  }
+  .recentimg{
+    width: 100% !important;
   }
 
   .bgexample {

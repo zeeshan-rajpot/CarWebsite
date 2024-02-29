@@ -1,14 +1,15 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Navbar from '../../Components/Navbar';
+import Navbar from '../../Components/NewNavbar';
+
 
 const Chat = () => {
   return (
     <>
-      <Navbar link='Chat' />
+      <Navbar />
       <div className=''>
-        <Row className='text-center mt-5'>
+        <Row className='text-center ' style={{paddingTop:'250px'}}>
           <Col lg={12}>
             <img src='/Group.svg' alt='' style={{ width: '340px' }} />
           </Col>

@@ -9,11 +9,11 @@ export const ConfirmPost = () => {
       <Navbar />
       <Container
         style={{
-          padding: "3% 0",
+          paddingTop: "50px",
         }}
       >
         <Row>
-          <div className="shadow rounded-5  my-5 w-75 m-auto p-3">
+          <div className="shadow rounded-5  my-5  m-auto p-3" style={{width:'85%'}}>
             <div className="my-4 text-start">
               <p className="fs-5 fw-bold " style={{ color: "#1985D2" }}>
                 Experience a Seamless Process
@@ -55,7 +55,7 @@ export const ConfirmPost = () => {
           <div className="text-center ">
             <Link to="/Dashbord">
               <button
-                className="border-0 rounded-4 w-25 p-3 text-white ms-4"
+                className="border-0 rounded-4  p-2 px-5 mb-5 text-white ms-4"
                 style={{ backgroundColor: "#1985D2" }}
               >
                 View post

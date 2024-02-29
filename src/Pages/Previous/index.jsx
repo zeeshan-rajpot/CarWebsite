@@ -32,7 +32,7 @@ function Previous() {
         <Navbar
         link='Previous'/>
     <Container>
-    <Row className="w-75 m-auto mt-4">
+    <Row className="w-75 m-auto " style={{paddingTop:'150px'}}>
         <h4><b
         
         style={{ color: '#5A5A5A' }}
@@ -41,7 +41,7 @@ function Previous() {
     </Row>
     </Container>
 
-    <Container style={{height:'90vh', overflowY:'auto'}}>
+    <Container >
         <Row>
           {recentCarsData.map((car, index) => (
             <Col key={index} md={12}   className="mt-3 rounded-5 shadow pe-0 w-75 m-auto ">
@@ -50,7 +50,8 @@ function Previous() {
                   <img
                     src={car.imageSrc}
                     alt=""
-                    style={{ width: "100%", height: "auto" }}
+                    style={{ width: '400px', height: 'auto' }}
+                    className='recentimg'
                   />
                 </div>
                 <div className="w-100">
