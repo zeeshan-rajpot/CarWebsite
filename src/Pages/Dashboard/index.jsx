@@ -51,79 +51,81 @@ const Dashboard = () => {
   return (
     <>
       <div>
-    <Navbar/>
-  
-    <Container>
-        <Row className="pt-5">
-          <div className="pt-5 d-block d-md-flex align-items-center  justify-content-between">
-            <div>
-              <b style={{ color: "#5A5A5A", fontSize: "1.8rem" }}>
-                {" "}
-                Upload car
-              </b>
-            </div>
-            <div>
-              <input
-                className="dashboardSearch me-2 "
-                type="search"
-                placeholder="Search"
-              />
-              <button
-                style={{
-                  fontSize: "25px",
-                  background: "transparent",
-                  border: "none",
-                }}
-              >
-                <img src="dashButton.png" />
-              </button>
-            </div>
-          </div>
-          {cardData.map((data, index) => (
-        
-       
-            <Col xs={12} md={4} key={index}>
-              <Link>
-           
-              <Card className="border-0 shadow rounded-5 mt-3">
-                <img
-                  variant="top"
-                  src={data.src}
-                  className=" rounded-4"
-                  style={{ width: "auto", height: "200px", objectFit: "cover" }}
-                />
-                <Card.Body
-                  className="pe-0 pb-2"
-                  style={{ backgroundColor: "#F5F5F5" }}
-                >
-                  <div className="d-flex align-items-center justify-content-between">
-                    <div>
-                      <div className="d-flex ">
-                        <Card.Title>{data.title}</Card.Title>
-                        <b className="ms-2">{data.year}</b>
-                      </div>
+        <Navbar />
 
-                      <p>{data.km}</p>
-                    </div>
-                    <div>
-                      <span
-                        className="text-light py-2 px-4 rounded-start-5 text-nowrap "
-                        style={{ background: "#1985D2", fontSize: "1.5rem" }}
-                      >
-                        {data.price}
-                      </span>
-                    </div>
-                  </div>
-                </Card.Body>
-              </Card>
-              </Link>
-            </Col>
-     
-          ))}
-        </Row>
-      </Container>
-    </div>
-    
+        <Container>
+          <Row className="pt-5">
+            <div className="pt-5 d-block d-md-flex align-items-center  justify-content-between">
+              <div>
+                <b style={{ color: "#5A5A5A", fontSize: "1.8rem" }}>
+                  {" "}
+                  Upload car
+                </b>
+              </div>
+              <div>
+                <input
+                  className="dashboardSearch me-2 "
+                  type="search"
+                  placeholder="Search"
+                />
+                <button
+                  style={{
+                    fontSize: "25px",
+                    background: "transparent",
+                    border: "none",
+                  }}
+                >
+                  <img src="dashButton.png" />
+                </button>
+              </div>
+            </div>
+            {cardData.map((data, index) => (
+              <Col xs={12} md={4} key={index}>
+                <Link to="/CarDetails">
+                  <Card className="border-0 shadow rounded-5 mt-3">
+                    <img
+                      variant="top"
+                      src={data.src}
+                      className=" rounded-4"
+                      style={{
+                        width: "auto",
+                        height: "200px",
+                        objectFit: "cover",
+                      }}
+                    />
+                    <Card.Body
+                      className="pe-0 pb-2"
+                      style={{ backgroundColor: "#F5F5F5" }}
+                    >
+                      <div className="d-flex align-items-center justify-content-between">
+                        <div>
+                          <div className="d-flex ">
+                            <Card.Title>{data.title}</Card.Title>
+                            <b className="ms-2">{data.year}</b>
+                          </div>
+
+                          <p>{data.km}</p>
+                        </div>
+                        <div>
+                          <span
+                            className="text-light py-2 px-4 rounded-start-5 text-nowrap "
+                            style={{
+                              background: "#1985D2",
+                              fontSize: "1.5rem",
+                            }}
+                          >
+                            {data.price}
+                          </span>
+                        </div>
+                      </div>
+                    </Card.Body>
+                  </Card>
+                </Link>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };
